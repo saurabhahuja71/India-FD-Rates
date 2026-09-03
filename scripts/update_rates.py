@@ -18,7 +18,7 @@ def load_config():
 
 def fetch(source):
     req = Request(source["url"], headers={"User-Agent": "India-FD-Rates/1.0 official-source-checker"})
-    with urlopen(req, timeout=30) as response:
+    with urlopen(req, timeout=8) as response:
         return response.read(), response.headers.get_content_type()
 
 def effective_from(raw):
