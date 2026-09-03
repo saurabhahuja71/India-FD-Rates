@@ -32,7 +32,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "3 Years 1 day to < 4 Years 7 Months",
       "effective_date": "2026-08-19",
-      "verified_at": "2026-09-03T07:14:30Z",
+      "verified_at": "2026-09-03T07:23:32Z",
       "source_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -54,7 +54,7 @@
       "senior_rate": 7.0,
       "senior_tenure": "18 Months < 2 Years",
       "effective_date": null,
-      "verified_at": "2026-09-03T07:14:30Z",
+      "verified_at": "2026-09-03T07:23:32Z",
       "source_url": "https://www.axisbank.com/interest-rate-on-deposits",
       "source_type": "official_bank_website",
       "evidence": {
@@ -268,7 +268,7 @@
       "senior_rate": 7.9,
       "senior_tenure": "30 Months 1 Day to 36 Months",
       "effective_date": null,
-      "verified_at": "2026-09-03T07:14:30Z",
+      "verified_at": "2026-09-03T07:23:32Z",
       "source_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -312,7 +312,7 @@
       "senior_rate": 8.3,
       "senior_tenure": ">2 Years - 3 Years (1095 Days)",
       "effective_date": null,
-      "verified_at": "2026-09-03T07:17:58Z",
+      "verified_at": "2026-09-03T07:23:32Z",
       "source_url": "https://www.janabank.com/interest-rates/",
       "source_type": "official_bank_website",
       "evidence": {
