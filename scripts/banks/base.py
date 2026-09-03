@@ -3,9 +3,10 @@ from html.parser import HTMLParser
 
 class TableParser(HTMLParser):
     def __init__(self):
-        super().__init__(); self.rows=[]; self._row=None; self._cell=None; self._text=[]
+        super().__init__(); self.rows=[]; self.table_count=0; self._row=None; self._cell=None; self._text=[]
     def handle_starttag(self, tag, attrs):
-        if tag == "tr": self._row=[]
+        if tag == "table": self.table_count += 1
+        elif tag == "tr": self._row=[]
         elif tag in ("td", "th") and self._row is not None: self._cell=[]
     def handle_data(self, data):
         if self._cell is not None: self._cell.append(data)

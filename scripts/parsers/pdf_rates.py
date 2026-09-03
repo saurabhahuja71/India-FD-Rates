@@ -38,7 +38,7 @@ def extract_text(raw: bytes) -> Tuple[str, int]:
 
 def effective_date(text: str) -> Optional[str]:
     match = re.search(r"(?:effective|applicable|w.e.f\.?|from)\D{0,30}"
-                      r"(\d{1,2})[\s/-]+([A-Za-z]{3,9}|\d{1,2})[\s/-]+(20\d{2})", text, re.I)
+                      r"(\d{1,2})(?:st|nd|rd|th)?[\s,/-]+([A-Za-z]{3,9}|\d{1,2})[\s,/-]+(20\d{2})", text, re.I)
     if not match:
         return None
     from datetime import datetime

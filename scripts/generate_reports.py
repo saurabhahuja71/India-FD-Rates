@@ -23,9 +23,10 @@ def main():
     failure = {r["bank"]: r["reason"] for r in json.loads((ROOT / "data/fetch_failures.json").read_text()).get("failures", [])} if (ROOT / "data/fetch_failures.json").exists() else {}
     rows = []
     for r in snapshot["rows"]:
-        special = next((p for p in r.get("products", []) if p.get("product_type") != "STANDARD_FD"), None)
+        special = next((p for p in r.get("products", []) if p.get("product_type") != "STANDARD_FD"), None) if r["status"] == "VERIFIED" else None
         cell = lambda value: html.escape(str(value if value not in (None, "") else "—"))
-        rows.append(f'<tr><td>{cell(r["bank_name"])}</td><td>{cell(r["category"])}</td><td>{cell(r["status"])}</td><td>{cell(str(r.get("regular_rate")) + "%" if r.get("regular_rate") is not None else None)}</td><td>{cell((str(special["regular_rate"]) + "% " + special["product_name"]) if special else None)}</td><td>{cell("#" + str(rank[r["bank_name"]]) if r["bank_name"] in rank else None)}</td><td>{cell(failure.get(r["bank_name"]))}</td><td>{cell(r.get("verified_at"))}</td><td><a href="{html.escape(r.get("source_url", "#"))}">Official source</a></td></tr>')
+        current_rate = r.get("regular_rate") if r["status"] == "VERIFIED" else None
+        rows.append(f'<tr><td>{cell(r["bank_name"])}</td><td>{cell(r["category"])}</td><td>{cell(r["status"])}</td><td>{cell(str(current_rate) + "%" if current_rate is not None else None)}</td><td>{cell((str(special["regular_rate"]) + "% " + special["product_name"]) if special else None)}</td><td>{cell("#" + str(rank[r["bank_name"]]) if r["bank_name"] in rank else None)}</td><td>{cell(failure.get(r["bank_name"]))}</td><td>{cell(r.get("verified_at"))}</td><td><a href="{html.escape(r.get("source_url", "#"))}">Official source</a></td></tr>')
     INVENTORY.write_text('<!doctype html><meta charset="utf-8"><title>All Banks - India FD Rates</title><h1>All Configured Banks</h1><p>Every registry entry is shown; only VERIFIED standard callable retail FDs enter the main ranking.</p><table border="1"><thead><tr><th>Bank</th><th>Category</th><th>Status</th><th>Standard Rate</th><th>Special Rate</th><th>Overall Rank</th><th>Failure Reason</th><th>Last Attempt</th><th>Source</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table>\n')
 
 if __name__ == "__main__": main()

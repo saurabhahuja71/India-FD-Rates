@@ -12,10 +12,11 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Last Verified | Source |
 |------|------|-----------------|----------------|--------|---------------|--------|
-| 1 | Axis Bank | 6.50% | 7.00% | 18 Months < 2 Years | 03 Sep 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
-| 2 | HDFC Bank | 6.50% | 7.10% | 3 Years 1 day to < 4 Years 7 Months | 03 Sep 2026 | [Official](https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate) |
-
-> ⚠️ Only 2 bank(s) could be verified in the latest collection run.
+| 1 | RBL Bank | 8.15% | 8.40% | 18 months to 36 months | 03 Sep 2026 | [Official](https://www.rblbank.com/interest-rates) |
+| 2 | Bandhan Bank | 7.45% | 7.95% | 2 years to less than 3 years | 03 Sep 2026 | [Official](https://www.bandhan.bank.in/fixed-deposit) |
+| 3 | IndusInd Bank | 7.00% | 7.75% | 2 Years to 3 Years | 03 Sep 2026 | [Official](https://www.indusind.bank.in/in/en/personal/rates.html) |
+| 4 | Yes Bank | 7.00% | 7.75% | Regular: 18 months 1 day < 24 months<br>Senior: 36 months < 60 months | 03 Sep 2026 | [Official](https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false) |
+| 5 | Axis Bank | 6.50% | 7.00% | 18 Months < 2 Years | 03 Sep 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
 
 ## 🏛️ Top 5 Public Sector Banks
 
@@ -31,16 +32,17 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Last Verified | Source |
 |------|------|-----------------|----------------|--------|---------------|--------|
-| 1 | Jana Small Finance Bank | 8.00% | 8.30% | >2 Years - 3 Years (1095 Days) | 03 Sep 2026 | [Official](https://www.janabank.com/interest-rates/) |
-| 2 | AU Small Finance Bank | 7.40% | 7.90% | 30 Months 1 Day to 36 Months | 03 Sep 2026 | [Official](https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates) |
-
-> ⚠️ Only 2 bank(s) could be verified in the latest collection run.
+| 1 | Utkarsh Small Finance Bank | 8.10% | 8.25% | 666 Days | 03 Sep 2026 | [Official](https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit) |
+| 2 | Jana Small Finance Bank | 8.00% | 8.30% | >2 Years - 3 Years (1095 Days) | 03 Sep 2026 | [Official](https://www.janabank.com/interest-rates/) |
+| 3 | Shivalik Small Finance Bank | 8.00% | 8.25% | 23 months 1 day to 27 months | 03 Sep 2026 | [Official](https://shivalik.bank.in/interest-rate) |
+| 4 | Ujjivan Small Finance Bank | 7.80% | 8.30% | 3 Year 1 Day – 3 year 6 months | 03 Sep 2026 | [Official](https://www.ujjivansfb.bank.in/interest-rates) |
+| 5 | AU Small Finance Bank | 7.40% | 7.90% | 30 Months 1 Day to 36 Months | 03 Sep 2026 | [Official](https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates) |
 
 ## Data Coverage
 
-- **Private Sector:** ✅ 2 / 9 banks verified
-- **Public Sector:** ✅ 5 / 10 banks verified
-- **Small Finance:** ✅ 2 / 9 banks verified
+- **Private Sector:** ✅ 6 / 9 banks verified
+- **Public Sector:** ✅ 5 / 12 banks verified
+- **Small Finance:** ✅ 5 / 9 banks verified
 
 ### Last Collection Run
 

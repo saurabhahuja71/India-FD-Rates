@@ -2,16 +2,40 @@
   {
     "category": "private_sector",
     "ranking_type": "standard_retail_fd",
-    "generated_at": "2026-09-03T08:17:59Z",
+    "generated_at": "2026-09-03T08:44:41Z",
     "banks": [
       {
         "rank": 1,
+        "bank": "RBL Bank",
+        "rate": 8.15,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 2,
+        "bank": "Bandhan Bank",
+        "rate": 7.45,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 3,
+        "bank": "IndusInd Bank",
+        "rate": 7.0,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 4,
+        "bank": "Yes Bank",
+        "rate": 7.0,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 5,
         "bank": "Axis Bank",
         "rate": 6.5,
         "status": "VERIFIED"
       },
       {
-        "rank": 2,
+        "rank": 6,
         "bank": "HDFC Bank",
         "rate": 6.5,
         "status": "VERIFIED"
@@ -27,31 +51,15 @@
         "reason": "FAILED_SOURCE_PARSING"
       },
       {
-        "bank": "Yes Bank",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
         "bank": "Federal Bank",
         "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
-        "bank": "IndusInd Bank",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
-        "bank": "RBL Bank",
-        "reason": "SAMPLE"
-      },
-      {
-        "bank": "Bandhan Bank",
-        "reason": "SAMPLE"
       }
     ]
   },
   {
     "category": "public_sector",
     "ranking_type": "standard_retail_fd",
-    "generated_at": "2026-09-03T08:17:59Z",
+    "generated_at": "2026-09-03T08:44:41Z",
     "banks": [
       {
         "rank": 1,
@@ -95,41 +103,63 @@
       },
       {
         "bank": "Indian Overseas Bank",
-        "reason": "SAMPLE"
+        "reason": "FAILED_SOURCE_PARSING"
       },
       {
         "bank": "UCO Bank",
-        "reason": "SAMPLE"
+        "reason": "FAILED_SOURCE_PARSING"
       },
       {
         "bank": "Central Bank of India",
-        "reason": "SAMPLE"
+        "reason": "FAILED_SOURCE_PARSING"
+      },
+      {
+        "bank": "Bank of Maharashtra",
+        "reason": "FAILED_SOURCE_PARSING"
+      },
+      {
+        "bank": "Punjab & Sind Bank",
+        "reason": "FAILED_SOURCE_PARSING"
       }
     ]
   },
   {
     "category": "small_finance",
     "ranking_type": "standard_retail_fd",
-    "generated_at": "2026-09-03T08:17:59Z",
+    "generated_at": "2026-09-03T08:44:41Z",
     "banks": [
       {
         "rank": 1,
+        "bank": "Utkarsh Small Finance Bank",
+        "rate": 8.1,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 2,
         "bank": "Jana Small Finance Bank",
         "rate": 8.0,
         "status": "VERIFIED"
       },
       {
-        "rank": 2,
+        "rank": 3,
+        "bank": "Shivalik Small Finance Bank",
+        "rate": 8.0,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 4,
+        "bank": "Ujjivan Small Finance Bank",
+        "rate": 7.8,
+        "status": "VERIFIED"
+      },
+      {
+        "rank": 5,
         "bank": "AU Small Finance Bank",
         "rate": 7.4,
         "status": "VERIFIED"
       }
     ],
     "excluded": [
-      {
-        "bank": "Utkarsh Small Finance Bank",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
       {
         "bank": "Equitas Small Finance Bank",
         "reason": "FAILED_SOURCE_PARSING"
@@ -139,20 +169,12 @@
         "reason": "FAILED_SOURCE_PARSING"
       },
       {
-        "bank": "Ujjivan Small Finance Bank",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
         "bank": "ESAF Small Finance Bank",
         "reason": "FAILED_SOURCE_PARSING"
       },
       {
         "bank": "Unity Small Finance Bank",
-        "reason": "SAMPLE"
-      },
-      {
-        "bank": "Shivalik Small Finance Bank",
-        "reason": "SAMPLE"
+        "reason": "FAILED_SOURCE_PARSING"
       }
     ]
   }

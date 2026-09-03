@@ -1,0 +1,644 @@
+{
+  "generated_at": "2026-09-03T08:42:28Z",
+  "banks": [
+    {
+      "bank": "HDFC Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+          "content_type": "text/html",
+          "effective_date": "2026-08-19",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "ICICI Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+          "content_type": "text/html",
+          "effective_date": "2026-09-03",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": false,
+          "reason": "ICICI page exposes headline rates but no tenure-linked retail rows; exact rate-card source required"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Axis Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.axisbank.com/interest-rate-on-deposits",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.axis.bank.in/deposits/fixed-deposits/fd-interest-rates",
+          "content_type": "text/html",
+          "effective_date": null,
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.axisbank.com/interest-rate-on-deposits",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "IDFC FIRST Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit",
+          "content_type": "text/html",
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
+          "automation_accessible": true,
+          "usable": false,
+          "reason": "no eligible retail rate rows found"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Federal Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.federal.bank.in/deposit-rate",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://validate.perfdrive.com/?ssa=06f1c07f-5cf3-4128-9b95-8673e81da854&ssb=62022328930&ssc=https%3A%2F%2Fwww.federal.bank.in%2Fdeposit-rate&ssi=2bb9abb1-e42i-49b6-a6e1-ec3d0dfa5b3e&ssk=botmanager_support@radware.com&ssm=02748221153834116102841427114719&ssn=936eeac6dc44b38a647e39662ba75d97d7c9fc8e3a8a-b5e9-4c49-a114ba&sso=666834df-3c9be96ba2f9257600286f02dbb33cbbfd08a15525adb453&ssp=88918415451788404005178842961526998&ssq=31042042481061451882524810800051604299617&ssr=MTQ4Ljg3LjIzLjY=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBmYzhlM2E4YS1iNWU5LTRjNDktYTRkZi0zYzliZTk2YmEyZjkxLTE3ODg0MjQ4MTAxODUwLTAwMGE2MjVkYTM2ZWNhYTA4ZmUxMCIsInJkIjoiZmVkZXJhbC5iYW5rLmluIiwidXpteCI6IjdmYzAwMDQxNjAxODQwLWEwMDMtNDBjZi04MjE3LTU1Nzk3MDA0MTRiZDEtMTc4ODQyNDgxMDE4NTAtMDAzMWQyOWFlNGIzNTM5MzRiZjEwIn0=",
+          "content_type": "text/html",
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
+          "automation_accessible": true,
+          "usable": false,
+          "reason": "no eligible retail rate rows found"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Yes Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.yes.bank.in/personal-banking/yes-individual/deposits/fixed-deposit",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.yes.bank.in/personal-banking/yes-individual/deposits/fixed-deposit",
+          "content_type": "text/html",
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
+          "automation_accessible": true,
+          "usable": false,
+          "reason": "no eligible retail rate rows found"
+        },
+        {
+          "url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false",
+          "source_type": "pdf",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false",
+          "content_type": "application/pdf",
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "IndusInd Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.indusind.bank.in/in/en/personal/rates.html",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
+          "content_type": "text/html",
+          "effective_date": "2026-06-15",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.indusind.bank.in/in/en/personal/rates.html",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "RBL Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.rblbank.com/interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.rbl.bank.in:443/interest-rates",
+          "content_type": "text/html",
+          "effective_date": "2026-06-18",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.rblbank.com/interest-rates",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Bandhan Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.bandhan.bank.in/fixed-deposit",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.bandhan.bank.in/fixed-deposit",
+          "content_type": "text/html",
+          "effective_date": "2026-06-20",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.bandhan.bank.in/fixed-deposit",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "State Bank of India",
+      "sources_checked": [
+        {
+          "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+          "content_type": "text/html",
+          "effective_date": "2025-07-15",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Bank of Baroda",
+      "sources_checked": [
+        {
+          "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+          "content_type": "text/html",
+          "effective_date": "2026-06-12",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Punjab National Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.pnbindia.in/interest-rates-deposit.html",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://pnb.bank.in/interest-rates-deposit.html",
+          "content_type": "text/html",
+          "effective_date": "2026-03-01",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.pnbindia.in/interest-rates-deposit.html",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Canara Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
+          "content_type": "text/html",
+          "effective_date": "2026-03-17",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Union Bank of India",
+      "sources_checked": [
+        {
+          "url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
+          "content_type": "text/html",
+          "effective_date": "2026-08-10",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Indian Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.indianbank.in/departments/interest-rates/",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 404,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 404 (https://indianbank.bank.in/en/departments/interest-rates/) content-type=text/html"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Bank of India",
+      "sources_checked": [
+        {
+          "url": "https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 403,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 403 (https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate) content-type=text/html"
+        },
+        {
+          "url": "https://bankofindia.bank.in/interest-rates-on-deposit",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 403,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 403 (https://bankofindia.bank.in/interest-rates-on-deposit) content-type=text/html"
+        },
+        {
+          "url": "https://bankofindia.bank.in/term-deposits/green-deposits-scheme",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 403,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 403 (https://bankofindia.bank.in/term-deposits/green-deposits-scheme) content-type=text/html"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Indian Overseas Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.iob.in/Interest-Rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 404,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 404 (https://www.iob.in/Interest-Rates) content-type=text/plain"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "UCO Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.ucobank.com/interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": null,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Central Bank of India",
+      "sources_checked": [
+        {
+          "url": "https://centralbankofindia.co.in/en/interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 404,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 404 (https://centralbank.bank.in/en/interest-rates) content-type=text/html"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Bank of Maharashtra",
+      "sources_checked": [
+        {
+          "url": "https://bankofmaharashtra.in/deposit-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": null,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "<urlopen error _ssl.c:1130: The handshake operation timed out>"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Punjab & Sind Bank",
+      "sources_checked": [
+        {
+          "url": "https://punjabandsindbank.co.in/content/interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": null,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "AU Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
+          "content_type": "text/html",
+          "effective_date": null,
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Equitas Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 503,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 503 (https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Jana Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.janabank.com/interest-rates/",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.jana.bank.in/interest-rates/",
+          "content_type": "text/html",
+          "effective_date": null,
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.janabank.com/interest-rates/",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Ujjivan Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.ujjivansfb.bank.in/interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.ujjivansfb.bank.in/interest-rates",
+          "content_type": "text/html",
+          "effective_date": "2026-09-01",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.ujjivansfb.bank.in/interest-rates",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "ESAF Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.esaf.bank.in/interest-rates/",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 403,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 403 (https://www.esaf.bank.in/interest-rates/) content-type=text/html"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Suryoday Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://suryoday.bank.in/rate-of-interest/",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": null,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1147)>"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Utkarsh Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit",
+          "content_type": "text/html",
+          "effective_date": "2022-04-01",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit",
+      "collection_status": "VERIFIED"
+    },
+    {
+      "bank": "Unity Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://unitybank.co.in/interest-rates",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 404,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 404 (https://unitybank.co.in/interest-rates) content-type=text/plain"
+        }
+      ],
+      "selected_source": null,
+      "collection_status": "FAILED"
+    },
+    {
+      "bank": "Shivalik Small Finance Bank",
+      "sources_checked": [
+        {
+          "url": "https://shivalik.bank.in/interest-rate",
+          "source_type": "html",
+          "official_domain": true,
+          "github_actions_status": 200,
+          "final_url": "https://shivalik.bank.in/interest-rate",
+          "content_type": "text/html",
+          "effective_date": "2026-07-13",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
+        }
+      ],
+      "selected_source": "https://shivalik.bank.in/interest-rate",
+      "collection_status": "VERIFIED"
+    }
+  ]
+}
