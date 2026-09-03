@@ -1,0 +1,17 @@
+[
+  {"bank":"IDFC FIRST Bank","source":"https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit","category":"private","pattern":"up to\\s+(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"HDFC Bank","source":"https://www.hdfcbank.com/personal/save/deposits/fixed-deposit-interest-rate","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Axis Bank","source":"https://www.axisbank.com/interest-rate-on-deposits","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"ICICI Bank","source":"https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Yes Bank","source":"https://www.yesbank.in/personal-banking/deposits/fixed-de-deposits","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Bank of Baroda","source":"https://www.bankofbaroda.in/personal-banking/accounts/term-deposit/fixed-deposit","category":"public","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"State Bank of India","source":"https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposit-rates","category":"public","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Canara Bank","source":"https://canarabank.com/pages/interest-rates","category":"public","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Punjab National Bank","source":"https://www.pnbindia.in/interest-rates-deposit.html","category":"public","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Indian Bank","source":"https://www.indianbank.in/departments/ind-green-555-days/","category":"public","pattern":"rate of interest[^%]{0,100}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Utkarsh Small Finance Bank","source":"https://www.utkarsh.bank/personal/term-deposits/fixed-deposits-plus","category":"small-finance","pattern":"(?:up to|highest)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Equitas Small Finance Bank","source":"https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/","category":"small-finance","pattern":"(?:up to|highest)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"AU Small Finance Bank","source":"https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates","category":"small-finance","pattern":"(?:up to|highest)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Suryoday Small Finance Bank","source":"https://www.suryodaybank.com/interest-rates/","category":"small-finance","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"Jana Small Finance Bank","source":"https://www.janabank.com/interest-rates/","category":"small-finance","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"}
+]
