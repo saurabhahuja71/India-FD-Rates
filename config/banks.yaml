@@ -146,6 +146,7 @@ banks:
       - {type: html, url: https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate}
       - {type: html, url: https://bankofindia.bank.in/interest-rates-on-deposit}
       - {type: html, url: https://bankofindia.bank.in/term-deposits/green-deposits-scheme}
+      - {type: pdf, url: https://bankofindia.co.in/documents/20121/25744421/Deposit-Policy-2024-25-Revised.pdf}
   - id: indian_overseas
     name: Indian Overseas Bank
     category: public_sector

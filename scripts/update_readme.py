@@ -13,29 +13,33 @@ END = "<!-- FD_TABLES_END -->"
 def fmt_date(value):
     return datetime.strptime(value, "%Y-%m-%d").strftime("%d %b %Y")
 
+def vstatus(row):
+    return {"VERIFIED": "LIVE_VERIFIED"}.get(row.get("verification_status", row.get("status", "SAMPLE")), row.get("verification_status", row.get("status", "SAMPLE")))
+
 def build_tables(snapshot):
     sections = [
-        ("private_sector", "🏦 Top 5 Private Sector Banks"),
-        ("public_sector", "🏛️ Top 5 Public Sector Banks"),
-        ("small_finance", "🏦 Top 5 Small Finance Banks"),
+        ("private_sector", "🏦 Highest Callable Retail FD Rates — Private Sector"),
+        ("public_sector", "🏛️ Highest Callable Retail FD Rates — Public Sector"),
+        ("small_finance", "🏦 Highest Callable Retail FD Rates — Small Finance"),
     ]
     output = []
     for category, title in sections:
-        rows = sorted((r for r in snapshot["rows"] if r["category"] == category and r["status"] == "VERIFIED"), key=lambda r: (-r["regular_rate"], r["bank_name"]))[:5]
-        output += [f"## {title}", "", "| Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Last Verified | Source |", "|------|------|-----------------|----------------|--------|---------------|--------|"]
+        rows = sorted((r for r in snapshot["rows"] if r["category"] == category and vstatus(r) in {"LIVE_VERIFIED", "OFFICIAL_DOCUMENT_VERIFIED"}), key=lambda r: (-r["regular_rate"], r["bank_name"]))[:5]
+        output += [f"## {title}", "", "| Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Verification | Last Verified | Source |", "|------|------|-----------------|----------------|--------|--------------|---------------|--------|"]
         for rank, row in enumerate(rows, 1):
             regular = f'{row["regular_rate"]:.2f}%'; senior = f'{row["senior_rate"]:.2f}%'
             tenure = row["regular_tenure"] if row["regular_tenure"] == row["senior_tenure"] else f'Regular: {row["regular_tenure"]}<br>Senior: {row["senior_tenure"]}'
-            output.append(f'| {rank} | {row["bank_name"]} | {regular} | {senior} | {tenure} | {fmt_date(row["verified_at"][:10])} | [Official]({row["source_url"]}) |')
+            label = "LIVE" if vstatus(row) == "LIVE_VERIFIED" else "DOCUMENT"
+            output.append(f'| {rank} | {row["bank_name"]} | {regular} | {senior} | {tenure} | {label} | {fmt_date(row["verified_at"][:10])} | [Official]({row["source_url"]}) |')
         if not rows:
-            output.append("| — | No VERIFIED retail rate available | — | — | — | — | — |")
+            output.append("| — | No eligible current retail rate available | — | — | — | — | — | — |")
         elif len(rows) < 5:
             output.append("")
             output.append(f"> ⚠️ Only {len(rows)} bank(s) could be verified in the latest collection run.")
         output.append("")
     output += ["## Data Coverage", ""]
     for category, label in [("private_sector", "Private Sector"), ("public_sector", "Public Sector"), ("small_finance", "Small Finance")]:
-        total = sum(r["category"] == category for r in snapshot["rows"]); verified = sum(r["category"] == category and r["status"] == "VERIFIED" for r in snapshot["rows"])
+        total = sum(r["category"] == category for r in snapshot["rows"]); verified = sum(r["category"] == category and vstatus(r) in {"LIVE_VERIFIED", "OFFICIAL_DOCUMENT_VERIFIED"} for r in snapshot["rows"])
         output.append(f"- **{label}:** ✅ {verified} / {total} banks verified")
     output += ["", "### Last Collection Run", "", f'`{fmt_date(snapshot["generated_at"])} · source snapshot`', "", "> ⚠️ FD rates change frequently. Always verify the rate, tenure, eligibility and conditions on the official bank website before investing."]
     return "\n".join(output)

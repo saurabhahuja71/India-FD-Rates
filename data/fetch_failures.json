@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:42:28Z",
+  "generated_at": "2026-09-03T08:54:15Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -48,7 +48,7 @@
           "raw": null,
           "content_type": "text/html",
           "status": 200,
-          "final_url": "https://validate.perfdrive.com/?ssa=06f1c07f-5cf3-4128-9b95-8673e81da854&ssb=62022328930&ssc=https%3A%2F%2Fwww.federal.bank.in%2Fdeposit-rate&ssi=2bb9abb1-e42i-49b6-a6e1-ec3d0dfa5b3e&ssk=botmanager_support@radware.com&ssm=02748221153834116102841427114719&ssn=936eeac6dc44b38a647e39662ba75d97d7c9fc8e3a8a-b5e9-4c49-a114ba&sso=666834df-3c9be96ba2f9257600286f02dbb33cbbfd08a15525adb453&ssp=88918415451788404005178842961526998&ssq=31042042481061451882524810800051604299617&ssr=MTQ4Ljg3LjIzLjY=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBmYzhlM2E4YS1iNWU5LTRjNDktYTRkZi0zYzliZTk2YmEyZjkxLTE3ODg0MjQ4MTAxODUwLTAwMGE2MjVkYTM2ZWNhYTA4ZmUxMCIsInJkIjoiZmVkZXJhbC5iYW5rLmluIiwidXpteCI6IjdmYzAwMDQxNjAxODQwLWEwMDMtNDBjZi04MjE3LTU1Nzk3MDA0MTRiZDEtMTc4ODQyNDgxMDE4NTAtMDAzMWQyOWFlNGIzNTM5MzRiZjEwIn0=",
+          "final_url": "https://validate.perfdrive.com/?ssa=a321df54-2eed-40b1-8b16-5fd5410f6d73&ssb=92616356247&ssc=https%3A%2F%2Fwww.federal.bank.in%2Fdeposit-rate&ssi=8aef0638-e42i-4bac-aa07-886b3832a003&ssk=botmanager_support@radware.com&ssm=51376561566335052103129211821756&ssn=55f3d9d4b1fac2b55fb0830b188206adf48466f00f7e-6f6a-4be4-b3219d&sso=d98ea98b-c3a0943e8c57d006e12989e5ca7df468b49e58a6a4845c70&ssp=61080261831788491997178840770711126&ssq=59002792551329630259925513994140437505876&ssr=MTQ4Ljg3LjIzLjY=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImZlZGVyYWwuYmFuay5pbiIsIl9fdXptZiI6IjdmOTAwMDY2ZjAwZjdlLTZmNmEtNGJlNC1iOThiLWMzYTA5NDNlOGM1NzEtMTc4ODQyNTUxMzgxMzAtMDAwODA5MDUyMWY1MDZkOTM3MTEwIiwidXpteCI6IjdmYzAwMGRkZTE2NWU5LWM0MmItNDNiZC1hMjhkLWNjNzVlNTM4Yzk1NDEtMTc4ODQyNTUxMzgxMzAtMDAzY2Q3OWNjNjQ2ZTI0OWJlYjEwIn0=",
           "url": "https://www.federal.bank.in/deposit-rate",
           "type": "html",
           "format": "HTML",
@@ -92,6 +92,11 @@
           "url": "https://bankofindia.bank.in/term-deposits/green-deposits-scheme",
           "type": "html",
           "error": "HTTP 403 (https://bankofindia.bank.in/term-deposits/green-deposits-scheme) content-type=text/html"
+        },
+        {
+          "url": "https://bankofindia.co.in/documents/20121/25744421/Deposit-Policy-2024-25-Revised.pdf",
+          "type": "pdf",
+          "error": "HTTP 403 (https://bankofindia.co.in/documents/20121/25744421/Deposit-Policy-2024-25-Revised.pdf) content-type=text/html"
         }
       ],
       "failure_stage": "source_fetch",

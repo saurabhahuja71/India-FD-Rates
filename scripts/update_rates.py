@@ -10,7 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA, HISTORY, CONFIG = ROOT / "data/fd-rates.json", ROOT / "data/fd-rates-history.json", ROOT / "config/banks.yaml"
 FAILURES = ROOT / "data/fetch_failures.json"
 DISCOVERY = ROOT / "data/source_discovery_report.json"
-VALID_STATUSES = {"VERIFIED", "STALE", "FAILED", "SAMPLE"}
+VALID_STATUSES = {"LIVE_VERIFIED", "OFFICIAL_DOCUMENT_VERIFIED", "STALE", "FAILED", "SAMPLE"}
+LEGACY_STATUS = {"VERIFIED": "LIVE_VERIFIED"}
 
 def load_config():
     try:
@@ -59,12 +60,14 @@ def effective_from(raw):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--bank"); ap.add_argument("--verbose", action="store_true"); args = ap.parse_args()
     snapshot = json.loads(DATA.read_text()); configs = load_config(); by_bank = {r["bank_name"]: r for r in snapshot["rows"]}
+    for row in snapshot["rows"]:
+        row["verification_status"] = LEGACY_STATUS.get(row.get("verification_status", row.get("status", "SAMPLE")), row.get("verification_status", row.get("status", "SAMPLE")))
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"); checked=[]; failures=[]; discovery=[]
     for cfg in configs:
         if not cfg.get("enabled", True): continue
         row = by_bank.get(cfg["name"])
         if not row:
-            row = {"bank_name": cfg["name"], "category": cfg["category"], "status": "SAMPLE", "regular_rate": None, "regular_tenure": None, "senior_rate": None, "senior_tenure": None, "effective_date": None, "verified_at": None, "source_url": cfg["official_sources"][0]["url"], "source_type": "official_bank_website", "evidence": {"matched_tenure": None, "matched_regular_rate": None, "matched_senior_rate": None}}
+            row = {"bank_name": cfg["name"], "category": cfg["category"], "status": "SAMPLE", "verification_status": "SAMPLE", "regular_rate": None, "regular_tenure": None, "senior_rate": None, "senior_tenure": None, "effective_date": None, "verified_at": None, "source_url": cfg["official_sources"][0]["url"], "source_type": "official_bank_website", "evidence": {"matched_tenure": None, "matched_regular_rate": None, "matched_senior_rate": None}}
             snapshot["rows"].append(row); by_bank[cfg["name"]] = row
         row.update({"category": cfg["category"], "deposit_category": cfg["deposit_category"], "deposit_limit": cfg["retail_threshold"], "source_url": cfg["official_sources"][0]["url"]})
         if args.bank and cfg["id"] != args.bank: continue
@@ -108,20 +111,20 @@ def main():
                     if args.verbose: print(f'[{cfg["id"]}] source failed: {exc}')
             if not parsed:
                 raise ValueError("all official sources failed")
-            row.update(parsed); row.update({"status":"VERIFIED", "verified_at":now, "source_url":source_used["url"], "source_type":"official_endpoint" if source_used["type"] == "endpoint" else ("official_pdf" if source_used["type"] == "pdf" else "official_bank_website")})
+            row.update(parsed); row.update({"status":"VERIFIED", "verification_status":"LIVE_VERIFIED", "verified_at":now, "source_url":source_used["url"], "source_type":"official_endpoint" if source_used["type"] == "endpoint" else ("official_pdf" if source_used["type"] == "pdf" else "official_bank_website")})
             if not row.get("effective_date"): row["effective_date"] = effective_from(raw)
             if not row.get("effective_date"): row["effective_date_note"] = "Official page did not publish an effective date; verified at retrieval time."
             if args.verbose: print(f'[{cfg["id"]}] effective={row["effective_date"]} rows={row.get("row_count", "?")} retail_rows={row.get("row_count", "?")} regular={row["regular_rate"]:.2f}% @ {row["regular_tenure"]} senior={row["senior_rate"]:.2f}% @ {row["senior_tenure"]} VALIDATED')
             checked.append(cfg["name"])
         except Exception as exc:
-            row["status"] = "FAILED"; row["verified_at"] = None; row["effective_date"] = None
+            row["status"] = "FAILED"; row["verification_status"] = "FAILED"; row["verified_at"] = None; row["effective_date"] = None
             row["regular_rate"] = row["regular_tenure"] = row["senior_rate"] = row["senior_tenure"] = None
             row["evidence"] = {"matched_tenure":None,"matched_regular_rate":None,"matched_senior_rate":None}; failures.append(f'{cfg["name"]}: {exc}')
             failures[-1] = {"bank": cfg["name"], "attempted_sources": attempts, "failure_stage": failure_stage, "reason": str(exc), "last_http_status": attempts[-1].get("status") if attempts else None, "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"}
             if args.verbose: print(f'[{cfg["id"]}] FAILED: {exc}')
         discovery.append({"bank": cfg["name"], "sources_checked": bank_discovery,
                           "selected_source": source_used["url"] if source_used else None,
-                          "collection_status": row["status"]})
+                          "collection_status": row["verification_status"]})
     print(f"Verified {len(checked)} bank(s); failed {len(failures)}")
     if failures and not args.verbose:
         print("\n".join(f'- {x["bank"]}: {x["reason"]}' if isinstance(x, dict) else f"- {x}" for x in failures))

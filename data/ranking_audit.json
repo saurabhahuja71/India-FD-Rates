@@ -1,44 +1,50 @@
 [
   {
     "category": "private_sector",
-    "ranking_type": "standard_retail_fd",
-    "generated_at": "2026-09-03T08:44:41Z",
+    "ranking_type": "callable_retail_fd_including_special_tenure",
+    "generated_at": "2026-09-03T08:56:35Z",
     "banks": [
       {
         "rank": 1,
         "bank": "RBL Bank",
         "rate": 8.15,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.rblbank.com/interest-rates"
       },
       {
         "rank": 2,
         "bank": "Bandhan Bank",
         "rate": 7.45,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.bandhan.bank.in/fixed-deposit"
       },
       {
         "rank": 3,
         "bank": "IndusInd Bank",
         "rate": 7.0,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.indusind.bank.in/in/en/personal/rates.html"
       },
       {
         "rank": 4,
         "bank": "Yes Bank",
         "rate": 7.0,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false"
       },
       {
         "rank": 5,
         "bank": "Axis Bank",
         "rate": 6.5,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.axisbank.com/interest-rate-on-deposits"
       },
       {
         "rank": 6,
         "bank": "HDFC Bank",
         "rate": 6.5,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate"
       }
     ],
     "excluded": [
@@ -58,38 +64,43 @@
   },
   {
     "category": "public_sector",
-    "ranking_type": "standard_retail_fd",
-    "generated_at": "2026-09-03T08:44:41Z",
+    "ranking_type": "callable_retail_fd_including_special_tenure",
+    "generated_at": "2026-09-03T08:56:35Z",
     "banks": [
       {
         "rank": 1,
         "bank": "Bank of Baroda",
         "rate": 6.75,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores"
       },
       {
         "rank": 2,
         "bank": "Canara Bank",
         "rate": 6.6,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a."
       },
       {
         "rank": 3,
         "bank": "Punjab National Bank",
         "rate": 6.6,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.pnbindia.in/interest-rates-deposit.html"
       },
       {
         "rank": 4,
         "bank": "Union Bank of India",
         "rate": 6.55,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
       },
       {
         "rank": 5,
         "bank": "State Bank of India",
         "rate": 6.45,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits"
       }
     ],
     "excluded": [
@@ -125,38 +136,43 @@
   },
   {
     "category": "small_finance",
-    "ranking_type": "standard_retail_fd",
-    "generated_at": "2026-09-03T08:44:41Z",
+    "ranking_type": "callable_retail_fd_including_special_tenure",
+    "generated_at": "2026-09-03T08:56:35Z",
     "banks": [
       {
         "rank": 1,
         "bank": "Utkarsh Small Finance Bank",
         "rate": 8.1,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit"
       },
       {
         "rank": 2,
         "bank": "Jana Small Finance Bank",
         "rate": 8.0,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.janabank.com/interest-rates/"
       },
       {
         "rank": 3,
         "bank": "Shivalik Small Finance Bank",
         "rate": 8.0,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://shivalik.bank.in/interest-rate"
       },
       {
         "rank": 4,
         "bank": "Ujjivan Small Finance Bank",
         "rate": 7.8,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.ujjivansfb.bank.in/interest-rates"
       },
       {
         "rank": 5,
         "bank": "AU Small Finance Bank",
         "rate": 7.4,
-        "status": "VERIFIED"
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates"
       }
     ],
     "excluded": [

@@ -9,13 +9,13 @@ try:
     data = json.loads(DATA.read_text())
     assert isinstance(data["generated_at"], str) and data["rows"]
     assert len(data["rows"]) >= 15
-    statuses = {"VERIFIED", "STALE", "FAILED", "SAMPLE"}
+    statuses = {"LIVE_VERIFIED", "OFFICIAL_DOCUMENT_VERIFIED", "STALE", "FAILED", "SAMPLE"}
     for row in data["rows"]:
         assert row["category"] in ALLOWED and row["bank_name"] and row["source_url"].startswith("https://")
         assert row["deposit_category"] and row["deposit_limit"]
-        assert row["status"] in statuses and row["source_type"] and isinstance(row["evidence"], dict)
+        assert row.get("verification_status", {"VERIFIED":"LIVE_VERIFIED"}.get(row.get("status"))) in statuses and row["source_type"] and isinstance(row["evidence"], dict)
         assert {"matched_tenure", "matched_regular_rate", "matched_senior_rate"} <= set(row["evidence"])
-        if row["status"] == "VERIFIED":
+        if row.get("verification_status", {"VERIFIED":"LIVE_VERIFIED"}.get(row.get("status"))) in {"LIVE_VERIFIED", "OFFICIAL_DOCUMENT_VERIFIED"}:
             assert 0 < float(row["regular_rate"]) <= 15 and 0 < float(row["senior_rate"]) <= 15
             assert row["regular_tenure"] and row["senior_tenure"] and row["verified_at"]
             assert row["evidence"]["matched_regular_rate"] and row["evidence"]["matched_senior_rate"]
