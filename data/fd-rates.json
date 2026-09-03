@@ -32,7 +32,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "3 Years 1 day to < 4 Years 7 Months",
       "effective_date": "2026-08-19",
-      "verified_at": "2026-09-03T07:23:32Z",
+      "verified_at": "2026-09-03T07:58:25Z",
       "source_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -54,7 +54,7 @@
       "senior_rate": 7.0,
       "senior_tenure": "18 Months < 2 Years",
       "effective_date": null,
-      "verified_at": "2026-09-03T07:23:32Z",
+      "verified_at": "2026-09-03T07:58:25Z",
       "source_url": "https://www.axisbank.com/interest-rate-on-deposits",
       "source_type": "official_bank_website",
       "evidence": {
@@ -115,86 +115,90 @@
     {
       "bank_name": "Bank of Baroda",
       "category": "public_sector",
-      "status": "FAILED",
-      "regular_rate": 5.0,
-      "regular_tenure": "400 days",
-      "senior_rate": 7.65,
-      "senior_tenure": "400 days",
-      "effective_date": null,
-      "verified_at": null,
-      "source_url": "https://www.bankofbaroda.in/personal-banking/accounts/term-deposit/fixed-deposit",
+      "status": "VERIFIED",
+      "regular_rate": 6.75,
+      "regular_tenure": "bob Golden Goal deposit Scheme (555 Days)",
+      "senior_rate": 7.25,
+      "senior_tenure": "bob Golden Goal deposit Scheme (555 Days)",
+      "effective_date": "2026-06-12",
+      "verified_at": "2026-09-03T07:58:25Z",
+      "source_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "bob Golden Goal deposit Scheme (555 Days)",
+        "matched_regular_rate": "6.75%",
+        "matched_senior_rate": "7.25%"
       },
-      "notes": "Special 400-day scheme; verify its availability before booking.",
+      "notes": "Includes the bank's callable bob Golden Goal 555-day special deposit scheme; verify scheme terms before booking.",
       "deposit_category": "Domestic retail term deposit",
-      "deposit_limit": "Below ₹3 crore"
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 16
     },
     {
       "bank_name": "State Bank of India",
       "category": "public_sector",
-      "status": "FAILED",
-      "regular_rate": 7.05,
-      "regular_tenure": "2 years to <3 years",
-      "senior_rate": 7.55,
-      "senior_tenure": "2 years to <3 years",
-      "effective_date": null,
-      "verified_at": null,
+      "status": "VERIFIED",
+      "regular_rate": 6.45,
+      "regular_tenure": "2 years to less than 3 years",
+      "senior_rate": 7.05,
+      "senior_tenure": "5 years and up to 10 years",
+      "effective_date": "2025-07-15",
+      "verified_at": "2026-09-03T07:58:25Z",
       "source_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "2 years to less than 3 years",
+        "matched_regular_rate": "6.45%",
+        "matched_senior_rate": "7.05%"
       },
       "notes": "Retail domestic term deposit under ₹3 crore.",
       "deposit_category": "Retail domestic term deposit",
-      "deposit_limit": "Below ₹3 crore"
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 8
     },
     {
       "bank_name": "Canara Bank",
       "category": "public_sector",
-      "status": "FAILED",
-      "regular_rate": 7.0,
-      "regular_tenure": "444 days",
-      "senior_rate": 7.5,
-      "senior_tenure": "444 days",
-      "effective_date": null,
-      "verified_at": null,
-      "source_url": "https://canarabank.com/pages/interest-rates",
+      "status": "VERIFIED",
+      "regular_rate": 6.6,
+      "regular_tenure": "555 Days*",
+      "senior_rate": 7.1,
+      "senior_tenure": "555 Days*",
+      "effective_date": "2026-03-17",
+      "verified_at": "2026-09-03T07:58:25Z",
+      "source_url": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "555 Days*",
+        "matched_regular_rate": "6.60%",
+        "matched_senior_rate": "7.10%"
       },
-      "notes": "Check whether the special-tenure offer remains open.",
+      "notes": "Callable domestic deposit; 444/555-day starred rates have the bank's stated minimum-deposit condition.",
       "deposit_category": "Domestic retail term deposit",
-      "deposit_limit": "Below ₹3 crore"
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 12
     },
     {
       "bank_name": "Punjab National Bank",
       "category": "public_sector",
-      "status": "FAILED",
-      "regular_rate": 5.0,
-      "regular_tenure": "400 days",
-      "senior_rate": 7.5,
-      "senior_tenure": "400 days",
-      "effective_date": null,
-      "verified_at": null,
+      "status": "VERIFIED",
+      "regular_rate": 6.6,
+      "regular_tenure": "444 Days",
+      "senior_rate": 7.1,
+      "senior_tenure": "444 Days",
+      "effective_date": "2026-06-01",
+      "verified_at": "2026-09-03T07:58:25Z",
       "source_url": "https://www.pnbindia.in/interest-rates-deposit.html",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "444 Days",
+        "matched_regular_rate": "6.60%",
+        "matched_senior_rate": "7.10%"
       },
       "notes": "Retail domestic term deposit; special-tenure scheme may have an end date.",
       "deposit_category": "Domestic retail term deposit",
-      "deposit_limit": "Below ₹3 crore"
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 23
     },
     {
       "bank_name": "Indian Bank",
@@ -268,7 +272,7 @@
       "senior_rate": 7.9,
       "senior_tenure": "30 Months 1 Day to 36 Months",
       "effective_date": null,
-      "verified_at": "2026-09-03T07:23:32Z",
+      "verified_at": "2026-09-03T07:58:25Z",
       "source_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -312,7 +316,7 @@
       "senior_rate": 8.3,
       "senior_tenure": ">2 Years - 3 Years (1095 Days)",
       "effective_date": null,
-      "verified_at": "2026-09-03T07:23:32Z",
+      "verified_at": "2026-09-03T07:58:25Z",
       "source_url": "https://www.janabank.com/interest-rates/",
       "source_type": "official_bank_website",
       "evidence": {
@@ -371,23 +375,24 @@
     {
       "bank_name": "Union Bank of India",
       "category": "public_sector",
-      "status": "FAILED",
-      "regular_rate": null,
-      "regular_tenure": null,
-      "senior_rate": null,
-      "senior_tenure": null,
-      "effective_date": null,
-      "verified_at": null,
-      "source_url": "https://www.unionbankofindia.co.in/en/interest-rate",
+      "status": "VERIFIED",
+      "regular_rate": 6.55,
+      "regular_tenure": "555 Days",
+      "senior_rate": 7.05,
+      "senior_tenure": "555 Days",
+      "effective_date": "2026-08-10",
+      "verified_at": "2026-09-03T07:58:25Z",
+      "source_url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "555 Days",
+        "matched_regular_rate": "6.55%",
+        "matched_senior_rate": "7.05%"
       },
       "deposit_category": "Domestic retail term deposit",
       "deposit_limit": "Below ₹3 crore",
-      "notes": "Awaiting exact extraction by the configured official-source adapter."
+      "notes": "Senior citizen rate is the official additional 0.50% benefit over the corresponding resident rate.",
+      "row_count": 17
     },
     {
       "bank_name": "Bank of India",

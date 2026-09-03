@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:57:10Z",
+  "generated_at": "2026-09-03T07:58:25Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -48,7 +48,7 @@
           "raw": null,
           "content_type": "text/html",
           "status": 200,
-          "final_url": "https://validate.perfdrive.com/?ssa=734f490b-da39-4a05-9628-24c66c87fe84&ssb=81869378568&ssc=https%3A%2F%2Fwww.federalbank.co.in%2Finterest-rates&ssi=547505dc-e42i-44e7-8356-c3043271dd03&ssk=botmanager_support@radware.com&ssm=45102263742764032103756278151657&ssn=eb7b26ee519cac5b6d6e1472655188ea708dea7cdbbd-13ff-4a78-847562&sso=aeeb8966-c126feebbf2536474a1c6fbcb1c1fd798a3cd1535ce43896&ssp=76312334721788493579178847127356106&ssq=92680312210058790508222100620730348726205&ssr=MTQ4Ljg3LjIzLjY=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMmMzOGIwMTEtNzk2MC00NGYyLWFmNzUtYzQ4NWFhNDNkZTkwMS0xNzg4NDIyMTAwNzMzMC0wMDNlYTBjNjM0ZTlmOTQ5ZDZlMTAiLCJyZCI6ImZlZGVyYWwuYmFuay5pbiIsIl9fdXptZiI6IjdmOTAwMGVhN2NkYmJkLTEzZmYtNGE3OC04OTY2LWMxMjZmZWViYmYyNTEtMTc4ODQyMjEwMDczMzAtMDAwYTIxMmRhYTZhNDE3MzA0ODEwIn0=",
+          "final_url": "https://validate.perfdrive.com/?ssa=9dae3a73-5bda-41a9-b646-e98962edd634&ssb=84349363170&ssc=https%3A%2F%2Fwww.federal.bank.in%2Finterest-rates&ssi=05d1619a-e42i-4d2e-9f7c-f69d7d9927f2&ssk=botmanager_support@radware.com&ssm=63040268338202544103475611091923&ssn=f50ecf0c180ac6631c06a249297bbda44df8d1f591e7-02c0-4709-860236&sso=99d88dfd-3a5b7995b7ef499a0c5b752d4257ba630fdbc6fb9481056d&ssp=90453163521788401064178844648077109&ssq=78911192231426725529022314434257025780454&ssr=MTcyLjE3Mi4xNTMuMzQ=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYzk5YjI4YzMtOTJjYS00NDA4LWFlOTMtOWNiYjg2ZmQ5Y2VmMS0xNzg4NDIyMzE0Mzc2MC0wMDM0OWUwODQ5ODFjYTg0ZDU3MTAiLCJfX3V6bWYiOiI3ZjkwMDBkMWY1OTFlNy0wMmMwLTQ3MDktOGRmZC0zYTViNzk5NWI3ZWYxLTE3ODg0MjIzMTQzNzYwLTAwMDAxMDdkZTVlMmUzNmE0MGMxMCIsInJkIjoiZmVkZXJhbC5iYW5rLmluIn0=",
           "url": "https://www.federalbank.co.in/interest-rates",
           "type": "html",
           "format": "HTML",
@@ -177,7 +177,7 @@
         {
           "url": "https://www.suryodaybank.com/interest-rates/",
           "type": "html",
-          "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1147)>"
+          "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)>"
         }
       ],
       "failure_stage": "source_fetch",
