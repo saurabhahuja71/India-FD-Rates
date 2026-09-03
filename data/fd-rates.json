@@ -5,24 +5,31 @@
     {
       "bank_name": "IDFC FIRST Bank",
       "category": "private_sector",
-      "status": "FAILED",
-      "regular_rate": null,
-      "regular_tenure": null,
-      "senior_rate": null,
-      "senior_tenure": null,
-      "effective_date": null,
-      "verified_at": null,
-      "source_url": "https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit",
+      "status": "VERIFIED",
+      "regular_rate": 7.1,
+      "regular_tenure": "500 days – 3 years",
+      "senior_rate": 7.35,
+      "senior_tenure": "500 days – 3 years",
+      "effective_date": "2026-09-01",
+      "verified_at": "2026-09-03T09:39:46Z",
+      "source_url": "https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "500 days – 3 years",
+        "matched_regular_rate": "7.10%",
+        "matched_senior_rate": "7.35%"
       },
-      "notes": "Resident retail FD; below the applicable deposit limit.",
+      "notes": "Domestic/NRO/NRE retail table below ₹3 crore; NRI senior-citizen rates are excluded, while resident domestic senior rates are included.",
       "deposit_category": "Domestic retail deposit",
       "deposit_limit": "Below ₹3 crore",
-      "verification_status": "FAILED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Interest Rates for Domestic / NRO / NRE Fixed Deposits of less than ₹3 Crore w.e.f. 01 st September 2026*",
+      "regular_source_column": "General",
+      "senior_source_column": "Senior Citizen",
+      "row_count": 10,
+      "effective_date_note": "Official page did not publish an effective date; verified at retrieval time."
     },
     {
       "bank_name": "HDFC Bank",
@@ -115,7 +122,7 @@
       "senior_tenure": "36 months < 60 months",
       "effective_date": "2026-03-05",
       "verified_at": "2026-09-03T09:34:39Z",
-      "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false",
+      "source_url": "https://www.yes.bank.in/personal-banking/yes-individual/deposits/fixed-deposit",
       "source_type": "official_pdf",
       "evidence": {
         "matched_tenure": "18 months 1 day < 24 months",

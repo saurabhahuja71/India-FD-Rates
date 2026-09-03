@@ -34,7 +34,7 @@ banks:
     deposit_category: Domestic retail deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit}
+      - {type: html, url: https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates}
   - id: federal
     name: Federal Bank
     category: private_sector

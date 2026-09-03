@@ -7,7 +7,7 @@ ROOT = Path(__file__).parent
 GENERIC = (ROOT / "fixtures/generic_rate_page.html").read_bytes()
 HDFC = (ROOT / "fixtures/hdfc_rate_page.html").read_bytes()
 AXIS = b"<h2>Key Fixed Deposit Interest Rates</h2><table><tr><td>2 years</td><td>7.25%</td><td>6.00%</td><td>7.75%</td><td>6.50%</td></tr></table>"
-ADAPTERS = ["idfc_first", "federal", "yes", "indusind", "indian", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
+ADAPTERS = ["federal", "yes", "indusind", "indian", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
 
 class AdapterFixtures(unittest.TestCase):
     def test_registry_has_required_candidate_breadth(self):
@@ -98,5 +98,12 @@ class AdapterFixtures(unittest.TestCase):
         self.assertTrue(result["callable"])
         self.assertNotIn("Non-Callable", result["regular_source_column"])
         self.assertNotIn("Bulk", result["source_table"])
+
+    def test_idfc_first_selects_domestic_retail_table(self):
+        fixture = '''<table><tr><th>Interest Rates for Domestic / NRO / NRE Fixed Deposits of less than ₹3 Crore w.e.f. 01st September 2026*</th></tr><tr><th>Tenure</th><th>Rate of Interest</th></tr><tr><th>General</th><th>Senior Citizen</th></tr><tr><td>500 days – 3 years</td><td>7.10%</td><td>7.35%</td></tr><tr><td>3 years 1 day – 5 years</td><td>6.75%</td><td>7.00%</td></tr></table><table><tr><th>Tax Saver Deposit</th></tr><tr><td>5 Years</td><td>7.00%</td><td>7.25%</td></tr></table>'''.encode()
+        result = importlib.import_module("banks.idfc_first").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (7.10, 7.35))
+        self.assertEqual(result["regular_tenure"], "500 days – 3 years")
+        self.assertEqual(result["effective_date"], "2026-09-01")
 
 if __name__ == "__main__": unittest.main()

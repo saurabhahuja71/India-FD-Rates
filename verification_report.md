@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-09-03T09:36:51Z`
+Generated: `2026-09-03T09:39:53Z`
 
 ## Ranking policy
 
@@ -35,8 +35,9 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 
 | Bank | Old rate | Corrected rate | Old rank | New rank | Root cause |
 |---|---:|---:|---:|---:|---|
-| Axis Bank | 7.0% | 6.5% | 1 | 5 | adapter/source-column correction |
-| Yes Bank | 7.25% | 7.0% | — | 4 | adapter/source-column correction |
+| IDFC FIRST Bank | 7.35% | 7.1% | — | 3 | adapter/source-column correction |
+| Axis Bank | 7.0% | 6.5% | 1 | 6 | adapter/source-column correction |
+| Yes Bank | 7.25% | 7.0% | — | 5 | adapter/source-column correction |
 | Bank of Baroda | 5.0% | 6.75% | — | 1 | adapter/source-column correction |
 | State Bank of India | 7.05% | 6.45% | — | 6 | adapter/source-column correction |
 | Canara Bank | 7.0% | 6.6% | — | 2 | adapter/source-column correction |
@@ -52,9 +53,9 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 ### private_sector
 - **Bandhan Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `2 years to less than 3 years`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.45%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.95%**; source: https://www.bandhan.bank.in/fixed-deposit
 - **RBL Bank** — table: `Fixed Deposits – Less than INR 3 crores – Premature Withdrawal Allowed`; tenure: `18 months to 36 months`; regular column: `General Citizen — Interest Rates (per annum)` = **7.20%**; senior column: `Senior Citizen — Senior Citizen Interest Rates (per annum)` = **7.70%**; source: https://www.rbl.bank.in/interest-rates
+- **IDFC FIRST Bank** — table: `Interest Rates for Domestic / NRO / NRE Fixed Deposits of less than ₹3 Crore w.e.f. 01 st September 2026*`; tenure: `500 days – 3 years`; regular column: `General` = **7.10%**; senior column: `Senior Citizen` = **7.35%**; source: https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates
 - **IndusInd Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `2 Years to 3 Years`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.00%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.75%**; source: https://www.indusind.bank.in/in/en/personal/rates.html
-- **Yes Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `18 months 1 day < 24 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.00%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.75%**; source: https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false
-- **Axis Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `18 Months < 2 Years`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.50%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.00%**; source: https://www.axisbank.com/interest-rate-on-deposits
+- **Yes Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `18 months 1 day < 24 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.00%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.75%**; source: https://www.yes.bank.in/personal-banking/yes-individual/deposits/fixed-deposit
 ### public_sector
 - **Bank of Baroda** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `bob Golden Goal deposit Scheme (555 Days)`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.75%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.25%**; source: https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores
 - **Canara Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `555 Days*`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.60%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.10%**; source: https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.

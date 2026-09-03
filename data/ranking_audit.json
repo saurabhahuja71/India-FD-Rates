@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:36:51Z",
+    "generated_at": "2026-09-03T09:39:53Z",
     "banks": [
       {
         "rank": 1,
@@ -20,27 +20,34 @@
       },
       {
         "rank": 3,
+        "bank": "IDFC FIRST Bank",
+        "rate": 7.1,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates"
+      },
+      {
+        "rank": 4,
         "bank": "IndusInd Bank",
         "rate": 7.0,
         "status": "LIVE_VERIFIED",
         "source": "https://www.indusind.bank.in/in/en/personal/rates.html"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "bank": "Yes Bank",
         "rate": 7.0,
         "status": "LIVE_VERIFIED",
-        "source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false"
+        "source": "https://www.yes.bank.in/personal-banking/yes-individual/deposits/fixed-deposit"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "bank": "Axis Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
         "source": "https://www.axisbank.com/interest-rate-on-deposits"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "bank": "HDFC Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
@@ -48,10 +55,6 @@
       }
     ],
     "excluded": [
-      {
-        "bank": "IDFC FIRST Bank",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
       {
         "bank": "ICICI Bank",
         "reason": "FAILED_SOURCE_PARSING"
@@ -65,7 +68,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:36:51Z",
+    "generated_at": "2026-09-03T09:39:53Z",
     "banks": [
       {
         "rank": 1,
@@ -140,7 +143,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:36:51Z",
+    "generated_at": "2026-09-03T09:39:53Z",
     "banks": [
       {
         "rank": 1,
