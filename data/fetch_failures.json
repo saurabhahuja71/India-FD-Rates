@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:58:25Z",
+  "generated_at": "2026-09-03T08:01:40Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -48,7 +48,7 @@
           "raw": null,
           "content_type": "text/html",
           "status": 200,
-          "final_url": "https://validate.perfdrive.com/?ssa=9dae3a73-5bda-41a9-b646-e98962edd634&ssb=84349363170&ssc=https%3A%2F%2Fwww.federal.bank.in%2Finterest-rates&ssi=05d1619a-e42i-4d2e-9f7c-f69d7d9927f2&ssk=botmanager_support@radware.com&ssm=63040268338202544103475611091923&ssn=f50ecf0c180ac6631c06a249297bbda44df8d1f591e7-02c0-4709-860236&sso=99d88dfd-3a5b7995b7ef499a0c5b752d4257ba630fdbc6fb9481056d&ssp=90453163521788401064178844648077109&ssq=78911192231426725529022314434257025780454&ssr=MTcyLjE3Mi4xNTMuMzQ=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYzk5YjI4YzMtOTJjYS00NDA4LWFlOTMtOWNiYjg2ZmQ5Y2VmMS0xNzg4NDIyMzE0Mzc2MC0wMDM0OWUwODQ5ODFjYTg0ZDU3MTAiLCJfX3V6bWYiOiI3ZjkwMDBkMWY1OTFlNy0wMmMwLTQ3MDktOGRmZC0zYTViNzk5NWI3ZWYxLTE3ODg0MjIzMTQzNzYwLTAwMDAxMDdkZTVlMmUzNmE0MGMxMCIsInJkIjoiZmVkZXJhbC5iYW5rLmluIn0=",
+          "final_url": "https://validate.perfdrive.com/?ssa=6f916626-40df-4952-a3ac-f88d7e767dc9&ssb=81456398608&ssc=https%3A%2F%2Fwww.federal.bank.in%2Finterest-rates&ssi=9de9e7ef-e42i-4ffe-bf46-267b37d788ed&ssk=botmanager_support@radware.com&ssm=86823751794480722102749565724511&ssn=f7d73ee853e686a66868366b260428046f7454d24a05-7d14-4249-843dfa&sso=37d0f968-18d463ac4507151db6932b2ed2a8e97b8e2e8b2b35497b9e&ssp=10825527331788490205178845407285806&ssq=97408122251061193368422510300177451289245&ssr=MjAuODMuMTc0LjU1&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA1NGQyNGEwNS03ZDE0LTQyNDktODk2OC0xOGQ0NjNhYzQ1MDcxLTE3ODg0MjI1MTAxMDAwLTAwMDZlZTgzNTQ5ZDkwYzE1MWYxMCIsInV6bXgiOiI3ZmMwMDBkMDYzNWI1OS02N2ViLTQyMGMtODcxNC04ZjM2ODgyYjlmNWUxLTE3ODg0MjI1MTAxMDAwLTAwMzU5NTVhMDViNzE4YWFhMjQxMCIsInJkIjoiZmVkZXJhbC5iYW5rLmluIn0=",
           "url": "https://www.federalbank.co.in/interest-rates",
           "type": "html",
           "format": "HTML",
