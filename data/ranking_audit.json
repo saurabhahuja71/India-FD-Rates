@@ -2,21 +2,21 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T08:56:35Z",
+    "generated_at": "2026-09-03T09:21:22Z",
     "banks": [
       {
         "rank": 1,
-        "bank": "RBL Bank",
-        "rate": 8.15,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.rblbank.com/interest-rates"
-      },
-      {
-        "rank": 2,
         "bank": "Bandhan Bank",
         "rate": 7.45,
         "status": "LIVE_VERIFIED",
         "source": "https://www.bandhan.bank.in/fixed-deposit"
+      },
+      {
+        "rank": 2,
+        "bank": "RBL Bank",
+        "rate": 7.2,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.rblbank.com/interest-rates"
       },
       {
         "rank": 3,
@@ -65,7 +65,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T08:56:35Z",
+    "generated_at": "2026-09-03T09:21:22Z",
     "banks": [
       {
         "rank": 1,
@@ -137,7 +137,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T08:56:35Z",
+    "generated_at": "2026-09-03T09:21:22Z",
     "banks": [
       {
         "rank": 1,

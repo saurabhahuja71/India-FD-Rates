@@ -71,7 +71,7 @@ banks:
     deposit_category: Domestic retail deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://www.rblbank.com/interest-rates}
+      - {type: html, url: https://www.rbl.bank.in/interest-rates}
   - id: bandhan
     name: Bandhan Bank
     category: private_sector

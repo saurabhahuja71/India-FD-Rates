@@ -14,8 +14,8 @@ The rankings use the highest eligible callable resident-domestic-retail FD rate,
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Verification | Last Verified | Source |
 |------|------|-----------------|----------------|--------|--------------|---------------|--------|
-| 1 | RBL Bank | 8.15% | 8.40% | 18 months to 36 months | LIVE | 03 Sep 2026 | [Official](https://www.rblbank.com/interest-rates) |
-| 2 | Bandhan Bank | 7.45% | 7.95% | 2 years to less than 3 years | LIVE | 03 Sep 2026 | [Official](https://www.bandhan.bank.in/fixed-deposit) |
+| 1 | Bandhan Bank | 7.45% | 7.95% | 2 years to less than 3 years | LIVE | 03 Sep 2026 | [Official](https://www.bandhan.bank.in/fixed-deposit) |
+| 2 | RBL Bank | 7.20% | 7.70% | 18 months to 36 months | LIVE | 03 Sep 2026 | [Official](https://www.rblbank.com/interest-rates) |
 | 3 | IndusInd Bank | 7.00% | 7.75% | 2 Years to 3 Years | LIVE | 03 Sep 2026 | [Official](https://www.indusind.bank.in/in/en/personal/rates.html) |
 | 4 | Yes Bank | 7.00% | 7.75% | Regular: 18 months 1 day < 24 months<br>Senior: 36 months < 60 months | LIVE | 03 Sep 2026 | [Official](https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false) |
 | 5 | Axis Bank | 6.50% | 7.00% | 18 Months < 2 Years | LIVE | 03 Sep 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |

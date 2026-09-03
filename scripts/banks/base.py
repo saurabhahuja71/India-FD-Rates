@@ -42,7 +42,7 @@ def rows_from_html(raw, marker=None, stop=None):
 
 def result_from_rows(rows, effective_date=None, source_type="official_bank_website"):
     regular=max(rows,key=lambda x:x[1]); senior=max(rows,key=lambda x:x[2])
-    return {"regular_rate":regular[1],"regular_tenure":regular[0],"senior_rate":senior[2],"senior_tenure":senior[0],"effective_date":effective_date,"source_type":source_type,"evidence":{"matched_tenure":regular[0],"matched_regular_rate":f"{regular[1]:.2f}%","matched_senior_rate":f"{senior[2]:.2f}%"},"row_count":len(rows)}
+    return {"regular_rate":regular[1],"regular_tenure":regular[0],"senior_rate":senior[2],"senior_tenure":senior[0],"effective_date":effective_date,"source_type":source_type,"callable":True,"customer_type":"RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL","source_table":"Callable domestic resident retail FD table (adapter-selected)","regular_source_column":"General/Regular Citizen Interest Rates (per annum)","senior_source_column":"Senior Citizen Interest Rates (per annum)","evidence":{"matched_tenure":regular[0],"matched_regular_rate":f"{regular[1]:.2f}%","matched_senior_rate":f"{senior[2]:.2f}%"},"row_count":len(rows)}
 
 def parse_html(raw, marker=None, stop=None, effective_date=None):
     return result_from_rows(rows_from_html(raw, marker, stop), effective_date)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:54:15Z",
+  "generated_at": "2026-09-03T09:18:05Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -48,7 +48,7 @@
           "raw": null,
           "content_type": "text/html",
           "status": 200,
-          "final_url": "https://validate.perfdrive.com/?ssa=a321df54-2eed-40b1-8b16-5fd5410f6d73&ssb=92616356247&ssc=https%3A%2F%2Fwww.federal.bank.in%2Fdeposit-rate&ssi=8aef0638-e42i-4bac-aa07-886b3832a003&ssk=botmanager_support@radware.com&ssm=51376561566335052103129211821756&ssn=55f3d9d4b1fac2b55fb0830b188206adf48466f00f7e-6f6a-4be4-b3219d&sso=d98ea98b-c3a0943e8c57d006e12989e5ca7df468b49e58a6a4845c70&ssp=61080261831788491997178840770711126&ssq=59002792551329630259925513994140437505876&ssr=MTQ4Ljg3LjIzLjY=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImZlZGVyYWwuYmFuay5pbiIsIl9fdXptZiI6IjdmOTAwMDY2ZjAwZjdlLTZmNmEtNGJlNC1iOThiLWMzYTA5NDNlOGM1NzEtMTc4ODQyNTUxMzgxMzAtMDAwODA5MDUyMWY1MDZkOTM3MTEwIiwidXpteCI6IjdmYzAwMGRkZTE2NWU5LWM0MmItNDNiZC1hMjhkLWNjNzVlNTM4Yzk1NDEtMTc4ODQyNTUxMzgxMzAtMDAzY2Q3OWNjNjQ2ZTI0OWJlYjEwIn0=",
+          "final_url": "https://validate.perfdrive.com/?ssa=0a2e6d9b-ea7a-4368-adc9-e70277c57395&ssb=66143341205&ssc=https%3A%2F%2Fwww.federal.bank.in%2Fdeposit-rate&ssi=da121492-e42i-4e1c-bba7-c6f8651efd75&ssk=botmanager_support@radware.com&ssm=75453818779100613103520406961299&ssn=68dd76912fa7b881479fe29bb02ef473224a6bef46e9-d8a2-4b50-93037b&sso=eb3a3460-cd9a16913e4901b42e1f1732bfbadfadb3d8577423ddcca7&ssp=09021433801788420115178848935281199&ssq=89878492694953789304826949814512461559697&ssr=MTQ4Ljg3LjIzLjY=&sst=India-FD-Rates/1.0%20official-source-checker&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA2YmVmNDZlOS1kOGEyLTRiNTAtOTQ2MC1jZDlhMTY5MTNlNDkxLTE3ODg0MjY5NDk5MzUwLTAwMGM1OTk5YWUyMWZhMDg3YWQxMCIsInV6bXgiOiI3ZmMwMDBjYWVjZDIxZS0yOTk3LTRmZDYtYmI2OS0yMTRlM2QzMjI1NTkxLTE3ODg0MjY5NDk5MzUwLTAwMzhlNmFiNjg1NmUzOTExMzYxMCIsInJkIjoiZmVkZXJhbC5iYW5rLmluIn0=",
           "url": "https://www.federal.bank.in/deposit-rate",
           "type": "html",
           "format": "HTML",

@@ -79,4 +79,16 @@ class AdapterFixtures(unittest.TestCase):
         with self.assertRaises(ValueError):
             importlib.import_module("banks.icici").parse(b"general citizens up to 6.50%")
 
+    def test_rbl_selects_callable_general_and_senior_columns(self):
+        fixture = (Path(__file__).parent / "fixtures/rbl_rate_page.html").read_bytes()
+        result = importlib.import_module("banks.rbl").parse(fixture)
+        self.assertEqual(result["regular_rate"], 7.20)
+        self.assertEqual(result["senior_rate"], 7.70)
+        self.assertEqual(result["regular_tenure"], "18 months to 36 months")
+        self.assertTrue(result["callable"])
+        self.assertNotIn(result["regular_rate"], (8.15, 8.40))
+        self.assertNotIn(result["senior_rate"], (8.15, 8.40))
+        self.assertIn("General Citizen", result["regular_source_column"])
+        self.assertIn("Senior Citizen", result["senior_source_column"])
+
 if __name__ == "__main__": unittest.main()

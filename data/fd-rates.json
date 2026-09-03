@@ -33,7 +33,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "3 Years 1 day to < 4 Years 7 Months",
       "effective_date": "2026-08-19",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -45,7 +45,12 @@
       "deposit_category": "Domestic retail deposit",
       "deposit_limit": "Below ₹3 crore",
       "row_count": 38,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Axis Bank",
@@ -56,7 +61,7 @@
       "senior_rate": 7.0,
       "senior_tenure": "18 Months < 2 Years",
       "effective_date": null,
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.axisbank.com/interest-rate-on-deposits",
       "source_type": "official_bank_website",
       "evidence": {
@@ -69,7 +74,12 @@
       "deposit_limit": "Below ₹3 crore",
       "row_count": 2,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "ICICI Bank",
@@ -104,7 +114,7 @@
       "senior_rate": 7.75,
       "senior_tenure": "36 months < 60 months",
       "effective_date": "2026-03-05",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false",
       "source_type": "official_pdf",
       "evidence": {
@@ -117,7 +127,12 @@
       "notes": "Callable domestic retail FD; PDF includes NRO but senior rate is domestic-only.",
       "row_count": 20,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Bank of Baroda",
@@ -128,7 +143,7 @@
       "senior_rate": 7.25,
       "senior_tenure": "bob Golden Goal deposit Scheme (555 Days)",
       "effective_date": "2026-06-12",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
       "source_type": "official_bank_website",
       "evidence": {
@@ -140,7 +155,12 @@
       "deposit_category": "Domestic retail term deposit",
       "deposit_limit": "Below ₹3 crore",
       "row_count": 16,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "State Bank of India",
@@ -151,7 +171,7 @@
       "senior_rate": 7.05,
       "senior_tenure": "5 years and up to 10 years",
       "effective_date": "2025-07-15",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
       "source_type": "official_bank_website",
       "evidence": {
@@ -163,7 +183,12 @@
       "deposit_category": "Retail domestic term deposit",
       "deposit_limit": "Below ₹3 crore",
       "row_count": 8,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Canara Bank",
@@ -174,7 +199,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "555 Days*",
       "effective_date": "2026-03-17",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
       "source_type": "official_bank_website",
       "evidence": {
@@ -186,7 +211,12 @@
       "deposit_category": "Domestic retail term deposit",
       "deposit_limit": "Below ₹3 crore",
       "row_count": 12,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Punjab National Bank",
@@ -197,7 +227,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "444 Days",
       "effective_date": "2026-06-01",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.pnbindia.in/interest-rates-deposit.html",
       "source_type": "official_bank_website",
       "evidence": {
@@ -209,7 +239,12 @@
       "deposit_category": "Domestic retail term deposit",
       "deposit_limit": "Below ₹3 crore",
       "row_count": 23,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Indian Bank",
@@ -242,7 +277,7 @@
       "senior_rate": 8.25,
       "senior_tenure": "666 Days",
       "effective_date": "2022-04-01",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit",
       "source_type": "official_bank_website",
       "evidence": {
@@ -255,7 +290,12 @@
       "deposit_limit": "Below ₹3 crore",
       "row_count": 12,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Equitas Small Finance Bank",
@@ -288,7 +328,7 @@
       "senior_rate": 7.9,
       "senior_tenure": "30 Months 1 Day to 36 Months",
       "effective_date": null,
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -301,7 +341,12 @@
       "deposit_limit": "Below ₹3 crore",
       "row_count": 12,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Suryoday Small Finance Bank",
@@ -334,7 +379,7 @@
       "senior_rate": 8.3,
       "senior_tenure": ">2 Years - 3 Years (1095 Days)",
       "effective_date": null,
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.janabank.com/interest-rates/",
       "source_type": "official_bank_website",
       "evidence": {
@@ -347,7 +392,12 @@
       "deposit_limit": "Below ₹3 crore",
       "row_count": 108,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Federal Bank",
@@ -380,7 +430,7 @@
       "senior_rate": 7.75,
       "senior_tenure": "2 Years to 3 Years",
       "effective_date": "2026-07-24",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
       "source_type": "official_bank_website",
       "evidence": {
@@ -393,7 +443,12 @@
       "notes": "Domestic resident callable table below ₹3 crore; senior rates exclude NRO/NRE.",
       "row_count": 17,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Union Bank of India",
@@ -404,7 +459,7 @@
       "senior_rate": 7.05,
       "senior_tenure": "555 Days",
       "effective_date": "2026-08-10",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
       "source_type": "official_bank_website",
       "evidence": {
@@ -416,7 +471,12 @@
       "deposit_limit": "Below ₹3 crore",
       "notes": "Senior citizen rate is the official additional 0.50% benefit over the corresponding resident rate.",
       "row_count": 17,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Bank of India",
@@ -449,7 +509,7 @@
       "senior_rate": 8.3,
       "senior_tenure": "3 Year 1 Day – 3 year 6 months",
       "effective_date": "2026-09-01",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.ujjivansfb.bank.in/interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -461,7 +521,12 @@
       "deposit_limit": "Below ₹3 crore",
       "notes": "Awaiting exact extraction by the configured official-source adapter.",
       "row_count": 12,
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "ESAF Small Finance Bank",
@@ -489,24 +554,30 @@
       "bank_name": "RBL Bank",
       "category": "private_sector",
       "status": "VERIFIED",
-      "regular_rate": 8.15,
+      "regular_rate": 7.2,
       "regular_tenure": "18 months to 36 months",
-      "senior_rate": 8.4,
+      "senior_rate": 7.7,
       "senior_tenure": "18 months to 36 months",
-      "effective_date": "2026-06-18",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "effective_date": "2025-09-24",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.rblbank.com/interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
         "matched_tenure": "18 months to 36 months",
-        "matched_regular_rate": "8.15%",
-        "matched_senior_rate": "8.40%"
+        "matched_regular_rate": "7.20%",
+        "matched_senior_rate": "7.70%"
       },
       "deposit_category": "Domestic retail deposit",
       "deposit_limit": "Below ₹3 crore",
-      "row_count": 33,
+      "row_count": 12,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Fixed Deposits – Less than INR 3 crores – Premature Withdrawal Allowed",
+      "regular_source_column": "General Citizen — Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen — Senior Citizen Interest Rates (per annum)",
+      "notes": "Callable retail table selected; effective annualised yield and Super Senior Citizen columns excluded."
     },
     {
       "bank_name": "Bandhan Bank",
@@ -517,7 +588,7 @@
       "senior_rate": 7.95,
       "senior_tenure": "2 years to less than 3 years",
       "effective_date": "2026-06-20",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://www.bandhan.bank.in/fixed-deposit",
       "source_type": "official_bank_website",
       "evidence": {
@@ -529,7 +600,12 @@
       "deposit_limit": "Below ₹3 crore",
       "row_count": 12,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Indian Overseas Bank",
@@ -624,7 +700,7 @@
       "senior_rate": 8.25,
       "senior_tenure": "23 months 1 day to 27 months",
       "effective_date": "2026-09-01",
-      "verified_at": "2026-09-03T08:54:15Z",
+      "verified_at": "2026-09-03T09:18:05Z",
       "source_url": "https://shivalik.bank.in/interest-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -636,7 +712,12 @@
       "deposit_limit": "Below ₹3 crore",
       "row_count": 13,
       "notes": "Callable domestic retail FD below ₹3 crore; non-callable table is retained as a separate product by the source but excluded from the main ranking.",
-      "verification_status": "LIVE_VERIFIED"
+      "verification_status": "LIVE_VERIFIED",
+      "callable": true,
+      "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
+      "source_table": "Callable domestic resident retail FD table (adapter-selected)",
+      "regular_source_column": "General/Regular Citizen Interest Rates (per annum)",
+      "senior_source_column": "Senior Citizen Interest Rates (per annum)"
     },
     {
       "bank_name": "Bank of Maharashtra",

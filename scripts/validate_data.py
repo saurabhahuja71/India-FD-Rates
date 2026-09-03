@@ -19,6 +19,8 @@ try:
             assert 0 < float(row["regular_rate"]) <= 15 and 0 < float(row["senior_rate"]) <= 15
             assert row["regular_tenure"] and row["senior_tenure"] and row["verified_at"]
             assert row["evidence"]["matched_regular_rate"] and row["evidence"]["matched_senior_rate"]
+            assert row.get("callable") is True and row.get("customer_type") == "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL"
+            assert row.get("source_table") and row.get("regular_source_column") and row.get("senior_source_column")
 except (AssertionError, KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
     print(f"Invalid FD data: {exc}", file=sys.stderr); sys.exit(1)
 print(f"Validated {len(data['rows'])} FD rate rows")

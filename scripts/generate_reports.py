@@ -39,6 +39,39 @@ def main():
     report = ["# FD Verification Report", "", f"Generated: `{now}`", "", "## Ranking policy", "", "The published ranking is **highest callable resident-domestic-retail FD rate**, including callable special-tenure schemes (for example, 444/555-day products). Non-callable, bulk, NRI-only, and institutional products are excluded from the main ranking. Special products are retained separately in bank evidence.", "", "## Public-sector audit", "", "| Rank | Bank | Rate | Verification |", "|---:|---|---:|---|"]
     report += [f"| {r['rank']} | {r['bank']} | {r['rate']:.2f}% | {r['status']} |" for r in public["banks"]]
     report += ["", "### Bank of India", "", f"- Status: **{vstatus(boi)}**", f"- Evidence source: `{boi.get('source_url')}`", f"- Rate: **{boi.get('regular_rate') if boi.get('regular_rate') is not None else 'not available'}**", "- Rank: **not ranked** because no acceptable current official evidence was fetched.", "- Reason: official BOI pages and the official policy-document candidate returned HTTP 403 to this automation runner; no current downloadable rate schedule was verified.", "", "### State Bank of India", "", f"- Status: **{vstatus(sbi) if sbi else 'not ranked'}**", f"- Rank: **#{next((r['rank'] for r in public['banks'] if r['bank'] == 'State Bank of India'), 'not ranked')}**", "- SBI is included only if its current callable retail evidence remains within the ranking set; it is below the five higher verified public-sector rates in this snapshot."]
+    history_path = ROOT / "data/fd-rates-history.json"
+    history = json.loads(history_path.read_text()) if history_path.exists() else {"snapshots": []}
+    previous = history.get("snapshots", [])[-2] if len(history.get("snapshots", [])) >= 2 else None
+    if previous:
+        old = {r["bank_name"]: r for r in previous["rows"]}
+        changes=[]
+        for current in snapshot["rows"]:
+            before=old.get(current["bank_name"])
+            source_snapshot = previous
+            # A targeted diagnostic run may insert a FAILED snapshot between
+            # the old value and the corrected full run. Find the nearest
+            # earlier numeric value so the correction remains visible.
+            if before and before.get("regular_rate") == current.get("regular_rate"):
+                for candidate in reversed(history.get("snapshots", [])[:-1]):
+                    candidate_row=next((r for r in candidate["rows"] if r["bank_name"] == current["bank_name"]), None)
+                    if candidate_row and candidate_row.get("regular_rate") is not None and candidate_row.get("regular_rate") != current.get("regular_rate"):
+                        before=candidate_row; source_snapshot=candidate; break
+            if before and before.get("regular_rate") is not None and current.get("regular_rate") is not None and before.get("regular_rate") != current.get("regular_rate"):
+                current_rank=next((a["rank"] for a in audits for a in a["banks"] if a["bank"] == current["bank_name"]), None)
+                # Historical rank is reconstructed from the prior snapshot's
+                # callable verified rows, so the cause is auditable.
+                old_rows=[r for r in source_snapshot["rows"] if r["category"] == current["category"] and r.get("status") == "VERIFIED" and r.get("regular_rate") is not None]
+                old_rank=sorted(old_rows,key=lambda r:(-r["regular_rate"],r["bank_name"])).index(before)+1 if before.get("regular_rate") is not None and before in old_rows else None
+                cause = "RBL adapter previously selected non-callable/Super Senior columns; corrected to callable General/Senior columns" if current["bank_name"] == "RBL Bank" else "adapter/source-column correction"
+                changes.append({"bank":current["bank_name"],"old_rate":before.get("regular_rate"),"corrected_rate":current.get("regular_rate"),"old_rank":old_rank,"new_rank":current_rank,"root_cause":cause})
+        report += ["", "## Changes since previous snapshot", "", "| Bank | Old rate | Corrected rate | Old rank | New rank | Root cause |", "|---|---:|---:|---:|---:|---|"]
+        report += [f"| {c['bank']} | {c['old_rate']}% | {c['corrected_rate']}% | {c['old_rank'] or '—'} | {c['new_rank'] or '—'} | {c['root_cause']} |" for c in changes] or ["| — | — | — | — | — | No rate changes |"]
+    report += ["", "## Evidence blocks for ranked banks", ""]
+    for audit in audits:
+        report.append(f"### {audit['category']}")
+        for item in audit["banks"][:5]:
+            row=next(r for r in snapshot["rows"] if r["bank_name"] == item["bank"])
+            report += [f"- **{row['bank_name']}** — table: `{row.get('source_table')}`; tenure: `{row.get('regular_tenure')}`; regular column: `{row.get('regular_source_column')}` = **{row.get('regular_rate'):.2f}%**; senior column: `{row.get('senior_source_column')}` = **{row.get('senior_rate'):.2f}%**; source: {row.get('source_url')}"]
     VERIFICATION_REPORT.write_text("\n".join(report) + "\n")
 
 if __name__ == "__main__": main()
