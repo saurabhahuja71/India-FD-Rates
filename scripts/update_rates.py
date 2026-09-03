@@ -13,6 +13,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/fd-rates.json"
 CONFIG = ROOT / "scripts/banks.json"
+HISTORY = ROOT / "data/fd-rates-history.json"
 
 def fetch(url):
     req = Request(url, headers={"User-Agent": "India-FD-Rates/1.0 (source checker)"})
@@ -47,6 +48,11 @@ def main():
         return 0 if checked else 1
     snapshot["generated_at"] = date.today().isoformat()
     DATA.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n")
+    history = json.loads(HISTORY.read_text()) if HISTORY.exists() else {"snapshots": []}
+    history["snapshots"].append({"generated_at": snapshot["generated_at"], "rows": [{"bank": r["bank"], "category": r["category"], "regular": r["regular"], "senior": r["senior"]} for r in snapshot["rows"]]})
+    HISTORY.write_text(json.dumps(history, indent=2, ensure_ascii=False) + "\n")
+    from update_readme import main as update_readme
+    update_readme()
     return 0
 
 if __name__ == "__main__": sys.exit(main())

@@ -22,13 +22,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Check official bank sources and update snapshot
+      - name: Run FD rate updater
         run: python3 scripts/update_rates.py
-      - name: Commit changed snapshot
+      - name: Validate data
+        run: python3 scripts/validate_data.py
+      - name: Check git diff and commit changed files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/fd-rates.json
+          git add data/fd-rates.json data/fd-rates-history.json README.md
           git diff --cached --quiet || git commit -m "chore: update FD rates"
           git push
       - name: Configure Pages
