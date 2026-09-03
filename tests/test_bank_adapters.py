@@ -1,14 +1,20 @@
 import importlib
 from pathlib import Path
 import unittest
+import yaml
 
 ROOT = Path(__file__).parent
 GENERIC = (ROOT / "fixtures/generic_rate_page.html").read_bytes()
 HDFC = (ROOT / "fixtures/hdfc_rate_page.html").read_bytes()
 AXIS = b"<h2>Key Fixed Deposit Interest Rates</h2><table><tr><td>2 years</td><td>7.25%</td><td>6.00%</td><td>7.75%</td><td>6.50%</td></tr></table>"
-ADAPTERS = ["idfc_first", "federal", "yes", "indusind", "indian", "bank_of_india", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
+ADAPTERS = ["idfc_first", "federal", "yes", "indusind", "indian", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
 
 class AdapterFixtures(unittest.TestCase):
+    def test_registry_has_required_candidate_breadth(self):
+        configs = yaml.safe_load((Path(__file__).parents[1] / "config/banks.yaml").read_text())["banks"]
+        enabled = [x for x in configs if x.get("enabled", True)]
+        for category, minimum in (("private_sector", 7), ("public_sector", 10), ("small_finance", 7)):
+            self.assertGreaterEqual(sum(x["category"] == category for x in enabled), minimum)
     def test_hdfc_selects_retail_maximum(self):
         result = importlib.import_module("banks.hdfc").parse(HDFC)
         self.assertEqual(result["regular_rate"], 6.50)
@@ -52,6 +58,12 @@ class AdapterFixtures(unittest.TestCase):
         fixture = b'<h2>Domestic/ NRO Term Deposit</h2><p>effective from 4th August 2026</p><table><tr><td>555 Days</td><td>6.55</td></tr></table>'
         result = importlib.import_module("banks.union").parse(fixture)
         self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.55, 7.05))
+
+    def test_boi_separates_standard_and_green_deposit(self):
+        fixture = b'<h2>BANK HAS REVISED RATE OF INTEREST ON DOMESTIC / NRO TERM DEPOSITS (CALLABLE)</h2><table><tr><th>Maturity</th><th>For deposits less than Rs.3 Cr</th></tr><tr><td>3 Years</td><td>6.70</td></tr><tr><td>Above 3 Years to less than 5 Years</td><td>6.25</td></tr></table>'
+        result = importlib.import_module("banks.bank_of_india").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.70, 7.45))
+        self.assertEqual(result["products"][1]["product_type"], "GREEN_DEPOSIT")
 
     def test_ujjivan_applies_published_senior_benefit(self):
         fixture = b'<h2>Platina Fixed Deposit</h2><table><tr><td>2 years</td><td>7.55%</td></tr></table>'

@@ -4,6 +4,8 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 
 ## 📊 Current Highest FD Rates
 
+[View the all-bank inventory and every configured bank status](all-banks.html) · [Inspect the machine-readable ranking audit](data/ranking_audit.json)
+
 <!-- FD_TABLES_START -->
 
 ## 🏦 Top 5 Private Sector Banks
@@ -36,9 +38,9 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 
 ## Data Coverage
 
-- **Private Sector:** ✅ 2 / 7 banks verified
-- **Public Sector:** ✅ 5 / 7 banks verified
-- **Small Finance:** ✅ 2 / 7 banks verified
+- **Private Sector:** ✅ 2 / 9 banks verified
+- **Public Sector:** ✅ 5 / 10 banks verified
+- **Small Finance:** ✅ 2 / 9 banks verified
 
 ### Last Collection Run
 

@@ -47,7 +47,9 @@ def main():
     for cfg in configs:
         if not cfg.get("enabled", True): continue
         row = by_bank.get(cfg["name"])
-        if not row: failures.append(f'{cfg["name"]}: missing data row'); continue
+        if not row:
+            row = {"bank_name": cfg["name"], "category": cfg["category"], "status": "SAMPLE", "regular_rate": None, "regular_tenure": None, "senior_rate": None, "senior_tenure": None, "effective_date": None, "verified_at": None, "source_url": cfg["official_sources"][0]["url"], "source_type": "official_bank_website", "evidence": {"matched_tenure": None, "matched_regular_rate": None, "matched_senior_rate": None}}
+            snapshot["rows"].append(row); by_bank[cfg["name"]] = row
         row.update({"category": cfg["category"], "deposit_category": cfg["deposit_category"], "deposit_limit": cfg["retail_threshold"], "source_url": cfg["official_sources"][0]["url"]})
         if args.bank and cfg["id"] != args.bank: continue
         if not cfg.get("parser"):
@@ -100,6 +102,8 @@ def main():
     HISTORY.write_text(json.dumps(history, indent=2, ensure_ascii=False) + "\n")
     from update_readme import main as update_readme
     update_readme()
+    from generate_reports import main as generate_reports
+    generate_reports()
     return 0 if checked else 1
 
 if __name__ == "__main__": sys.exit(main())

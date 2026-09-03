@@ -404,7 +404,7 @@
       "senior_tenure": null,
       "effective_date": null,
       "verified_at": null,
-      "source_url": "https://bankofindia.co.in/interest-rates",
+      "source_url": "https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate",
       "source_type": "official_bank_website",
       "evidence": {
         "matched_tenure": null,
@@ -456,6 +456,146 @@
       "deposit_category": "Domestic retail fixed deposit",
       "deposit_limit": "Below ₹3 crore",
       "notes": "Awaiting exact extraction by the configured official-source adapter."
+    },
+    {
+      "bank_name": "RBL Bank",
+      "category": "private_sector",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.rblbank.com/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore"
+    },
+    {
+      "bank_name": "Bandhan Bank",
+      "category": "private_sector",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://bandhanbank.com/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore"
+    },
+    {
+      "bank_name": "Indian Overseas Bank",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.iob.in/Interest-Rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
+    },
+    {
+      "bank_name": "UCO Bank",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.ucobank.com/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
+    },
+    {
+      "bank_name": "Central Bank of India",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://centralbankofindia.co.in/en/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
+    },
+    {
+      "bank_name": "Unity Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://unitybank.co.in/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore"
+    },
+    {
+      "bank_name": "Shivalik Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://shivalikbank.com/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore"
     }
   ]
 }

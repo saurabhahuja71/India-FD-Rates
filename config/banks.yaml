@@ -62,6 +62,24 @@ banks:
     retail_threshold: Below ₹3 crore
     official_sources:
       - {type: html, url: https://www.indusind.com/in/en/personal/rates-and-charges.html}
+  - id: rbl
+    name: RBL Bank
+    category: private_sector
+    parser: rbl
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.rblbank.com/interest-rates}
+  - id: bandhan
+    name: Bandhan Bank
+    category: private_sector
+    parser: bandhan
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://bandhanbank.com/interest-rates}
   - id: sbi
     name: State Bank of India
     category: public_sector
@@ -124,7 +142,34 @@ banks:
     deposit_category: Domestic retail term deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://bankofindia.co.in/interest-rates}
+      - {type: html, url: https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate}
+  - id: indian_overseas
+    name: Indian Overseas Bank
+    category: public_sector
+    parser: indian_overseas
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.iob.in/Interest-Rates}
+  - id: uco
+    name: UCO Bank
+    category: public_sector
+    parser: uco
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.ucobank.com/interest-rates}
+  - id: central_bank
+    name: Central Bank of India
+    category: public_sector
+    parser: central_bank
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://centralbankofindia.co.in/en/interest-rates}
   - id: au_small_finance
     name: AU Small Finance Bank
     category: small_finance
@@ -188,3 +233,21 @@ banks:
     retail_threshold: Below ₹3 crore
     official_sources:
       - {type: html, url: https://www.utkarsh.bank/personal/term-deposits/fixed-deposits-plus}
+  - id: unity
+    name: Unity Small Finance Bank
+    category: small_finance
+    parser: unity
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://unitybank.co.in/interest-rates}
+  - id: shivalik
+    name: Shivalik Small Finance Bank
+    category: small_finance
+    parser: shivalik
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://shivalikbank.com/interest-rates}
