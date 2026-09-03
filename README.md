@@ -15,7 +15,7 @@ The rankings use the highest eligible callable resident-domestic-retail FD rate,
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Verification | Last Verified | Source |
 |------|------|-----------------|----------------|--------|--------------|---------------|--------|
 | 1 | Bandhan Bank | 7.45% | 7.95% | 2 years to less than 3 years | LIVE | 03 Sep 2026 | [Official](https://www.bandhan.bank.in/fixed-deposit) |
-| 2 | RBL Bank | 7.20% | 7.70% | 18 months to 36 months | LIVE | 03 Sep 2026 | [Official](https://www.rblbank.com/interest-rates) |
+| 2 | RBL Bank | 7.20% | 7.70% | 18 months to 36 months | LIVE | 03 Sep 2026 | [Official](https://www.rbl.bank.in/interest-rates) |
 | 3 | IndusInd Bank | 7.00% | 7.75% | 2 Years to 3 Years | LIVE | 03 Sep 2026 | [Official](https://www.indusind.bank.in/in/en/personal/rates.html) |
 | 4 | Yes Bank | 7.00% | 7.75% | Regular: 18 months 1 day < 24 months<br>Senior: 36 months < 60 months | LIVE | 03 Sep 2026 | [Official](https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false) |
 | 5 | Axis Bank | 6.50% | 7.00% | 18 Months < 2 Years | LIVE | 03 Sep 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
@@ -26,9 +26,9 @@ The rankings use the highest eligible callable resident-domestic-retail FD rate,
 |------|------|-----------------|----------------|--------|--------------|---------------|--------|
 | 1 | Bank of Baroda | 6.75% | 7.25% | bob Golden Goal deposit Scheme (555 Days) | LIVE | 03 Sep 2026 | [Official](https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores) |
 | 2 | Canara Bank | 6.60% | 7.10% | 555 Days* | LIVE | 03 Sep 2026 | [Official](https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.) |
-| 3 | Punjab National Bank | 6.60% | 7.10% | 444 Days | LIVE | 03 Sep 2026 | [Official](https://www.pnbindia.in/interest-rates-deposit.html) |
-| 4 | Union Bank of India | 6.55% | 7.05% | 555 Days | LIVE | 03 Sep 2026 | [Official](https://www.unionbankofindia.bank.in/en/details/rate-of-interest) |
-| 5 | State Bank of India | 6.45% | 7.05% | Regular: 2 years to less than 3 years<br>Senior: 5 years and up to 10 years | LIVE | 03 Sep 2026 | [Official](https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits) |
+| 3 | Indian Overseas Bank | 6.60% | 7.10% | 444 Days | LIVE | 03 Sep 2026 | [Official](https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates) |
+| 4 | Punjab National Bank | 6.60% | 7.10% | 444 Days | LIVE | 03 Sep 2026 | [Official](https://www.pnbindia.in/interest-rates-deposit.html) |
+| 5 | Union Bank of India | 6.55% | 7.05% | 555 Days | LIVE | 03 Sep 2026 | [Official](https://www.unionbankofindia.bank.in/en/details/rate-of-interest) |
 
 ## 🏦 Highest Callable Retail FD Rates — Small Finance
 
@@ -43,7 +43,7 @@ The rankings use the highest eligible callable resident-domestic-retail FD rate,
 ## Data Coverage
 
 - **Private Sector:** ✅ 6 / 9 banks verified
-- **Public Sector:** ✅ 5 / 12 banks verified
+- **Public Sector:** ✅ 6 / 12 banks verified
 - **Small Finance:** ✅ 5 / 9 banks verified
 
 ### Last Collection Run

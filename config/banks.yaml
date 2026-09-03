@@ -155,7 +155,7 @@ banks:
     deposit_category: Domestic retail term deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://www.iob.in/Interest-Rates}
+      - {type: html, url: https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates}
   - id: uco
     name: UCO Bank
     category: public_sector

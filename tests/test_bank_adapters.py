@@ -91,4 +91,12 @@ class AdapterFixtures(unittest.TestCase):
         self.assertIn("General Citizen", result["regular_source_column"])
         self.assertIn("Senior Citizen", result["senior_source_column"])
 
+    def test_iob_selects_revised_retail_not_non_callable_or_bulk(self):
+        fixture = (Path(__file__).parent / "fixtures/iob_rate_page.html").read_bytes()
+        result = importlib.import_module("banks.indian_overseas").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.60, 7.10))
+        self.assertTrue(result["callable"])
+        self.assertNotIn("Non-Callable", result["regular_source_column"])
+        self.assertNotIn("Bulk", result["source_table"])
+
 if __name__ == "__main__": unittest.main()

@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:21:22Z",
+    "generated_at": "2026-09-03T09:36:51Z",
     "banks": [
       {
         "rank": 1,
@@ -16,7 +16,7 @@
         "bank": "RBL Bank",
         "rate": 7.2,
         "status": "LIVE_VERIFIED",
-        "source": "https://www.rblbank.com/interest-rates"
+        "source": "https://www.rbl.bank.in/interest-rates"
       },
       {
         "rank": 3,
@@ -65,7 +65,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:21:22Z",
+    "generated_at": "2026-09-03T09:36:51Z",
     "banks": [
       {
         "rank": 1,
@@ -83,20 +83,27 @@
       },
       {
         "rank": 3,
+        "bank": "Indian Overseas Bank",
+        "rate": 6.6,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates"
+      },
+      {
+        "rank": 4,
         "bank": "Punjab National Bank",
         "rate": 6.6,
         "status": "LIVE_VERIFIED",
         "source": "https://www.pnbindia.in/interest-rates-deposit.html"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "bank": "Union Bank of India",
         "rate": 6.55,
         "status": "LIVE_VERIFIED",
         "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "bank": "State Bank of India",
         "rate": 6.45,
         "status": "LIVE_VERIFIED",
@@ -110,10 +117,6 @@
       },
       {
         "bank": "Bank of India",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
-        "bank": "Indian Overseas Bank",
         "reason": "FAILED_SOURCE_PARSING"
       },
       {
@@ -137,7 +140,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:21:22Z",
+    "generated_at": "2026-09-03T09:36:51Z",
     "banks": [
       {
         "rank": 1,
