@@ -1,230 +1,290 @@
 {
   "generated_at": "2026-09-03",
-  "methodology": "Highest explicit retail rate found in the official source snapshot; rates are annual nominal rates. Values requiring a limited-period or non-callable product are labelled.",
+  "methodology": "Only VERIFIED rows participate in current rankings. Legacy values without exact extracted evidence are SAMPLE and are never presented as current rates.",
   "rows": [
     {
-      "category": "private",
-      "bank": "IDFC FIRST Bank",
-      "regular": {
-        "rate": 7.35,
-        "tenure": "400 days"
+      "bank_name": "IDFC FIRST Bank",
+      "category": "private_sector",
+      "status": "SAMPLE",
+      "regular_rate": 7.35,
+      "regular_tenure": "400 days",
+      "senior_rate": 7.75,
+      "senior_tenure": "400 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.75,
-        "tenure": "400 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit",
       "notes": "Resident retail FD; below the applicable deposit limit."
     },
     {
-      "category": "private",
-      "bank": "HDFC Bank",
-      "regular": {
-        "rate": 7.0,
-        "tenure": "18 months to <21 months"
+      "bank_name": "HDFC Bank",
+      "category": "private_sector",
+      "status": "VERIFIED",
+      "regular_rate": 6.5,
+      "regular_tenure": "3 Years 1 day to < 4 Years 7 Months",
+      "senior_rate": 7.1,
+      "senior_tenure": "3 Years 1 day to < 4 Years 7 Months",
+      "effective_date": "2026-08-19",
+      "verified_at": "2026-09-03T06:57:38Z",
+      "source_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": "3 Years 1 day to < 4 Years 7 Months",
+        "matched_regular_rate": "6.50%",
+        "matched_senior_rate": "7.10%"
       },
-      "senior": {
-        "rate": 7.5,
-        "tenure": "18 months to <21 months"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.hdfcbank.com/personal/save/deposits/fixed-deposit-interest-rate",
       "notes": "Retail domestic FD; rate card and amount bands apply."
     },
     {
-      "category": "private",
-      "bank": "Axis Bank",
-      "regular": {
-        "rate": 7.1,
-        "tenure": "15 months to <18 months"
+      "bank_name": "Axis Bank",
+      "category": "private_sector",
+      "status": "SAMPLE",
+      "regular_rate": 7.1,
+      "regular_tenure": "15 months to <18 months",
+      "senior_rate": 7.6,
+      "senior_tenure": "15 months to <18 months",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.axisbank.com/interest-rate-on-deposits",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.6,
-        "tenure": "15 months to <18 months"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.axisbank.com/interest-rate-on-deposits",
       "notes": "Resident retail deposit; check current amount slab."
     },
     {
-      "category": "private",
-      "bank": "ICICI Bank",
-      "regular": {
-        "rate": 6.0,
-        "tenure": "15 months to 2 years"
+      "bank_name": "ICICI Bank",
+      "category": "private_sector",
+      "status": "SAMPLE",
+      "regular_rate": 6.0,
+      "regular_tenure": "15 months to 2 years",
+      "senior_rate": 7.6,
+      "senior_tenure": "15 months to 2 years",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.6,
-        "tenure": "15 months to 2 years"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
       "notes": "Domestic retail FD; senior rate for eligible resident citizens."
     },
     {
-      "category": "private",
-      "bank": "Yes Bank",
-      "regular": {
-        "rate": 7.25,
-        "tenure": "18 months"
+      "bank_name": "Yes Bank",
+      "category": "private_sector",
+      "status": "SAMPLE",
+      "regular_rate": 7.25,
+      "regular_tenure": "18 months",
+      "senior_rate": 8.0,
+      "senior_tenure": "18 months",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.yesbank.in/personal-banking/deposits/fixed-de-deposits",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 8.0,
-        "tenure": "18 months"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.yesbank.in/personal-banking/deposits/fixed-de-deposits",
       "notes": "Resident retail FD; confirm callable/product conditions."
     },
     {
-      "category": "public",
-      "bank": "Bank of Baroda",
-      "regular": {
-        "rate": 5.0,
-        "tenure": "400 days"
+      "bank_name": "Bank of Baroda",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": 5.0,
+      "regular_tenure": "400 days",
+      "senior_rate": 7.65,
+      "senior_tenure": "400 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.bankofbaroda.in/personal-banking/accounts/term-deposit/fixed-deposit",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.65,
-        "tenure": "400 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.bankofbaroda.in/personal-banking/accounts/term-deposit/fixed-deposit",
       "notes": "Special 400-day scheme; verify its availability before booking."
     },
     {
-      "category": "public",
-      "bank": "State Bank of India",
-      "regular": {
-        "rate": 7.05,
-        "tenure": "2 years to <3 years"
+      "bank_name": "State Bank of India",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": 7.05,
+      "regular_tenure": "2 years to <3 years",
+      "senior_rate": 7.55,
+      "senior_tenure": "2 years to <3 years",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposit-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.55,
-        "tenure": "2 years to <3 years"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposit-rates",
       "notes": "Retail domestic term deposit under ₹3 crore."
     },
     {
-      "category": "public",
-      "bank": "Canara Bank",
-      "regular": {
-        "rate": 7.0,
-        "tenure": "444 days"
+      "bank_name": "Canara Bank",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": 7.0,
+      "regular_tenure": "444 days",
+      "senior_rate": 7.5,
+      "senior_tenure": "444 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://canarabank.com/pages/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.5,
-        "tenure": "444 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://canarabank.com/pages/interest-rates",
       "notes": "Check whether the special-tenure offer remains open."
     },
     {
-      "category": "public",
-      "bank": "Punjab National Bank",
-      "regular": {
-        "rate": 5.0,
-        "tenure": "400 days"
+      "bank_name": "Punjab National Bank",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": 5.0,
+      "regular_tenure": "400 days",
+      "senior_rate": 7.5,
+      "senior_tenure": "400 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.pnbindia.in/interest-rates-deposit.html",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.5,
-        "tenure": "400 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.pnbindia.in/interest-rates-deposit.html",
       "notes": "Retail domestic term deposit; special-tenure scheme may have an end date."
     },
     {
-      "category": "public",
-      "bank": "Indian Bank",
-      "regular": {
-        "rate": 6.8,
-        "tenure": "555 days"
+      "bank_name": "Indian Bank",
+      "category": "public_sector",
+      "status": "SAMPLE",
+      "regular_rate": 6.8,
+      "regular_tenure": "555 days",
+      "senior_rate": 7.3,
+      "senior_tenure": "555 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.indianbank.in/departments/ind-green-555-days/",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.3,
-        "tenure": "555 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.indianbank.in/departments/ind-green-555-days/",
       "notes": "IND Green special scheme; minimum ₹1,000, maximum below ₹3 crore."
     },
     {
-      "category": "small-finance",
-      "bank": "Utkarsh Small Finance Bank",
-      "regular": {
-        "rate": 8.0,
-        "tenure": "666 days"
+      "bank_name": "Utkarsh Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": 8.0,
+      "regular_tenure": "666 days",
+      "senior_rate": 8.85,
+      "senior_tenure": "666 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.utkarsh.bank/personal/term-deposits/fixed-deposits-plus",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 8.85,
-        "tenure": "666 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.utkarsh.bank/personal/term-deposits/fixed-deposits-plus",
       "notes": "Fixed Deposit Plus is non-callable and has deposit/withdrawal conditions; verify rate card."
     },
     {
-      "category": "small-finance",
-      "bank": "Equitas Small Finance Bank",
-      "regular": {
-        "rate": 7.8,
-        "tenure": "888 days"
+      "bank_name": "Equitas Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": 7.8,
+      "regular_tenure": "888 days",
+      "senior_rate": 8.4,
+      "senior_tenure": "888 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 8.4,
-        "tenure": "888 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
       "notes": "Limited/special 888-day rate; senior uplift is 0.60% for this tenure."
     },
     {
-      "category": "small-finance",
-      "bank": "AU Small Finance Bank",
-      "regular": {
-        "rate": 7.4,
-        "tenure": "30 months 1 day to 36 months"
+      "bank_name": "AU Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": 7.4,
+      "regular_tenure": "30 months 1 day to 36 months",
+      "senior_rate": 7.9,
+      "senior_tenure": "30 months 1 day to 36 months",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 7.9,
-        "tenure": "30 months 1 day to 36 months"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
       "notes": "Resident retail FD below ₹3 crore; senior rate requires eligible resident customer."
     },
     {
-      "category": "small-finance",
-      "bank": "Suryoday Small Finance Bank",
-      "regular": {
-        "rate": 8.0,
-        "tenure": "5 years"
+      "bank_name": "Suryoday Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": 8.0,
+      "regular_tenure": "5 years",
+      "senior_rate": 8.6,
+      "senior_tenure": "5 years",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.suryodaybank.com/interest-rates/",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 8.6,
-        "tenure": "5 years"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.suryodaybank.com/interest-rates/",
       "notes": "Check current retail rate card and product eligibility."
     },
     {
-      "category": "small-finance",
-      "bank": "Jana Small Finance Bank",
-      "regular": {
-        "rate": 5.0,
-        "tenure": "365 days"
+      "bank_name": "Jana Small Finance Bank",
+      "category": "small_finance",
+      "status": "SAMPLE",
+      "regular_rate": 5.0,
+      "regular_tenure": "365 days",
+      "senior_rate": 8.5,
+      "senior_tenure": "365 days",
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.janabank.com/interest-rates/",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
-      "senior": {
-        "rate": 8.5,
-        "tenure": "365 days"
-      },
-      "last_updated": "2026-09-03",
-      "source": "https://www.janabank.com/interest-rates/",
       "notes": "Resident retail deposit; confirm current slab and callable status."
     }
   ]

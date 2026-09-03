@@ -1,6 +1,6 @@
 [
   {"bank":"IDFC FIRST Bank","source":"https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit","category":"private","pattern":"up to\\s+(\\d+(?:\\.\\d+)?)%"},
-  {"bank":"HDFC Bank","source":"https://www.hdfcbank.com/personal/save/deposits/fixed-deposit-interest-rate","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
+  {"bank":"HDFC Bank","source":"https://www.hdfcbank.com/personal/save/deposits/fixed-deposit-interest-rate","category":"private","parser":"hdfc_retail_under_3cr"},
   {"bank":"Axis Bank","source":"https://www.axisbank.com/interest-rate-on-deposits","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
   {"bank":"ICICI Bank","source":"https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
   {"bank":"Yes Bank","source":"https://www.yesbank.in/personal-banking/deposits/fixed-de-deposits","category":"private","pattern":"(?:highest|up to)[^%]{0,80}(\\d+(?:\\.\\d+)?)%"},
