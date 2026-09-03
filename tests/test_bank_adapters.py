@@ -6,7 +6,7 @@ ROOT = Path(__file__).parent
 GENERIC = (ROOT / "fixtures/generic_rate_page.html").read_bytes()
 HDFC = (ROOT / "fixtures/hdfc_rate_page.html").read_bytes()
 AXIS = b"<h2>Key Fixed Deposit Interest Rates</h2><table><tr><td>2 years</td><td>7.25%</td><td>6.00%</td><td>7.75%</td><td>6.50%</td></tr></table>"
-ADAPTERS = ["idfc_first", "federal", "yes", "indusind", "bank_of_baroda", "pnb", "canara", "union", "indian", "bank_of_india", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
+ADAPTERS = ["idfc_first", "federal", "yes", "indusind", "indian", "bank_of_india", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
 
 class AdapterFixtures(unittest.TestCase):
     def test_hdfc_selects_retail_maximum(self):
@@ -28,10 +28,30 @@ class AdapterFixtures(unittest.TestCase):
         result = importlib.import_module("banks.axis").parse(AXIS)
         self.assertEqual((result["regular_rate"], result["senior_rate"]), (7.25, 7.75))
 
-    def test_sbi_uses_revised_public_and_senior_columns(self):
-        fixture = b'<h2>Revision in Interest Rates on Retail</h2><table><tr><td>2 years</td><td>6.00%</td><td>6.45%</td><td>6.50%</td><td>6.95%</td></tr></table>'
+    def test_sbi_uses_current_public_and_senior_columns(self):
+        fixture = b'<h2>Retail Domestic term deposits</h2><table><tr><td>2 years</td><td>6.45</td><td>6.40</td><td>6.95</td><td>6.90</td></tr></table>'
         result = importlib.import_module("banks.sbi").parse(fixture)
         self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.45, 6.95))
+
+    def test_pnb_selects_public_and_senior_columns(self):
+        fixture = b'<h2>Revised Rates For Public</h2><table><tr><th>Sl. No</th><th>Period</th><th>Revised Rates For Public</th><th>Senior Citizens</th><th>Super Senior</th></tr><tr><td>1</td><td>444 Days</td><td>6.60</td><td>7.10</td><td>7.40</td></tr></table>'
+        result = importlib.import_module("banks.pnb").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.60, 7.10))
+
+    def test_canara_selects_callable_general_and_senior_columns(self):
+        fixture = b'<h2>TERM DEPOSITS Rate of Interest Deposits less than Rs.3 Crore</h2><table><tr><th>Term</th><th>General Public</th><th>Yield</th><th>Senior Citizen</th><th>Yield</th></tr><tr><td>555 Days</td><td>6.60</td><td>6.77</td><td>7.10</td><td>7.29</td></tr></table>'
+        result = importlib.import_module("banks.canara").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.60, 7.10))
+
+    def test_bank_of_baroda_selects_domestic_retail_rows(self):
+        fixture = b'<p>Domestic Term Deposits below 3.00 Crores (w.e.f 12-06-2026)</p><table><tr><td>bob Golden Goal deposit Scheme (555 Days)</td><td>6.75</td><td>7.25</td></tr></table>'
+        result = importlib.import_module("banks.bank_of_baroda").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.75, 7.25))
+
+    def test_union_applies_official_senior_benefit(self):
+        fixture = b'<h2>Domestic/ NRO Term Deposit</h2><p>effective from 4th August 2026</p><table><tr><td>555 Days</td><td>6.55</td></tr></table>'
+        result = importlib.import_module("banks.union").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.55, 7.05))
 
     def test_ujjivan_applies_published_senior_benefit(self):
         fixture = b'<h2>Platina Fixed Deposit</h2><table><tr><td>2 years</td><td>7.55%</td></tr></table>'

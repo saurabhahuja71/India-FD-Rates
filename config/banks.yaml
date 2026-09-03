@@ -79,7 +79,7 @@ banks:
     deposit_category: Domestic retail term deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://www.bankofbaroda.in/personal-banking/accounts/term-deposit/fixed-deposit}
+      - {type: html, url: https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores}
   - id: pnb
     name: Punjab National Bank
     category: public_sector
@@ -97,7 +97,7 @@ banks:
     deposit_category: Domestic retail term deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://canarabank.com/pages/interest-rates}
+      - {type: html, url: https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.}
   - id: union
     name: Union Bank of India
     category: public_sector
@@ -106,7 +106,7 @@ banks:
     deposit_category: Domestic retail term deposit
     retail_threshold: Below ₹3 crore
     official_sources:
-      - {type: html, url: https://www.unionbankofindia.co.in/en/interest-rate}
+      - {type: html, url: https://www.unionbankofindia.bank.in/en/details/rate-of-interest}
   - id: indian
     name: Indian Bank
     category: public_sector

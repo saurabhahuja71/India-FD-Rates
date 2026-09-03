@@ -10,8 +10,8 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Last Verified | Source |
 |------|------|-----------------|----------------|--------|---------------|--------|
-| 1 | Axis Bank — Resident retail deposit; check current amount slab. | 6.50% | 7.00% | 18 Months < 2 Years | 03 Sep 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
-| 2 | HDFC Bank — Retail domestic FD; rate card and amount bands apply. | 6.50% | 7.10% | 3 Years 1 day to < 4 Years 7 Months | 03 Sep 2026 | [Official](https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate) |
+| 1 | Axis Bank | 6.50% | 7.00% | 18 Months < 2 Years | 03 Sep 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
+| 2 | HDFC Bank | 6.50% | 7.10% | 3 Years 1 day to < 4 Years 7 Months | 03 Sep 2026 | [Official](https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate) |
 
 > ⚠️ Only 2 bank(s) could be verified in the latest collection run.
 
@@ -19,21 +19,25 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Last Verified | Source |
 |------|------|-----------------|----------------|--------|---------------|--------|
-| — | No VERIFIED retail rate available | — | — | — | — | — |
+| 1 | Bank of Baroda | 6.75% | 7.25% | bob Golden Goal deposit Scheme (555 Days) | 03 Sep 2026 | [Official](https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores) |
+| 2 | Canara Bank | 6.60% | 7.10% | 555 Days* | 03 Sep 2026 | [Official](https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.) |
+| 3 | Punjab National Bank | 6.60% | 7.10% | 444 Days | 03 Sep 2026 | [Official](https://www.pnbindia.in/interest-rates-deposit.html) |
+| 4 | Union Bank of India | 6.55% | 7.05% | 555 Days | 03 Sep 2026 | [Official](https://www.unionbankofindia.bank.in/en/details/rate-of-interest) |
+| 5 | State Bank of India | 6.45% | 7.05% | Regular: 2 years to less than 3 years<br>Senior: 5 years and up to 10 years | 03 Sep 2026 | [Official](https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits) |
 
 ## 🏦 Top 5 Small Finance Banks
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Last Verified | Source |
 |------|------|-----------------|----------------|--------|---------------|--------|
-| 1 | Jana Small Finance Bank — Resident retail deposit; confirm current slab and callable status. | 8.00% | 8.30% | >2 Years - 3 Years (1095 Days) | 03 Sep 2026 | [Official](https://www.janabank.com/interest-rates/) |
-| 2 | AU Small Finance Bank — Resident retail FD below ₹3 crore; senior rate requires eligible resident customer. | 7.40% | 7.90% | 30 Months 1 Day to 36 Months | 03 Sep 2026 | [Official](https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates) |
+| 1 | Jana Small Finance Bank | 8.00% | 8.30% | >2 Years - 3 Years (1095 Days) | 03 Sep 2026 | [Official](https://www.janabank.com/interest-rates/) |
+| 2 | AU Small Finance Bank | 7.40% | 7.90% | 30 Months 1 Day to 36 Months | 03 Sep 2026 | [Official](https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates) |
 
 > ⚠️ Only 2 bank(s) could be verified in the latest collection run.
 
 ## Data Coverage
 
 - **Private Sector:** ✅ 2 / 7 banks verified
-- **Public Sector:** ✅ 0 / 7 banks verified
+- **Public Sector:** ✅ 5 / 7 banks verified
 - **Small Finance:** ✅ 2 / 7 banks verified
 
 ### Last Collection Run
@@ -53,6 +57,7 @@ A GitHub project that automatically tracks the highest publicly advertised retai
 - `.github/workflows/update-fd-rates.yml` validates the data, commits changed data/history/README files, and deploys the Pages site.
 - `config/banks.yaml` is the bank registry. Each enabled bank loads an independent adapter from `scripts/banks/`; adapters can select HTML tables, structured HTML, official PDFs, or official endpoints without sharing a brittle site-wide regex.
 - A failed adapter affects only that bank. It is written as `FAILED`, excluded from the current ranking, and included in the next collection report for repair.
+- `data/fetch_failures.json` records attempted official URLs, HTTP metadata, parser stage, and the exact failure reason for the latest collection run.
 
 ## Data Accuracy
 

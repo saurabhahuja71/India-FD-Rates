@@ -26,8 +26,7 @@ def build_tables(snapshot):
         for rank, row in enumerate(rows, 1):
             regular = f'{row["regular_rate"]:.2f}%'; senior = f'{row["senior_rate"]:.2f}%'
             tenure = row["regular_tenure"] if row["regular_tenure"] == row["senior_tenure"] else f'Regular: {row["regular_tenure"]}<br>Senior: {row["senior_tenure"]}'
-            notes = f' — {row["notes"]}' if row.get("notes") else ""
-            output.append(f'| {rank} | {row["bank_name"]}{notes} | {regular} | {senior} | {tenure} | {fmt_date(row["verified_at"][:10])} | [Official]({row["source_url"]}) |')
+            output.append(f'| {rank} | {row["bank_name"]} | {regular} | {senior} | {tenure} | {fmt_date(row["verified_at"][:10])} | [Official]({row["source_url"]}) |')
         if not rows:
             output.append("| — | No VERIFIED retail rate available | — | — | — | — | — |")
         elif len(rows) < 5:
