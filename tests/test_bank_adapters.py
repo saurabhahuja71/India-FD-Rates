@@ -1,0 +1,50 @@
+import importlib
+from pathlib import Path
+import unittest
+
+ROOT = Path(__file__).parent
+GENERIC = (ROOT / "fixtures/generic_rate_page.html").read_bytes()
+HDFC = (ROOT / "fixtures/hdfc_rate_page.html").read_bytes()
+AXIS = b"<h2>Key Fixed Deposit Interest Rates</h2><table><tr><td>2 years</td><td>7.25%</td><td>6.00%</td><td>7.75%</td><td>6.50%</td></tr></table>"
+ADAPTERS = ["idfc_first", "federal", "yes", "indusind", "bank_of_baroda", "pnb", "canara", "union", "indian", "bank_of_india", "equitas", "jana", "esaf", "suryoday", "utkarsh"]
+
+class AdapterFixtures(unittest.TestCase):
+    def test_hdfc_selects_retail_maximum(self):
+        result = importlib.import_module("banks.hdfc").parse(HDFC)
+        self.assertEqual(result["regular_rate"], 6.50)
+        self.assertEqual(result["senior_rate"], 7.10)
+        self.assertEqual(result["regular_tenure"], "3 Years 1 day to < 4 Years 7 Months")
+        self.assertEqual(result["effective_date"], "2026-08-19")
+
+    def test_each_generic_adapter_extracts_and_excludes_bulk(self):
+        for name in ADAPTERS:
+            with self.subTest(adapter=name):
+                result = importlib.import_module(f"banks.{name}").parse(GENERIC)
+                self.assertEqual(result["regular_rate"], 7.25)
+                self.assertEqual(result["senior_rate"], 7.75)
+                self.assertEqual(result["row_count"], 2)
+
+    def test_axis_uses_general_and_senior_columns(self):
+        result = importlib.import_module("banks.axis").parse(AXIS)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (7.25, 7.75))
+
+    def test_sbi_uses_revised_public_and_senior_columns(self):
+        fixture = b'<h2>Revision in Interest Rates on Retail</h2><table><tr><td>2 years</td><td>6.00%</td><td>6.45%</td><td>6.50%</td><td>6.95%</td></tr></table>'
+        result = importlib.import_module("banks.sbi").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (6.45, 6.95))
+
+    def test_ujjivan_applies_published_senior_benefit(self):
+        fixture = b'<h2>Platina Fixed Deposit</h2><table><tr><td>2 years</td><td>7.55%</td></tr></table>'
+        result = importlib.import_module("banks.ujjivan").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (7.55, 8.05))
+
+    def test_au_pairs_regular_and_senior_tables(self):
+        fixture = b'<h2>Domestic, NRE Retail Fixed Deposit Interest Rates</h2><table><tr><td>2 years</td><td>7.25%</td></tr></table><h2>Senior Citizen Fixed Deposit Interest Rates</h2><table><tr><td>2 years</td><td>7.75%</td></tr></table>'
+        result = importlib.import_module("banks.au_small_finance").parse(fixture)
+        self.assertEqual((result["regular_rate"], result["senior_rate"]), (7.25, 7.75))
+
+    def test_icici_does_not_verify_headline_without_tenure(self):
+        with self.assertRaises(ValueError):
+            importlib.import_module("banks.icici").parse(b"general citizens up to 6.50%")
+
+if __name__ == "__main__": unittest.main()

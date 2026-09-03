@@ -5,7 +5,7 @@
     {
       "bank_name": "IDFC FIRST Bank",
       "category": "private_sector",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 7.35,
       "regular_tenure": "400 days",
       "senior_rate": 7.75,
@@ -19,7 +19,9 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Resident retail FD; below the applicable deposit limit."
+      "notes": "Resident retail FD; below the applicable deposit limit.",
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "HDFC Bank",
@@ -30,7 +32,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "3 Years 1 day to < 4 Years 7 Months",
       "effective_date": "2026-08-19",
-      "verified_at": "2026-09-03T06:56:39Z",
+      "verified_at": "2026-09-03T07:14:30Z",
       "source_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -38,35 +40,42 @@
         "matched_regular_rate": "6.50%",
         "matched_senior_rate": "7.10%"
       },
-      "notes": "Retail domestic FD; rate card and amount bands apply."
+      "notes": "Retail domestic FD; rate card and amount bands apply.",
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 38
     },
     {
       "bank_name": "Axis Bank",
       "category": "private_sector",
-      "status": "SAMPLE",
-      "regular_rate": 7.1,
-      "regular_tenure": "15 months to <18 months",
-      "senior_rate": 7.6,
-      "senior_tenure": "15 months to <18 months",
+      "status": "VERIFIED",
+      "regular_rate": 6.5,
+      "regular_tenure": "18 Months < 2 Years",
+      "senior_rate": 7.0,
+      "senior_tenure": "18 Months < 2 Years",
       "effective_date": null,
-      "verified_at": null,
+      "verified_at": "2026-09-03T07:14:30Z",
       "source_url": "https://www.axisbank.com/interest-rate-on-deposits",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "18 Months < 2 Years",
+        "matched_regular_rate": "6.50%",
+        "matched_senior_rate": "7.00%"
       },
-      "notes": "Resident retail deposit; check current amount slab."
+      "notes": "Resident retail deposit; check current amount slab.",
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 2,
+      "effective_date_note": "Official page did not publish an effective date; verified at retrieval time."
     },
     {
       "bank_name": "ICICI Bank",
       "category": "private_sector",
-      "status": "SAMPLE",
-      "regular_rate": 6.0,
-      "regular_tenure": "15 months to 2 years",
-      "senior_rate": 7.6,
-      "senior_tenure": "15 months to 2 years",
+      "status": "FAILED",
+      "regular_rate": 1.0,
+      "regular_tenure": "1 year and above but < 5 years",
+      "senior_rate": 1.5,
+      "senior_tenure": "5 years and above",
       "effective_date": null,
       "verified_at": null,
       "source_url": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
@@ -76,16 +85,20 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Domestic retail FD; senior rate for eligible resident citizens."
+      "notes": "Domestic retail FD; senior rate for eligible resident citizens.",
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 3,
+      "effective_date_note": "Official page did not publish an effective date; verified at retrieval time."
     },
     {
       "bank_name": "Yes Bank",
       "category": "private_sector",
-      "status": "SAMPLE",
-      "regular_rate": 7.25,
-      "regular_tenure": "18 months",
-      "senior_rate": 8.0,
-      "senior_tenure": "18 months",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
       "effective_date": null,
       "verified_at": null,
       "source_url": "https://www.yesbank.in/personal-banking/deposits/fixed-de-deposits",
@@ -95,12 +108,14 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Resident retail FD; confirm callable/product conditions."
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
     },
     {
       "bank_name": "Bank of Baroda",
       "category": "public_sector",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 5.0,
       "regular_tenure": "400 days",
       "senior_rate": 7.65,
@@ -114,31 +129,35 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Special 400-day scheme; verify its availability before booking."
+      "notes": "Special 400-day scheme; verify its availability before booking.",
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "State Bank of India",
       "category": "public_sector",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 7.05,
       "regular_tenure": "2 years to <3 years",
       "senior_rate": 7.55,
       "senior_tenure": "2 years to <3 years",
       "effective_date": null,
       "verified_at": null,
-      "source_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposit-rates",
+      "source_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
       "source_type": "official_bank_website",
       "evidence": {
         "matched_tenure": null,
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Retail domestic term deposit under ₹3 crore."
+      "notes": "Retail domestic term deposit under ₹3 crore.",
+      "deposit_category": "Retail domestic term deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "Canara Bank",
       "category": "public_sector",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 7.0,
       "regular_tenure": "444 days",
       "senior_rate": 7.5,
@@ -152,12 +171,14 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Check whether the special-tenure offer remains open."
+      "notes": "Check whether the special-tenure offer remains open.",
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "Punjab National Bank",
       "category": "public_sector",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 5.0,
       "regular_tenure": "400 days",
       "senior_rate": 7.5,
@@ -171,31 +192,35 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Retail domestic term deposit; special-tenure scheme may have an end date."
+      "notes": "Retail domestic term deposit; special-tenure scheme may have an end date.",
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "Indian Bank",
       "category": "public_sector",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 6.8,
       "regular_tenure": "555 days",
       "senior_rate": 7.3,
       "senior_tenure": "555 days",
       "effective_date": null,
       "verified_at": null,
-      "source_url": "https://www.indianbank.in/departments/ind-green-555-days/",
+      "source_url": "https://www.indianbank.in/departments/interest-rates/",
       "source_type": "official_bank_website",
       "evidence": {
         "matched_tenure": null,
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "IND Green special scheme; minimum ₹1,000, maximum below ₹3 crore."
+      "notes": "IND Green special scheme; minimum ₹1,000, maximum below ₹3 crore.",
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "Utkarsh Small Finance Bank",
       "category": "small_finance",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 8.0,
       "regular_tenure": "666 days",
       "senior_rate": 8.85,
@@ -209,12 +234,14 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Fixed Deposit Plus is non-callable and has deposit/withdrawal conditions; verify rate card."
+      "notes": "Fixed Deposit Plus is non-callable and has deposit/withdrawal conditions; verify rate card.",
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "Equitas Small Finance Bank",
       "category": "small_finance",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 7.8,
       "regular_tenure": "888 days",
       "senior_rate": 8.4,
@@ -228,31 +255,37 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Limited/special 888-day rate; senior uplift is 0.60% for this tenure."
+      "notes": "Limited/special 888-day rate; senior uplift is 0.60% for this tenure.",
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "AU Small Finance Bank",
       "category": "small_finance",
-      "status": "SAMPLE",
+      "status": "VERIFIED",
       "regular_rate": 7.4,
-      "regular_tenure": "30 months 1 day to 36 months",
+      "regular_tenure": "30 Months 1 Day to 36 Months",
       "senior_rate": 7.9,
-      "senior_tenure": "30 months 1 day to 36 months",
+      "senior_tenure": "30 Months 1 Day to 36 Months",
       "effective_date": null,
-      "verified_at": null,
+      "verified_at": "2026-09-03T07:14:30Z",
       "source_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": null,
-        "matched_regular_rate": null,
-        "matched_senior_rate": null
+        "matched_tenure": "30 Months 1 Day to 36 Months",
+        "matched_regular_rate": "7.40%",
+        "matched_senior_rate": "7.90%"
       },
-      "notes": "Resident retail FD below ₹3 crore; senior rate requires eligible resident customer."
+      "notes": "Resident retail FD below ₹3 crore; senior rate requires eligible resident customer.",
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 12,
+      "effective_date_note": "Official page did not publish an effective date; verified at retrieval time."
     },
     {
       "bank_name": "Suryoday Small Finance Bank",
       "category": "small_finance",
-      "status": "SAMPLE",
+      "status": "FAILED",
       "regular_rate": 8.0,
       "regular_tenure": "5 years",
       "senior_rate": 8.6,
@@ -266,26 +299,158 @@
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Check current retail rate card and product eligibility."
+      "notes": "Check current retail rate card and product eligibility.",
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore"
     },
     {
       "bank_name": "Jana Small Finance Bank",
       "category": "small_finance",
-      "status": "SAMPLE",
-      "regular_rate": 5.0,
-      "regular_tenure": "365 days",
-      "senior_rate": 8.5,
-      "senior_tenure": "365 days",
+      "status": "VERIFIED",
+      "regular_rate": 8.0,
+      "regular_tenure": ">2 Years - 3 Years (1095 Days)",
+      "senior_rate": 8.3,
+      "senior_tenure": ">2 Years - 3 Years (1095 Days)",
+      "effective_date": null,
+      "verified_at": "2026-09-03T07:17:58Z",
+      "source_url": "https://www.janabank.com/interest-rates/",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": ">2 Years - 3 Years (1095 Days)",
+        "matched_regular_rate": "8.00%",
+        "matched_senior_rate": "8.30%"
+      },
+      "notes": "Resident retail deposit; confirm current slab and callable status.",
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "row_count": 108,
+      "effective_date_note": "Official page did not publish an effective date; verified at retrieval time."
+    },
+    {
+      "bank_name": "Federal Bank",
+      "category": "private_sector",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
       "effective_date": null,
       "verified_at": null,
-      "source_url": "https://www.janabank.com/interest-rates/",
+      "source_url": "https://www.federalbank.co.in/interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
         "matched_tenure": null,
         "matched_regular_rate": null,
         "matched_senior_rate": null
       },
-      "notes": "Resident retail deposit; confirm current slab and callable status."
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
+    },
+    {
+      "bank_name": "IndusInd Bank",
+      "category": "private_sector",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.indusind.com/in/en/personal/rates-and-charges.html",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
+    },
+    {
+      "bank_name": "Union Bank of India",
+      "category": "public_sector",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.unionbankofindia.co.in/en/interest-rate",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
+    },
+    {
+      "bank_name": "Bank of India",
+      "category": "public_sector",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://bankofindia.co.in/interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail term deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
+    },
+    {
+      "bank_name": "Ujjivan Small Finance Bank",
+      "category": "small_finance",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.ujjivansfb.in/support-interest-rates",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
+    },
+    {
+      "bank_name": "ESAF Small Finance Bank",
+      "category": "small_finance",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
+      "source_url": "https://www.esafbank.com/interest-rates/",
+      "source_type": "official_bank_website",
+      "evidence": {
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
+      },
+      "deposit_category": "Domestic retail fixed deposit",
+      "deposit_limit": "Below ₹3 crore",
+      "notes": "Awaiting exact extraction by the configured official-source adapter."
     }
   ]
 }

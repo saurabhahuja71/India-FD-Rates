@@ -30,8 +30,15 @@ def build_tables(snapshot):
             output.append(f'| {rank} | {row["bank_name"]}{notes} | {regular} | {senior} | {tenure} | {fmt_date(row["verified_at"][:10])} | [Official]({row["source_url"]}) |')
         if not rows:
             output.append("| — | No VERIFIED retail rate available | — | — | — | — | — |")
+        elif len(rows) < 5:
+            output.append("")
+            output.append(f"> ⚠️ Only {len(rows)} bank(s) could be verified in the latest collection run.")
         output.append("")
-    output += ["### Last Updated", "", f'`{fmt_date(snapshot["generated_at"])} · source snapshot`', "", "> ⚠️ FD rates change frequently. Always verify the rate, tenure, eligibility and conditions on the official bank website before investing."]
+    output += ["## Data Coverage", ""]
+    for category, label in [("private_sector", "Private Sector"), ("public_sector", "Public Sector"), ("small_finance", "Small Finance")]:
+        total = sum(r["category"] == category for r in snapshot["rows"]); verified = sum(r["category"] == category and r["status"] == "VERIFIED" for r in snapshot["rows"])
+        output.append(f"- **{label}:** ✅ {verified} / {total} banks verified")
+    output += ["", "### Last Collection Run", "", f'`{fmt_date(snapshot["generated_at"])} · source snapshot`', "", "> ⚠️ FD rates change frequently. Always verify the rate, tenure, eligibility and conditions on the official bank website before investing."]
     return "\n".join(output)
 
 def main():

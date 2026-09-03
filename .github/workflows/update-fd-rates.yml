@@ -22,6 +22,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Install parser dependency
+        run: python3 -m pip install --disable-pip-version-check pyyaml
+      - name: Run adapter fixture tests
+        run: PYTHONPATH=scripts python3 -m unittest discover -s tests -v
       - name: Run FD rate updater
         run: python3 scripts/update_rates.py
       - name: Validate data

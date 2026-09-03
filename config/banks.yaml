@@ -1,0 +1,190 @@
+banks:
+  - id: hdfc
+    name: HDFC Bank
+    category: private_sector
+    parser: hdfc
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate}
+  - id: icici
+    name: ICICI Bank
+    category: private_sector
+    parser: icici
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates}
+  - id: axis
+    name: Axis Bank
+    category: private_sector
+    parser: axis
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.axisbank.com/interest-rate-on-deposits}
+  - id: idfc_first
+    name: IDFC FIRST Bank
+    category: private_sector
+    parser: idfc_first
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit}
+  - id: federal
+    name: Federal Bank
+    category: private_sector
+    parser: federal
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.federalbank.co.in/interest-rates}
+  - id: yes
+    name: Yes Bank
+    category: private_sector
+    parser: yes
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.yesbank.in/personal-banking/deposits/fixed-de-deposits}
+  - id: indusind
+    name: IndusInd Bank
+    category: private_sector
+    parser: indusind
+    enabled: true
+    deposit_category: Domestic retail deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.indusind.com/in/en/personal/rates-and-charges.html}
+  - id: sbi
+    name: State Bank of India
+    category: public_sector
+    parser: sbi
+    enabled: true
+    deposit_category: Retail domestic term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits}
+  - id: bank_of_baroda
+    name: Bank of Baroda
+    category: public_sector
+    parser: bank_of_baroda
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.bankofbaroda.in/personal-banking/accounts/term-deposit/fixed-deposit}
+  - id: pnb
+    name: Punjab National Bank
+    category: public_sector
+    parser: pnb
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.pnbindia.in/interest-rates-deposit.html}
+  - id: canara
+    name: Canara Bank
+    category: public_sector
+    parser: canara
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://canarabank.com/pages/interest-rates}
+  - id: union
+    name: Union Bank of India
+    category: public_sector
+    parser: union
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.unionbankofindia.co.in/en/interest-rate}
+  - id: indian
+    name: Indian Bank
+    category: public_sector
+    parser: indian
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.indianbank.in/departments/interest-rates/}
+  - id: bank_of_india
+    name: Bank of India
+    category: public_sector
+    parser: bank_of_india
+    enabled: true
+    deposit_category: Domestic retail term deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://bankofindia.co.in/interest-rates}
+  - id: au_small_finance
+    name: AU Small Finance Bank
+    category: small_finance
+    parser: au_small_finance
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates}
+  - id: equitas
+    name: Equitas Small Finance Bank
+    category: small_finance
+    parser: equitas
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/}
+  - id: jana
+    name: Jana Small Finance Bank
+    category: small_finance
+    parser: jana
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.janabank.com/interest-rates/}
+  - id: ujjivan
+    name: Ujjivan Small Finance Bank
+    category: small_finance
+    parser: ujjivan
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.ujjivansfb.in/support-interest-rates}
+  - id: esaf
+    name: ESAF Small Finance Bank
+    category: small_finance
+    parser: esaf
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.esafbank.com/interest-rates/}
+  - id: suryoday
+    name: Suryoday Small Finance Bank
+    category: small_finance
+    parser: suryoday
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.suryodaybank.com/interest-rates/}
+  - id: utkarsh
+    name: Utkarsh Small Finance Bank
+    category: small_finance
+    parser: utkarsh
+    enabled: true
+    deposit_category: Domestic retail fixed deposit
+    retail_threshold: Below ₹3 crore
+    official_sources:
+      - {type: html, url: https://www.utkarsh.bank/personal/term-deposits/fixed-deposits-plus}

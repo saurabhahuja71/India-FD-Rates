@@ -14,5 +14,6 @@ function table(key, title, description, rows) {
 }
 fetch("data/fd-rates.json").then(r => r.json()).then(data => {
   document.querySelector("#updated").textContent = `Last checked ${data.generated_at} · ${data.rows.length} banks tracked`;
-  document.querySelector("#app").innerHTML += categories.map(c => table(...c, data.rows)).join("");
+  const coverage = categories.map(([key,title]) => `<div><strong>${title}</strong><span>${data.rows.filter(r=>r.category===key&&r.status==="VERIFIED").length} / ${data.rows.filter(r=>r.category===key).length} verified</span></div>`).join("");
+  document.querySelector("#app").innerHTML += `<section class="coverage"><div><p class="eyebrow">DATA COVERAGE</p><h2>How much of the market is verified?</h2></div>${coverage}</section>` + categories.map(c => table(...c, data.rows)).join("");
 }).catch(() => { document.querySelector("#app").innerHTML += '<p class="error">The latest rate snapshot could not be loaded.</p>'; });

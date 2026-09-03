@@ -329,6 +329,4625 @@
           "senior_rate": 8.5
         }
       ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.1,
+          "senior_rate": 7.6
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 6.0,
+          "senior_rate": 7.6
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": 5.0,
+          "senior_rate": 8.5
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "YES BANK",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": 7.25,
+          "senior_rate": 8.0
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "SAMPLE",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 7.0,
+          "senior_rate": 6.65
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.9,
+          "senior_rate": 8.14
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.5,
+          "senior_rate": 7.35
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.35
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.35
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-03",
+      "rows": [
+        {
+          "bank_name": "IDFC FIRST Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 7.35,
+          "senior_rate": 7.75
+        },
+        {
+          "bank_name": "HDFC Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.1
+        },
+        {
+          "bank_name": "Axis Bank",
+          "category": "private_sector",
+          "status": "VERIFIED",
+          "regular_rate": 6.5,
+          "senior_rate": 7.0
+        },
+        {
+          "bank_name": "ICICI Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": 1.0,
+          "senior_rate": 1.5
+        },
+        {
+          "bank_name": "Yes Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of Baroda",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.65
+        },
+        {
+          "bank_name": "State Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.05,
+          "senior_rate": 7.55
+        },
+        {
+          "bank_name": "Canara Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 7.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Punjab National Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 5.0,
+          "senior_rate": 7.5
+        },
+        {
+          "bank_name": "Indian Bank",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": 6.8,
+          "senior_rate": 7.3
+        },
+        {
+          "bank_name": "Utkarsh Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.85
+        },
+        {
+          "bank_name": "Equitas Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 7.8,
+          "senior_rate": 8.4
+        },
+        {
+          "bank_name": "AU Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 7.4,
+          "senior_rate": 7.9
+        },
+        {
+          "bank_name": "Suryoday Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.6
+        },
+        {
+          "bank_name": "Jana Small Finance Bank",
+          "category": "small_finance",
+          "status": "VERIFIED",
+          "regular_rate": 8.0,
+          "senior_rate": 8.3
+        },
+        {
+          "bank_name": "Federal Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "IndusInd Bank",
+          "category": "private_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Union Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Bank of India",
+          "category": "public_sector",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "Ujjivan Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        },
+        {
+          "bank_name": "ESAF Small Finance Bank",
+          "category": "small_finance",
+          "status": "FAILED",
+          "regular_rate": null,
+          "senior_rate": null
+        }
+      ]
     }
   ]
 }
