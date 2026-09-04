@@ -1,4 +1,180 @@
 {
-  "generated_at": "2026-09-03T09:39:46Z",
-  "failures": []
+  "generated_at": "2026-09-04T07:22:04Z",
+  "failures": [
+    {
+      "bank": "ICICI Bank",
+      "attempted_sources": [
+        {
+          "raw": null,
+          "content_type": "text/html",
+          "status": 200,
+          "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+          "url": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+          "type": "html",
+          "format": "HTML",
+          "table_count": 1,
+          "error": "ICICI page exposes headline rates but no tenure-linked retail rows; exact rate-card source required"
+        }
+      ],
+      "failure_stage": "retail_section_detection",
+      "reason": "all official sources failed",
+      "last_http_status": 200,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Indian Bank",
+      "attempted_sources": [
+        {
+          "url": "https://www.indianbank.in/departments/interest-rates/",
+          "type": "html",
+          "error": "HTTP 404 (https://indianbank.bank.in/en/departments/interest-rates/) content-type=text/html"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Bank of India",
+      "attempted_sources": [
+        {
+          "url": "https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate",
+          "type": "html",
+          "error": "HTTP 403 (https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate) content-type=text/html"
+        },
+        {
+          "url": "https://bankofindia.bank.in/interest-rates-on-deposit",
+          "type": "html",
+          "error": "HTTP 403 (https://bankofindia.bank.in/interest-rates-on-deposit) content-type=text/html"
+        },
+        {
+          "url": "https://bankofindia.bank.in/term-deposits/green-deposits-scheme",
+          "type": "html",
+          "error": "HTTP 403 (https://bankofindia.bank.in/term-deposits/green-deposits-scheme) content-type=text/html"
+        },
+        {
+          "url": "https://bankofindia.co.in/documents/20121/25744421/Deposit-Policy-2024-25-Revised.pdf",
+          "type": "pdf",
+          "error": "HTTP 403 (https://bankofindia.co.in/documents/20121/25744421/Deposit-Policy-2024-25-Revised.pdf) content-type=text/html"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "UCO Bank",
+      "attempted_sources": [
+        {
+          "url": "https://www.ucobank.com/interest-rates",
+          "type": "html",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Central Bank of India",
+      "attempted_sources": [
+        {
+          "url": "https://centralbankofindia.co.in/en/interest-rates",
+          "type": "html",
+          "error": "HTTP 404 (https://centralbank.bank.in/en/interest-rates) content-type=text/html"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Bank of Maharashtra",
+      "attempted_sources": [
+        {
+          "url": "https://bankofmaharashtra.in/deposit-rates",
+          "type": "html",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Punjab & Sind Bank",
+      "attempted_sources": [
+        {
+          "url": "https://punjabandsindbank.co.in/content/interest-rates",
+          "type": "html",
+          "error": "<urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Equitas Small Finance Bank",
+      "attempted_sources": [
+        {
+          "url": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
+          "type": "html",
+          "error": "HTTP 503 (https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "ESAF Small Finance Bank",
+      "attempted_sources": [
+        {
+          "url": "https://www.esaf.bank.in/interest-rates/",
+          "type": "html",
+          "error": "HTTP 403 (https://www.esaf.bank.in/interest-rates/) content-type=text/html"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Suryoday Small Finance Bank",
+      "attempted_sources": [
+        {
+          "url": "https://suryoday.bank.in/rate-of-interest/",
+          "type": "html",
+          "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)>"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Unity Small Finance Bank",
+      "attempted_sources": [
+        {
+          "url": "https://unitybank.co.in/interest-rates",
+          "type": "html",
+          "error": "HTTP 404 (https://unitybank.co.in/interest-rates) content-type=text/plain"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    }
+  ]
 }

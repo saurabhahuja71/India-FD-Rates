@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:39:53Z",
+    "generated_at": "2026-09-04T07:23:09Z",
     "banks": [
       {
         "rank": 1,
@@ -37,17 +37,24 @@
         "bank": "Yes Bank",
         "rate": 7.0,
         "status": "LIVE_VERIFIED",
-        "source": "https://www.yes.bank.in/personal-banking/yes-individual/deposits/fixed-deposit"
+        "source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false"
       },
       {
         "rank": 6,
+        "bank": "Federal Bank",
+        "rate": 6.85,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.federal.bank.in/deposit-rate"
+      },
+      {
+        "rank": 7,
         "bank": "Axis Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
         "source": "https://www.axisbank.com/interest-rate-on-deposits"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "bank": "HDFC Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
@@ -58,17 +65,13 @@
       {
         "bank": "ICICI Bank",
         "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
-        "bank": "Federal Bank",
-        "reason": "FAILED_SOURCE_PARSING"
       }
     ]
   },
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:39:53Z",
+    "generated_at": "2026-09-04T07:23:09Z",
     "banks": [
       {
         "rank": 1,
@@ -143,7 +146,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-03T09:39:53Z",
+    "generated_at": "2026-09-04T07:23:09Z",
     "banks": [
       {
         "rank": 1,
