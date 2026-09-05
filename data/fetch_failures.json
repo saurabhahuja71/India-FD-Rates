@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:22:04Z",
+  "generated_at": "2026-09-05T07:03:33Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -14,6 +14,40 @@
           "format": "HTML",
           "table_count": 1,
           "error": "ICICI page exposes headline rates but no tenure-linked retail rows; exact rate-card source required"
+        }
+      ],
+      "failure_stage": "retail_section_detection",
+      "reason": "all official sources failed",
+      "last_http_status": 200,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "IndusInd Bank",
+      "attempted_sources": [
+        {
+          "url": "https://www.indusind.bank.in/in/en/personal/rates.html",
+          "type": "html",
+          "error": "HTTP 403 (https://www.indusind.bank.in/in/en/personal/rates.html) content-type=text/plain"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "State Bank of India",
+      "attempted_sources": [
+        {
+          "raw": null,
+          "content_type": "text/html",
+          "status": 200,
+          "final_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+          "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+          "type": "html",
+          "format": "HTML",
+          "table_count": 0,
+          "error": "SBI retail domestic term-deposit section not found"
         }
       ],
       "failure_stage": "retail_section_detection",

@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-04T07:23:09Z",
+    "generated_at": "2026-09-05T07:04:33Z",
     "banks": [
       {
         "rank": 1,
@@ -27,34 +27,27 @@
       },
       {
         "rank": 4,
-        "bank": "IndusInd Bank",
-        "rate": 7.0,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.indusind.bank.in/in/en/personal/rates.html"
-      },
-      {
-        "rank": 5,
         "bank": "Yes Bank",
         "rate": 7.0,
         "status": "LIVE_VERIFIED",
         "source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "bank": "Federal Bank",
         "rate": 6.85,
         "status": "LIVE_VERIFIED",
         "source": "https://www.federal.bank.in/deposit-rate"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "bank": "Axis Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
         "source": "https://www.axisbank.com/interest-rate-on-deposits"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "bank": "HDFC Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
@@ -65,13 +58,17 @@
       {
         "bank": "ICICI Bank",
         "reason": "FAILED_SOURCE_PARSING"
+      },
+      {
+        "bank": "IndusInd Bank",
+        "reason": "FAILED_SOURCE_PARSING"
       }
     ]
   },
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-04T07:23:09Z",
+    "generated_at": "2026-09-05T07:04:33Z",
     "banks": [
       {
         "rank": 1,
@@ -107,16 +104,13 @@
         "rate": 6.55,
         "status": "LIVE_VERIFIED",
         "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
-      },
-      {
-        "rank": 6,
-        "bank": "State Bank of India",
-        "rate": 6.45,
-        "status": "LIVE_VERIFIED",
-        "source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits"
       }
     ],
     "excluded": [
+      {
+        "bank": "State Bank of India",
+        "reason": "FAILED_SOURCE_PARSING"
+      },
       {
         "bank": "Indian Bank",
         "reason": "FAILED_SOURCE_PARSING"
@@ -146,7 +140,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-04T07:23:09Z",
+    "generated_at": "2026-09-05T07:04:33Z",
     "banks": [
       {
         "rank": 1,

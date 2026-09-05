@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04",
+  "generated_at": "2026-09-05",
   "methodology": "Only VERIFIED rows participate in current rankings. Legacy values without exact extracted evidence are SAMPLE and are never presented as current rates.",
   "rows": [
     {
@@ -11,7 +11,7 @@
       "senior_rate": 7.35,
       "senior_tenure": "500 days – 3 years",
       "effective_date": "2026-09-01",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -40,7 +40,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "3 Years 1 day to < 4 Years 7 Months",
       "effective_date": "2026-08-19",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -68,7 +68,7 @@
       "senior_rate": 7.0,
       "senior_tenure": "18 Months < 2 Years",
       "effective_date": null,
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.axisbank.com/interest-rate-on-deposits",
       "source_type": "official_bank_website",
       "evidence": {
@@ -121,7 +121,7 @@
       "senior_rate": 7.75,
       "senior_tenure": "36 months < 60 months",
       "effective_date": "2026-03-05",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false",
       "source_type": "official_pdf",
       "evidence": {
@@ -150,7 +150,7 @@
       "senior_rate": 7.25,
       "senior_tenure": "bob Golden Goal deposit Scheme (555 Days)",
       "effective_date": "2026-06-12",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
       "source_type": "official_bank_website",
       "evidence": {
@@ -172,25 +172,25 @@
     {
       "bank_name": "State Bank of India",
       "category": "public_sector",
-      "status": "VERIFIED",
-      "regular_rate": 6.45,
-      "regular_tenure": "2 years to less than 3 years",
-      "senior_rate": 7.05,
-      "senior_tenure": "5 years and up to 10 years",
-      "effective_date": "2025-07-15",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
       "source_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": "2 years to less than 3 years",
-        "matched_regular_rate": "6.45%",
-        "matched_senior_rate": "7.05%"
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
       "notes": "Retail domestic term deposit under ₹3 crore.",
       "deposit_category": "Retail domestic term deposit",
       "deposit_limit": "Below ₹3 crore",
       "row_count": 8,
-      "verification_status": "LIVE_VERIFIED",
+      "verification_status": "FAILED",
       "callable": true,
       "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
       "source_table": "Callable domestic resident retail FD table (adapter-selected)",
@@ -206,7 +206,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "555 Days*",
       "effective_date": "2026-03-17",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
       "source_type": "official_bank_website",
       "evidence": {
@@ -234,7 +234,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "444 Days",
       "effective_date": "2026-06-01",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.pnbindia.in/interest-rates-deposit.html",
       "source_type": "official_bank_website",
       "evidence": {
@@ -284,7 +284,7 @@
       "senior_rate": 8.25,
       "senior_tenure": "666 Days",
       "effective_date": "2022-04-01",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit",
       "source_type": "official_bank_website",
       "evidence": {
@@ -335,7 +335,7 @@
       "senior_rate": 7.9,
       "senior_tenure": "30 Months 1 Day to 36 Months",
       "effective_date": null,
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -386,7 +386,7 @@
       "senior_rate": 8.3,
       "senior_tenure": ">2 Years - 3 Years (1095 Days)",
       "effective_date": null,
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.janabank.com/interest-rates/",
       "source_type": "official_bank_website",
       "evidence": {
@@ -415,7 +415,7 @@
       "senior_rate": 7.35,
       "senior_tenure": "48 months",
       "effective_date": "2022-10-21",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.federal.bank.in/deposit-rate",
       "source_type": "official_bank_website",
       "evidence": {
@@ -437,26 +437,26 @@
     {
       "bank_name": "IndusInd Bank",
       "category": "private_sector",
-      "status": "VERIFIED",
-      "regular_rate": 7.0,
-      "regular_tenure": "2 Years to 3 Years",
-      "senior_rate": 7.75,
-      "senior_tenure": "2 Years to 3 Years",
-      "effective_date": "2026-07-24",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "status": "FAILED",
+      "regular_rate": null,
+      "regular_tenure": null,
+      "senior_rate": null,
+      "senior_tenure": null,
+      "effective_date": null,
+      "verified_at": null,
       "source_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
       "source_type": "official_bank_website",
       "evidence": {
-        "matched_tenure": "2 Years to 3 Years",
-        "matched_regular_rate": "7.00%",
-        "matched_senior_rate": "7.75%"
+        "matched_tenure": null,
+        "matched_regular_rate": null,
+        "matched_senior_rate": null
       },
       "deposit_category": "Domestic retail deposit",
       "deposit_limit": "Below ₹3 crore",
       "notes": "Domestic resident callable table below ₹3 crore; senior rates exclude NRO/NRE.",
       "row_count": 17,
       "effective_date_note": "Official page did not publish an effective date; verified at retrieval time.",
-      "verification_status": "LIVE_VERIFIED",
+      "verification_status": "FAILED",
       "callable": true,
       "customer_type": "RESIDENT_DOMESTIC_RETAIL_INDIVIDUAL",
       "source_table": "Callable domestic resident retail FD table (adapter-selected)",
@@ -472,7 +472,7 @@
       "senior_rate": 7.05,
       "senior_tenure": "555 Days",
       "effective_date": "2026-08-10",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
       "source_type": "official_bank_website",
       "evidence": {
@@ -522,7 +522,7 @@
       "senior_rate": 8.3,
       "senior_tenure": "3 Year 1 Day – 3 year 6 months",
       "effective_date": "2026-09-01",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.ujjivansfb.bank.in/interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -572,7 +572,7 @@
       "senior_rate": 7.7,
       "senior_tenure": "18 months to 36 months",
       "effective_date": "2025-09-24",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.rbl.bank.in/interest-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -601,7 +601,7 @@
       "senior_rate": 7.95,
       "senior_tenure": "2 years to less than 3 years",
       "effective_date": "2026-06-20",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.bandhan.bank.in/fixed-deposit",
       "source_type": "official_bank_website",
       "evidence": {
@@ -629,7 +629,7 @@
       "senior_rate": 7.1,
       "senior_tenure": "444 Days",
       "effective_date": "2026-05-15",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates",
       "source_type": "official_bank_website",
       "evidence": {
@@ -720,7 +720,7 @@
       "senior_rate": 8.25,
       "senior_tenure": "23 months 1 day to 27 months",
       "effective_date": "2026-09-01",
-      "verified_at": "2026-09-04T07:22:04Z",
+      "verified_at": "2026-09-05T07:03:33Z",
       "source_url": "https://shivalik.bank.in/interest-rate",
       "source_type": "official_bank_website",
       "evidence": {

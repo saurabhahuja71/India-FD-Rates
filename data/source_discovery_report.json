@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:22:04Z",
+  "generated_at": "2026-09-05T07:03:33Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-09-04",
+          "effective_date": "2026-09-05",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
@@ -141,18 +141,18 @@
           "url": "https://www.indusind.bank.in/in/en/personal/rates.html",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 200,
-          "final_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
-          "content_type": "text/html",
-          "effective_date": "2026-06-15",
-          "contains_explicit_rate_table": true,
-          "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "github_actions_status": 403,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 403 (https://www.indusind.bank.in/in/en/personal/rates.html) content-type=text/plain"
         }
       ],
-      "selected_source": "https://www.indusind.bank.in/in/en/personal/rates.html",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "RBL Bank",
@@ -202,17 +202,17 @@
           "source_type": "html",
           "official_domain": true,
           "github_actions_status": 200,
-          "final_url": "https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+          "final_url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
           "content_type": "text/html",
-          "effective_date": "2025-07-15",
-          "contains_explicit_rate_table": true,
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
           "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "usable": false,
+          "reason": "SBI retail domestic term-deposit section not found"
         }
       ],
-      "selected_source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "Bank of Baroda",
