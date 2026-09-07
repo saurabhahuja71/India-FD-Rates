@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-06T07:15:49Z",
+    "generated_at": "2026-09-07T07:30:02Z",
     "banks": [
       {
         "rank": 1,
@@ -71,7 +71,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-06T07:15:49Z",
+    "generated_at": "2026-09-07T07:30:02Z",
     "banks": [
       {
         "rank": 1,
@@ -146,21 +146,21 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-06T07:15:49Z",
+    "generated_at": "2026-09-07T07:30:02Z",
     "banks": [
       {
         "rank": 1,
-        "bank": "Jana Small Finance Bank",
-        "rate": 8.4,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.janabank.com/interest-rates/"
-      },
-      {
-        "rank": 2,
         "bank": "Utkarsh Small Finance Bank",
         "rate": 8.1,
         "status": "LIVE_VERIFIED",
         "source": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit"
+      },
+      {
+        "rank": 2,
+        "bank": "Jana Small Finance Bank",
+        "rate": 8.0,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.janabank.com/interest-rates/"
       },
       {
         "rank": 3,
