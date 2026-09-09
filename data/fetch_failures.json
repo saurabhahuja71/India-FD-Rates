@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-08T07:22:30Z",
+  "generated_at": "2026-09-09T07:31:01Z",
   "failures": [
+    {
+      "bank": "HDFC Bank",
+      "attempted_sources": [
+        {
+          "raw": null,
+          "content_type": "text/html",
+          "status": 200,
+          "final_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+          "url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+          "type": "html",
+          "format": "HTML",
+          "table_count": 0,
+          "error": "HDFC domestic table heading not found"
+        }
+      ],
+      "failure_stage": "retail_section_detection",
+      "reason": "all official sources failed",
+      "last_http_status": 200,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
     {
       "bank": "ICICI Bank",
       "attempted_sources": [

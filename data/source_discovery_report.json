@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:22:30Z",
+  "generated_at": "2026-09-09T07:31:01Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -11,15 +11,15 @@
           "github_actions_status": 200,
           "final_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
           "content_type": "text/html",
-          "effective_date": "2026-08-19",
-          "contains_explicit_rate_table": true,
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
           "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "usable": false,
+          "reason": "HDFC domestic table heading not found"
         }
       ],
-      "selected_source": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "ICICI Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-09-08",
+          "effective_date": "2026-09-09",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
