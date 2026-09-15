@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:02:45Z",
+  "generated_at": "2026-09-15T07:57:26Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-09-11",
+          "effective_date": "2026-09-15",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
@@ -221,18 +221,18 @@
           "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 200,
-          "final_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
-          "content_type": "text/html",
-          "effective_date": "2026-06-12",
-          "contains_explicit_rate_table": true,
-          "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "github_actions_status": null,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "The read operation timed out"
         }
       ],
-      "selected_source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "Punjab National Bank",
