@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:57:26Z",
+  "generated_at": "2026-09-16T07:50:32Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -11,15 +11,15 @@
           "github_actions_status": 200,
           "final_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
           "content_type": "text/html",
-          "effective_date": null,
-          "contains_explicit_rate_table": false,
+          "effective_date": "2026-08-19",
+          "contains_explicit_rate_table": true,
           "automation_accessible": true,
-          "usable": false,
-          "reason": "HDFC domestic table heading not found"
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
         }
       ],
-      "selected_source": null,
-      "collection_status": "FAILED"
+      "selected_source": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
+      "collection_status": "LIVE_VERIFIED"
     },
     {
       "bank": "ICICI Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-09-15",
+          "effective_date": "2026-09-16",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
@@ -201,18 +201,18 @@
           "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 200,
-          "final_url": "https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
-          "content_type": "text/html",
-          "effective_date": "2025-07-15",
-          "contains_explicit_rate_table": true,
-          "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "github_actions_status": 503,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "HTTP 503 (https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits) content-type=text/html"
         }
       ],
-      "selected_source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "Bank of Baroda",
@@ -221,18 +221,18 @@
           "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": null,
-          "final_url": null,
-          "content_type": null,
-          "effective_date": null,
-          "contains_explicit_rate_table": null,
-          "automation_accessible": false,
-          "usable": false,
-          "reason": "The read operation timed out"
+          "github_actions_status": 200,
+          "final_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+          "content_type": "text/html",
+          "effective_date": "2026-06-12",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
         }
       ],
-      "selected_source": null,
-      "collection_status": "FAILED"
+      "selected_source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+      "collection_status": "LIVE_VERIFIED"
     },
     {
       "bank": "Punjab National Bank",
