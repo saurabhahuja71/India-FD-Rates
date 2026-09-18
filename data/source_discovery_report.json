@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:07Z",
+  "generated_at": "2026-09-18T07:33:09Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-09-17",
+          "effective_date": "2026-09-18",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
@@ -181,18 +181,18 @@
           "url": "https://www.bandhan.bank.in/fixed-deposit",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": null,
-          "final_url": null,
-          "content_type": null,
-          "effective_date": null,
-          "contains_explicit_rate_table": null,
-          "automation_accessible": false,
-          "usable": false,
-          "reason": "The read operation timed out"
+          "github_actions_status": 200,
+          "final_url": "https://www.bandhan.bank.in/fixed-deposit",
+          "content_type": "text/html",
+          "effective_date": "2026-06-20",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
         }
       ],
-      "selected_source": null,
-      "collection_status": "FAILED"
+      "selected_source": "https://www.bandhan.bank.in/fixed-deposit",
+      "collection_status": "LIVE_VERIFIED"
     },
     {
       "bank": "State Bank of India",
