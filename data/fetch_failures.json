@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:52:23Z",
+  "generated_at": "2026-09-21T08:07:50Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -19,6 +19,20 @@
       "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
       "last_http_status": 200,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "State Bank of India",
+      "attempted_sources": [
+        {
+          "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+          "type": "html",
+          "error": "HTTP 503 (https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits) content-type=text/html"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {

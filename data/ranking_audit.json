@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-20T07:53:18Z",
+    "generated_at": "2026-09-21T08:08:59Z",
     "banks": [
       {
         "rank": 1,
@@ -71,7 +71,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-20T07:53:18Z",
+    "generated_at": "2026-09-21T08:08:59Z",
     "banks": [
       {
         "rank": 1,
@@ -107,16 +107,13 @@
         "rate": 6.55,
         "status": "LIVE_VERIFIED",
         "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
-      },
-      {
-        "rank": 6,
-        "bank": "State Bank of India",
-        "rate": 6.45,
-        "status": "LIVE_VERIFIED",
-        "source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits"
       }
     ],
     "excluded": [
+      {
+        "bank": "State Bank of India",
+        "reason": "FAILED_SOURCE_PARSING"
+      },
       {
         "bank": "Indian Bank",
         "reason": "FAILED_SOURCE_PARSING"
@@ -146,21 +143,21 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-20T07:53:18Z",
+    "generated_at": "2026-09-21T08:08:59Z",
     "banks": [
       {
         "rank": 1,
-        "bank": "Jana Small Finance Bank",
-        "rate": 8.65,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.janabank.com/interest-rates/"
-      },
-      {
-        "rank": 2,
         "bank": "Utkarsh Small Finance Bank",
         "rate": 8.1,
         "status": "LIVE_VERIFIED",
         "source": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit"
+      },
+      {
+        "rank": 2,
+        "bank": "Jana Small Finance Bank",
+        "rate": 8.0,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.janabank.com/interest-rates/"
       },
       {
         "rank": 3,
