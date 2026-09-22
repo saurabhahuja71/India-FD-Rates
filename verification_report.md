@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-09-21T08:08:59Z`
+Generated: `2026-09-22T07:54:37Z`
 
 ## Ranking policy
 
@@ -15,6 +15,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | 3 | Indian Overseas Bank | 6.60% | LIVE_VERIFIED |
 | 4 | Punjab National Bank | 6.60% | LIVE_VERIFIED |
 | 5 | Union Bank of India | 6.55% | LIVE_VERIFIED |
+| 6 | State Bank of India | 6.45% | LIVE_VERIFIED |
 
 ### Bank of India
 
@@ -26,9 +27,9 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 
 ### State Bank of India
 
-- Status: **not ranked**
-- Rank: **not ranked**
-- SBI is excluded from the Top 5 because its verified callable retail rate ranks not ranked, below the five highest verified public-sector rates.
+- Status: **LIVE_VERIFIED**
+- Rank: **#6**
+- SBI is excluded from the Top 5 because its verified callable retail rate ranks #6, below the five highest verified public-sector rates.
 
 ## Changes since previous snapshot
 

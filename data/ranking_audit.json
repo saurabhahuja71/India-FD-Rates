@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-21T08:08:59Z",
+    "generated_at": "2026-09-22T07:54:37Z",
     "banks": [
       {
         "rank": 1,
@@ -71,7 +71,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-21T08:08:59Z",
+    "generated_at": "2026-09-22T07:54:37Z",
     "banks": [
       {
         "rank": 1,
@@ -107,13 +107,16 @@
         "rate": 6.55,
         "status": "LIVE_VERIFIED",
         "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
+      },
+      {
+        "rank": 6,
+        "bank": "State Bank of India",
+        "rate": 6.45,
+        "status": "LIVE_VERIFIED",
+        "source": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits"
       }
     ],
     "excluded": [
-      {
-        "bank": "State Bank of India",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
       {
         "bank": "Indian Bank",
         "reason": "FAILED_SOURCE_PARSING"
@@ -143,7 +146,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-09-21T08:08:59Z",
+    "generated_at": "2026-09-22T07:54:37Z",
     "banks": [
       {
         "rank": 1,
