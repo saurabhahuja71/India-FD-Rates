@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-09-22T07:54:37Z`
+Generated: `2026-09-23T07:55:36Z`
 
 ## Ranking policy
 
@@ -39,6 +39,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Axis Bank | 7.0% | 6.5% | 1 | 7 | adapter/source-column correction |
 | Yes Bank | 7.25% | 7.0% | — | 5 | adapter/source-column correction |
 | Bank of Baroda | 5.0% | 6.75% | — | 1 | adapter/source-column correction |
+| State Bank of India | 7.05% | 6.45% | — | 6 | adapter/source-column correction |
 | Canara Bank | 7.0% | 6.6% | — | 2 | adapter/source-column correction |
 | Punjab National Bank | 5.0% | 6.6% | — | 4 | adapter/source-column correction |
 | Utkarsh Small Finance Bank | 8.0% | 8.1% | — | 1 | adapter/source-column correction |
