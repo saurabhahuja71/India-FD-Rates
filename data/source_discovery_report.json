@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:27:13Z",
+  "generated_at": "2026-10-04T08:39:31Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -420,14 +420,14 @@
           "url": "https://centralbankofindia.co.in/en/interest-rates",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": null,
+          "github_actions_status": 404,
           "final_url": null,
           "content_type": null,
           "effective_date": null,
           "contains_explicit_rate_table": null,
           "automation_accessible": false,
           "usable": false,
-          "reason": "The read operation timed out"
+          "reason": "HTTP 404 (https://centralbank.bank.in/en/interest-rates) content-type=text/html"
         }
       ],
       "selected_source": null,
