@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-10-04T08:40:37Z`
+Generated: `2026-10-05T09:31:41Z`
 
 ## Ranking policy
 
@@ -44,7 +44,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Punjab National Bank | 5.0% | 6.6% | — | 4 | adapter/source-column correction |
 | Utkarsh Small Finance Bank | 8.0% | 8.1% | — | 2 | adapter/source-column correction |
 | AU Small Finance Bank | 7.5% | 7.4% | 2 | 5 | adapter/source-column correction |
-| Jana Small Finance Bank | 8.0% | 8.6% | 2 | 1 | adapter/source-column correction |
+| Jana Small Finance Bank | 8.6% | 8.55% | 1 | 1 | adapter/source-column correction |
 | RBL Bank | 7.2% | 7.0% | 2 | 4 | RBL adapter previously selected non-callable/Super Senior columns; corrected to callable General/Senior columns |
 | Indian Overseas Bank | 7.0% | 6.6% | 1 | 3 | adapter/source-column correction |
 
@@ -63,7 +63,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 - **Punjab National Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `444 Days`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.60%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.10%**; source: https://www.pnbindia.in/interest-rates-deposit.html
 - **Union Bank of India** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `555 Days`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.55%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.05%**; source: https://www.unionbankofindia.bank.in/en/details/rate-of-interest
 ### small_finance
-- **Jana Small Finance Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `> 1 Year - 2 Years(730 Days)`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **8.60%**; senior column: `Senior Citizen Interest Rates (per annum)` = **8.30%**; source: https://www.janabank.com/interest-rates/
+- **Jana Small Finance Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `> 1 Year - 2 Years(730 Days)`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **8.55%**; senior column: `Senior Citizen Interest Rates (per annum)` = **8.30%**; source: https://www.janabank.com/interest-rates/
 - **Utkarsh Small Finance Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `666 Days`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **8.10%**; senior column: `Senior Citizen Interest Rates (per annum)` = **8.25%**; source: https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit
 - **Shivalik Small Finance Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `23 months 1 day to 27 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **8.00%**; senior column: `Senior Citizen Interest Rates (per annum)` = **8.25%**; source: https://shivalik.bank.in/interest-rate
 - **Ujjivan Small Finance Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `3 Year 1 Day – 3 year 6 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.80%**; senior column: `Senior Citizen Interest Rates (per annum)` = **8.30%**; source: https://www.ujjivansfb.bank.in/interest-rates
