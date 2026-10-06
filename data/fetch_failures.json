@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:30:33Z",
+  "generated_at": "2026-10-06T09:13:53Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -39,6 +39,20 @@
       "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
       "last_http_status": 200,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Bank of Baroda",
+      "attempted_sources": [
+        {
+          "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+          "type": "html",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
