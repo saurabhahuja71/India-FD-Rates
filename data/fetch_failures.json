@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:13:53Z",
+  "generated_at": "2026-10-07T09:04:40Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -19,40 +19,6 @@
       "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
       "last_http_status": 200,
-      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
-    },
-    {
-      "bank": "Federal Bank",
-      "attempted_sources": [
-        {
-          "raw": null,
-          "content_type": "text/html",
-          "status": 200,
-          "final_url": "https://www.federal.bank.in/deposit-rate",
-          "url": "https://www.federal.bank.in/deposit-rate",
-          "type": "html",
-          "format": "HTML",
-          "table_count": 0,
-          "error": "no eligible retail rate rows found"
-        }
-      ],
-      "failure_stage": "retail_section_detection",
-      "reason": "all official sources failed",
-      "last_http_status": 200,
-      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
-    },
-    {
-      "bank": "Bank of Baroda",
-      "attempted_sources": [
-        {
-          "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
-          "type": "html",
-          "error": "<urlopen error timed out>"
-        }
-      ],
-      "failure_stage": "source_fetch",
-      "reason": "all official sources failed",
-      "last_http_status": null,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
