@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T09:10:31Z",
+  "generated_at": "2026-10-12T09:35:37Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-10-09",
+          "effective_date": "2026-10-12",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-10-10",
+          "effective_date": "2026-10-12",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
