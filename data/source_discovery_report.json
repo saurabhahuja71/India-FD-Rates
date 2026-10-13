@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:35:37Z",
+  "generated_at": "2026-10-13T09:39:14Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -31,7 +31,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
           "content_type": "text/html",
-          "effective_date": "2026-10-12",
+          "effective_date": "2026-10-13",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": false,
@@ -301,14 +301,14 @@
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 404,
+          "github_actions_status": null,
           "final_url": null,
           "content_type": null,
           "effective_date": null,
           "contains_explicit_rate_table": null,
           "automation_accessible": false,
           "usable": false,
-          "reason": "HTTP 404 (https://indianbank.bank.in/en/departments/interest-rates/) content-type=text/html"
+          "reason": "Remote end closed connection without response"
         }
       ],
       "selected_source": null,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-10-12",
+          "effective_date": "2026-10-13",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:35:37Z",
+  "generated_at": "2026-10-13T09:39:14Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -27,7 +27,7 @@
         {
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "type": "html",
-          "error": "HTTP 404 (https://indianbank.bank.in/en/departments/interest-rates/) content-type=text/html"
+          "error": "Remote end closed connection without response"
         }
       ],
       "failure_stage": "source_fetch",
