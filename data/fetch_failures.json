@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T07:07:17Z",
+  "generated_at": "2026-10-18T07:21:38Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -70,7 +70,7 @@
         {
           "url": "https://www.ucobank.com/interest-rates",
           "type": "html",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ucobank.com'. (_ssl.c:1000)>"
         }
       ],
       "failure_stage": "source_fetch",
