@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-10-23T07:51:17Z",
+    "generated_at": "2026-10-24T07:32:41Z",
     "banks": [
       {
         "rank": 1,
@@ -71,7 +71,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-10-23T07:51:17Z",
+    "generated_at": "2026-10-24T07:32:41Z",
     "banks": [
       {
         "rank": 1,
@@ -146,35 +146,35 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-10-23T07:51:17Z",
+    "generated_at": "2026-10-24T07:32:41Z",
     "banks": [
       {
         "rank": 1,
+        "bank": "Ujjivan Small Finance Bank",
+        "rate": 8.1,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.ujjivansfb.bank.in/interest-rates"
+      },
+      {
+        "rank": 2,
         "bank": "Utkarsh Small Finance Bank",
         "rate": 8.1,
         "status": "LIVE_VERIFIED",
         "source": "https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "bank": "Jana Small Finance Bank",
         "rate": 8.0,
         "status": "LIVE_VERIFIED",
         "source": "https://www.janabank.com/interest-rates/"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "bank": "Shivalik Small Finance Bank",
         "rate": 8.0,
         "status": "LIVE_VERIFIED",
         "source": "https://shivalik.bank.in/interest-rate"
-      },
-      {
-        "rank": 4,
-        "bank": "Ujjivan Small Finance Bank",
-        "rate": 7.8,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.ujjivansfb.bank.in/interest-rates"
       },
       {
         "rank": 5,
