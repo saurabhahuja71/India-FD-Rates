@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:31:24Z",
+  "generated_at": "2026-10-25T07:44:48Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -91,15 +91,15 @@
           "github_actions_status": 200,
           "final_url": "https://www.federal.bank.in/deposit-rate",
           "content_type": "text/html",
-          "effective_date": "2022-10-21",
-          "contains_explicit_rate_table": true,
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
           "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "usable": false,
+          "reason": "no eligible retail rate rows found"
         }
       ],
-      "selected_source": "https://www.federal.bank.in/deposit-rate",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "Yes Bank",
