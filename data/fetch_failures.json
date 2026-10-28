@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:13:34Z",
+  "generated_at": "2026-10-28T08:52:12Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -90,7 +90,7 @@
         {
           "url": "https://www.ucobank.com/interest-rates",
           "type": "html",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ucobank.com'. (_ssl.c:1000)>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ucobank.com'. (_ssl.c:1081)>"
         }
       ],
       "failure_stage": "source_fetch",
@@ -174,7 +174,7 @@
         {
           "url": "https://suryoday.bank.in/rate-of-interest/",
           "type": "html",
-          "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)>"
+          "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1081)>"
         }
       ],
       "failure_stage": "source_fetch",

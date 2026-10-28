@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:13:34Z",
+  "generated_at": "2026-10-28T08:52:12Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -407,7 +407,7 @@
           "contains_explicit_rate_table": null,
           "automation_accessible": false,
           "usable": false,
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ucobank.com'. (_ssl.c:1000)>"
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ucobank.com'. (_ssl.c:1081)>"
         }
       ],
       "selected_source": null,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-10-27",
+          "effective_date": "2026-10-28",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
@@ -587,7 +587,7 @@
           "contains_explicit_rate_table": null,
           "automation_accessible": false,
           "usable": false,
-          "reason": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)>"
+          "reason": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1081)>"
         }
       ],
       "selected_source": null,
