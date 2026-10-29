@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:52:12Z",
+  "generated_at": "2026-10-29T08:45:34Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -39,6 +39,20 @@
       "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
       "last_http_status": 200,
+      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
+    },
+    {
+      "bank": "Bank of Baroda",
+      "attempted_sources": [
+        {
+          "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+          "type": "html",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "failure_stage": "source_fetch",
+      "reason": "all official sources failed",
+      "last_http_status": null,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
@@ -104,7 +118,7 @@
         {
           "url": "https://centralbankofindia.co.in/en/interest-rates",
           "type": "html",
-          "error": "HTTP 404 (https://centralbank.bank.in/en/interest-rates) content-type=text/html"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
         }
       ],
       "failure_stage": "source_fetch",
