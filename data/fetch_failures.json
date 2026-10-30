@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:45:34Z",
+  "generated_at": "2026-10-30T08:52:33Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -42,17 +42,23 @@
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
-      "bank": "Bank of Baroda",
+      "bank": "IndusInd Bank",
       "attempted_sources": [
         {
-          "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+          "raw": null,
+          "content_type": "text/html",
+          "status": 200,
+          "final_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
+          "url": "https://www.indusind.bank.in/in/en/personal/rates.html",
           "type": "html",
-          "error": "<urlopen error timed out>"
+          "format": "HTML",
+          "table_count": 29,
+          "error": "time data '30 Oct 2026' does not match format '%d %B %Y'"
         }
       ],
-      "failure_stage": "source_fetch",
+      "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
-      "last_http_status": null,
+      "last_http_status": 200,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
