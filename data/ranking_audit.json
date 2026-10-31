@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-10-30T08:53:28Z",
+    "generated_at": "2026-10-31T08:42:01Z",
     "banks": [
       {
         "rank": 1,
@@ -34,13 +34,20 @@
       },
       {
         "rank": 5,
+        "bank": "Federal Bank",
+        "rate": 6.85,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.federal.bank.in/deposit-rate"
+      },
+      {
+        "rank": 6,
         "bank": "Axis Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
         "source": "https://www.axisbank.com/interest-rate-on-deposits"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "bank": "HDFC Bank",
         "rate": 6.5,
         "status": "LIVE_VERIFIED",
@@ -53,10 +60,6 @@
         "reason": "FAILED_SOURCE_PARSING"
       },
       {
-        "bank": "Federal Bank",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
-      {
         "bank": "IndusInd Bank",
         "reason": "FAILED_SOURCE_PARSING"
       }
@@ -65,7 +68,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-10-30T08:53:28Z",
+    "generated_at": "2026-10-31T08:42:01Z",
     "banks": [
       {
         "rank": 1,
@@ -140,7 +143,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-10-30T08:53:28Z",
+    "generated_at": "2026-10-31T08:42:01Z",
     "banks": [
       {
         "rank": 1,
