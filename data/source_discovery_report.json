@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:31:16Z",
+  "generated_at": "2026-11-02T09:47:53Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -241,18 +241,18 @@
           "url": "https://www.pnbindia.in/interest-rates-deposit.html",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 200,
-          "final_url": "https://pnb.bank.in/interest-rates-deposit.html",
-          "content_type": "text/html",
-          "effective_date": "2026-03-01",
-          "contains_explicit_rate_table": true,
-          "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "github_actions_status": null,
+          "final_url": null,
+          "content_type": null,
+          "effective_date": null,
+          "contains_explicit_rate_table": null,
+          "automation_accessible": false,
+          "usable": false,
+          "reason": "<urlopen error [Errno -2] Name or service not known>"
         }
       ],
-      "selected_source": "https://www.pnbindia.in/interest-rates-deposit.html",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "Canara Bank",
@@ -264,7 +264,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.",
           "content_type": "text/html",
-          "effective_date": "2026-03-17",
+          "effective_date": "2026-11-02",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-11-01",
+          "effective_date": "2026-11-02",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
