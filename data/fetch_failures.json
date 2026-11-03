@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:47:53Z",
+  "generated_at": "2026-11-03T09:52:16Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -39,20 +39,6 @@
       "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
       "last_http_status": 200,
-      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
-    },
-    {
-      "bank": "Punjab National Bank",
-      "attempted_sources": [
-        {
-          "url": "https://www.pnbindia.in/interest-rates-deposit.html",
-          "type": "html",
-          "error": "<urlopen error [Errno -2] Name or service not known>"
-        }
-      ],
-      "failure_stage": "source_fetch",
-      "reason": "all official sources failed",
-      "last_http_status": null,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
