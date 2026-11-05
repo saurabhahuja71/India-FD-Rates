@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:52:16Z",
+  "generated_at": "2026-11-05T09:44:06Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -11,7 +11,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate",
           "content_type": "text/html",
-          "effective_date": "2026-08-19",
+          "effective_date": "2026-11-04",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-11-02",
+          "effective_date": "2026-11-05",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
