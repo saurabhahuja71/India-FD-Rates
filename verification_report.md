@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-11-05T09:45:03Z`
+Generated: `2026-11-06T09:41:46Z`
 
 ## Ranking policy
 
@@ -36,8 +36,8 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Bank | Old rate | Corrected rate | Old rank | New rank | Root cause |
 |---|---:|---:|---:|---:|---|
 | IDFC FIRST Bank | 7.1% | 7.25% | 2 | 2 | adapter/source-column correction |
-| HDFC Bank | 6.5% | 6.6% | 7 | 6 | adapter/source-column correction |
-| Axis Bank | 7.0% | 6.5% | 1 | 7 | adapter/source-column correction |
+| HDFC Bank | 6.5% | 6.6% | 7 | 5 | adapter/source-column correction |
+| Axis Bank | 7.0% | 6.5% | 1 | 6 | adapter/source-column correction |
 | Yes Bank | 7.25% | 7.0% | — | 4 | adapter/source-column correction |
 | Bank of Baroda | 5.0% | 6.75% | — | 2 | adapter/source-column correction |
 | State Bank of India | 7.05% | 6.45% | — | 6 | adapter/source-column correction |
@@ -46,7 +46,6 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Utkarsh Small Finance Bank | 8.0% | 8.1% | — | 2 | adapter/source-column correction |
 | AU Small Finance Bank | 7.5% | 7.4% | 2 | 5 | adapter/source-column correction |
 | Jana Small Finance Bank | 8.55% | 8.0% | 1 | 3 | adapter/source-column correction |
-| Federal Bank | 6.85% | 6.95% | 5 | 5 | adapter/source-column correction |
 | Ujjivan Small Finance Bank | 7.8% | 8.1% | 4 | 1 | adapter/source-column correction |
 | RBL Bank | 7.2% | 7.0% | 2 | 3 | RBL adapter previously selected non-callable/Super Senior columns; corrected to callable General/Senior columns |
 | Indian Overseas Bank | 7.0% | 6.6% | 1 | 4 | adapter/source-column correction |
@@ -58,7 +57,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 - **IDFC FIRST Bank** — table: `Interest Rates for Domestic / NRO / NRE Fixed Deposits of less than ₹3 Crore w.e.f. 04 th November 2026*`; tenure: `500 days – 2 years`; regular column: `General` = **7.25%**; senior column: `Senior Citizen` = **7.50%**; source: https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates
 - **RBL Bank** — table: `Fixed Deposits – Less than INR 3 crores – Premature Withdrawal Allowed`; tenure: `18 months to less than 60 months`; regular column: `General Citizen — Interest Rates (per annum)` = **7.00%**; senior column: `Senior Citizen — Senior Citizen Interest Rates (per annum)` = **7.50%**; source: https://www.rbl.bank.in/interest-rates
 - **Yes Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `18 months 1 day < 24 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.00%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.75%**; source: https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false
-- **Federal Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `48 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.95%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.45%**; source: https://www.federal.bank.in/deposit-rate
+- **HDFC Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `3 Years 1 day to < 4 Years 7 Months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.60%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.20%**; source: https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate
 ### public_sector
 - **Punjab National Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `680 Days`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.80%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.30%**; source: https://www.pnbindia.in/interest-rates-deposit.html
 - **Bank of Baroda** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `bob Golden Goal deposit Scheme (555 Days)`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.75%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.25%**; source: https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores
