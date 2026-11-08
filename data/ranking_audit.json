@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-07T09:04:39Z",
+    "generated_at": "2026-11-08T09:21:22Z",
     "banks": [
       {
         "rank": 1,
@@ -34,17 +34,17 @@
       },
       {
         "rank": 5,
+        "bank": "Axis Bank",
+        "rate": 6.75,
+        "status": "LIVE_VERIFIED",
+        "source": "https://www.axisbank.com/interest-rate-on-deposits"
+      },
+      {
+        "rank": 6,
         "bank": "HDFC Bank",
         "rate": 6.6,
         "status": "LIVE_VERIFIED",
         "source": "https://www.hdfc.bank.in/fixed-deposit/fd-interest-rate"
-      },
-      {
-        "rank": 6,
-        "bank": "Axis Bank",
-        "rate": 6.5,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.axisbank.com/interest-rate-on-deposits"
       }
     ],
     "excluded": [
@@ -65,7 +65,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-07T09:04:39Z",
+    "generated_at": "2026-11-08T09:21:22Z",
     "banks": [
       {
         "rank": 1,
@@ -76,27 +76,34 @@
       },
       {
         "rank": 2,
+        "bank": "Bank of Baroda",
+        "rate": 6.75,
+        "status": "LIVE_VERIFIED",
+        "source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores"
+      },
+      {
+        "rank": 3,
         "bank": "Canara Bank",
         "rate": 6.75,
         "status": "LIVE_VERIFIED",
         "source": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a."
       },
       {
-        "rank": 3,
+        "rank": 4,
         "bank": "Indian Overseas Bank",
         "rate": 6.6,
         "status": "LIVE_VERIFIED",
         "source": "https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "bank": "Union Bank of India",
         "rate": 6.55,
         "status": "LIVE_VERIFIED",
         "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "bank": "State Bank of India",
         "rate": 6.45,
         "status": "LIVE_VERIFIED",
@@ -104,10 +111,6 @@
       }
     ],
     "excluded": [
-      {
-        "bank": "Bank of Baroda",
-        "reason": "FAILED_SOURCE_PARSING"
-      },
       {
         "bank": "Indian Bank",
         "reason": "FAILED_SOURCE_PARSING"
@@ -137,7 +140,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-07T09:04:39Z",
+    "generated_at": "2026-11-08T09:21:22Z",
     "banks": [
       {
         "rank": 1,
