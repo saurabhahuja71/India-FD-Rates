@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:06:22Z",
+  "generated_at": "2026-11-10T10:13:56Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -59,20 +59,6 @@
       "failure_stage": "retail_section_detection",
       "reason": "all official sources failed",
       "last_http_status": 200,
-      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
-    },
-    {
-      "bank": "Punjab National Bank",
-      "attempted_sources": [
-        {
-          "url": "https://www.pnbindia.in/interest-rates-deposit.html",
-          "type": "html",
-          "error": "<urlopen error [Errno -5] No address associated with hostname>"
-        }
-      ],
-      "failure_stage": "source_fetch",
-      "reason": "all official sources failed",
-      "last_http_status": null,
       "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
     },
     {
