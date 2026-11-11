@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-11-10T10:14:52Z`
+Generated: `2026-11-11T09:44:41Z`
 
 ## Ranking policy
 
@@ -42,6 +42,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Bank of Baroda | 5.0% | 6.75% | — | 2 | adapter/source-column correction |
 | State Bank of India | 7.05% | 6.45% | — | 6 | adapter/source-column correction |
 | Canara Bank | 6.6% | 6.75% | 2 | 3 | adapter/source-column correction |
+| Punjab National Bank | 6.6% | 6.8% | 4 | 1 | adapter/source-column correction |
 | Utkarsh Small Finance Bank | 8.0% | 8.1% | — | 2 | adapter/source-column correction |
 | AU Small Finance Bank | 7.5% | 7.4% | 2 | 5 | adapter/source-column correction |
 | Jana Small Finance Bank | 8.55% | 8.0% | 1 | 3 | adapter/source-column correction |
