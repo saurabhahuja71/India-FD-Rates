@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-11T09:44:41Z",
+    "generated_at": "2026-11-12T10:06:18Z",
     "banks": [
       {
         "rank": 1,
@@ -65,21 +65,21 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-11T09:44:41Z",
+    "generated_at": "2026-11-12T10:06:18Z",
     "banks": [
       {
         "rank": 1,
+        "bank": "Bank of Baroda",
+        "rate": 6.85,
+        "status": "LIVE_VERIFIED",
+        "source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores"
+      },
+      {
+        "rank": 2,
         "bank": "Punjab National Bank",
         "rate": 6.8,
         "status": "LIVE_VERIFIED",
         "source": "https://www.pnbindia.in/interest-rates-deposit.html"
-      },
-      {
-        "rank": 2,
-        "bank": "Bank of Baroda",
-        "rate": 6.75,
-        "status": "LIVE_VERIFIED",
-        "source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores"
       },
       {
         "rank": 3,
@@ -140,7 +140,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-11T09:44:41Z",
+    "generated_at": "2026-11-12T10:06:18Z",
     "banks": [
       {
         "rank": 1,

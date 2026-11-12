@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-11-11T09:44:41Z`
+Generated: `2026-11-12T10:06:18Z`
 
 ## Ranking policy
 
@@ -10,8 +10,8 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 
 | Rank | Bank | Rate | Verification |
 |---:|---|---:|---|
-| 1 | Punjab National Bank | 6.80% | LIVE_VERIFIED |
-| 2 | Bank of Baroda | 6.75% | LIVE_VERIFIED |
+| 1 | Bank of Baroda | 6.85% | LIVE_VERIFIED |
+| 2 | Punjab National Bank | 6.80% | LIVE_VERIFIED |
 | 3 | Canara Bank | 6.75% | LIVE_VERIFIED |
 | 4 | Indian Overseas Bank | 6.75% | LIVE_VERIFIED |
 | 5 | Union Bank of India | 6.55% | LIVE_VERIFIED |
@@ -39,10 +39,10 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | HDFC Bank | 6.5% | 6.6% | 7 | 6 | adapter/source-column correction |
 | Axis Bank | 6.5% | 6.75% | 6 | 5 | adapter/source-column correction |
 | Yes Bank | 7.25% | 7.0% | — | 4 | adapter/source-column correction |
-| Bank of Baroda | 5.0% | 6.75% | — | 2 | adapter/source-column correction |
+| Bank of Baroda | 6.75% | 6.85% | 2 | 1 | adapter/source-column correction |
 | State Bank of India | 7.05% | 6.45% | — | 6 | adapter/source-column correction |
 | Canara Bank | 6.6% | 6.75% | 2 | 3 | adapter/source-column correction |
-| Punjab National Bank | 6.6% | 6.8% | 4 | 1 | adapter/source-column correction |
+| Punjab National Bank | 6.6% | 6.8% | 4 | 2 | adapter/source-column correction |
 | Utkarsh Small Finance Bank | 8.0% | 8.1% | — | 2 | adapter/source-column correction |
 | AU Small Finance Bank | 7.5% | 7.4% | 2 | 5 | adapter/source-column correction |
 | Jana Small Finance Bank | 8.55% | 8.0% | 1 | 3 | adapter/source-column correction |
@@ -59,8 +59,8 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 - **Yes Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `18 months 1 day < 24 months`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **7.00%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.75%**; source: https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false
 - **Axis Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `18 Months < 2 Years`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.75%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.25%**; source: https://www.axisbank.com/interest-rate-on-deposits
 ### public_sector
+- **Bank of Baroda** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `bob Golden Goal deposit Scheme (555 Days)`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.85%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.35%**; source: https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores
 - **Punjab National Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `680 Days`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.80%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.30%**; source: https://www.pnbindia.in/interest-rates-deposit.html
-- **Bank of Baroda** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `bob Golden Goal deposit Scheme (555 Days)`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.75%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.25%**; source: https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores
 - **Canara Bank** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `555 Days ##`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.75%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.25%**; source: https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.
 - **Indian Overseas Bank** — table: `Revised retail deposits below Rs. 3 Crore; callable counterpart to separately listed non-callable deposits`; tenure: `444 Days`; regular column: `Revised Rates for Deposits below Rs. 3 Crore W.E.F 10.11.2026 (in %)` = **6.75%**; senior column: `Senior Citizen additional interest: +0.50% over applicable retail rate` = **7.25%**; source: https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates
 - **Union Bank of India** — table: `Callable domestic resident retail FD table (adapter-selected)`; tenure: `555 Days`; regular column: `General/Regular Citizen Interest Rates (per annum)` = **6.55%**; senior column: `Senior Citizen Interest Rates (per annum)` = **7.05%**; source: https://www.unionbankofindia.bank.in/en/details/rate-of-interest

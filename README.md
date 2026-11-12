@@ -14,31 +14,31 @@ The rankings use the highest eligible callable resident-domestic-retail FD rate,
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Verification | Last Verified | Source |
 |------|------|-----------------|----------------|--------|--------------|---------------|--------|
-| 1 | Bandhan Bank | 7.45% | 7.95% | 2 years to less than 3 years | LIVE | 11 Nov 2026 | [Official](https://www.bandhan.bank.in/fixed-deposit) |
-| 2 | IDFC FIRST Bank | 7.25% | 7.50% | 500 days – 2 years | LIVE | 11 Nov 2026 | [Official](https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates) |
-| 3 | RBL Bank | 7.00% | 7.50% | 18 months to less than 60 months | LIVE | 11 Nov 2026 | [Official](https://www.rbl.bank.in/interest-rates) |
-| 4 | Yes Bank | 7.00% | 7.75% | Regular: 18 months 1 day < 24 months<br>Senior: 36 months < 60 months | LIVE | 11 Nov 2026 | [Official](https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false) |
-| 5 | Axis Bank | 6.75% | 7.25% | 18 Months < 2 Years | LIVE | 11 Nov 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
+| 1 | Bandhan Bank | 7.45% | 7.95% | 2 years to less than 3 years | LIVE | 12 Nov 2026 | [Official](https://www.bandhan.bank.in/fixed-deposit) |
+| 2 | IDFC FIRST Bank | 7.25% | 7.50% | 500 days – 2 years | LIVE | 12 Nov 2026 | [Official](https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates) |
+| 3 | RBL Bank | 7.00% | 7.50% | 18 months to less than 60 months | LIVE | 12 Nov 2026 | [Official](https://www.rbl.bank.in/interest-rates) |
+| 4 | Yes Bank | 7.00% | 7.75% | Regular: 18 months 1 day < 24 months<br>Senior: 36 months < 60 months | LIVE | 12 Nov 2026 | [Official](https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTE74C9031F1EA4D3B98EC33112F600AC5/native/yb_interest_rates_on_savings_account_n_term_deposit_1jan2026.pdf?download=false) |
+| 5 | Axis Bank | 6.75% | 7.25% | 18 Months < 2 Years | LIVE | 12 Nov 2026 | [Official](https://www.axisbank.com/interest-rate-on-deposits) |
 
 ## 🏛️ Highest Callable Retail FD Rates — Public Sector
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Verification | Last Verified | Source |
 |------|------|-----------------|----------------|--------|--------------|---------------|--------|
-| 1 | Punjab National Bank | 6.80% | 7.30% | 680 Days | LIVE | 11 Nov 2026 | [Official](https://www.pnbindia.in/interest-rates-deposit.html) |
-| 2 | Bank of Baroda | 6.75% | 7.25% | bob Golden Goal deposit Scheme (555 Days) | LIVE | 11 Nov 2026 | [Official](https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores) |
-| 3 | Canara Bank | 6.75% | 7.25% | 555 Days ## | LIVE | 11 Nov 2026 | [Official](https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.) |
-| 4 | Indian Overseas Bank | 6.75% | 7.25% | 444 Days | LIVE | 11 Nov 2026 | [Official](https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates) |
-| 5 | Union Bank of India | 6.55% | 7.05% | 555 Days | LIVE | 11 Nov 2026 | [Official](https://www.unionbankofindia.bank.in/en/details/rate-of-interest) |
+| 1 | Bank of Baroda | 6.85% | 7.35% | bob Golden Goal deposit Scheme (555 Days) | LIVE | 12 Nov 2026 | [Official](https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores) |
+| 2 | Punjab National Bank | 6.80% | 7.30% | 680 Days | LIVE | 12 Nov 2026 | [Official](https://www.pnbindia.in/interest-rates-deposit.html) |
+| 3 | Canara Bank | 6.75% | 7.25% | 555 Days ## | LIVE | 12 Nov 2026 | [Official](https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a.) |
+| 4 | Indian Overseas Bank | 6.75% | 7.25% | 444 Days | LIVE | 12 Nov 2026 | [Official](https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates) |
+| 5 | Union Bank of India | 6.55% | 7.05% | 555 Days | LIVE | 12 Nov 2026 | [Official](https://www.unionbankofindia.bank.in/en/details/rate-of-interest) |
 
 ## 🏦 Highest Callable Retail FD Rates — Small Finance
 
 | Rank | Bank | Regular Citizen | Senior Citizen | Tenure | Verification | Last Verified | Source |
 |------|------|-----------------|----------------|--------|--------------|---------------|--------|
-| 1 | Ujjivan Small Finance Bank | 8.10% | 8.60% | 3 Year 1 Day – 3 year 6 months | LIVE | 11 Nov 2026 | [Official](https://www.ujjivansfb.bank.in/interest-rates) |
-| 2 | Utkarsh Small Finance Bank | 8.10% | 8.50% | 666 Days | LIVE | 11 Nov 2026 | [Official](https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit) |
-| 3 | Jana Small Finance Bank | 8.00% | 8.30% | 3 Years (1095 Days) | LIVE | 11 Nov 2026 | [Official](https://www.janabank.com/interest-rates/) |
-| 4 | Shivalik Small Finance Bank | 8.00% | 8.25% | 23 months 1 day to 27 months | LIVE | 11 Nov 2026 | [Official](https://shivalik.bank.in/interest-rate) |
-| 5 | AU Small Finance Bank | 7.40% | 7.90% | 30 Months 1 Day to 36 Months | LIVE | 11 Nov 2026 | [Official](https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates) |
+| 1 | Ujjivan Small Finance Bank | 8.10% | 8.60% | 3 Year 1 Day – 3 year 6 months | LIVE | 12 Nov 2026 | [Official](https://www.ujjivansfb.bank.in/interest-rates) |
+| 2 | Utkarsh Small Finance Bank | 8.10% | 8.50% | 666 Days | LIVE | 12 Nov 2026 | [Official](https://www.utkarsh.bank.in/personal/digital-products/digital-fixed-deposit) |
+| 3 | Jana Small Finance Bank | 8.00% | 8.30% | 3 Years (1095 Days) | LIVE | 12 Nov 2026 | [Official](https://www.janabank.com/interest-rates/) |
+| 4 | Shivalik Small Finance Bank | 8.00% | 8.25% | 23 months 1 day to 27 months | LIVE | 12 Nov 2026 | [Official](https://shivalik.bank.in/interest-rate) |
+| 5 | AU Small Finance Bank | 7.40% | 7.90% | 30 Months 1 Day to 36 Months | LIVE | 12 Nov 2026 | [Official](https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates) |
 
 ## Data Coverage
 
@@ -48,7 +48,7 @@ The rankings use the highest eligible callable resident-domestic-retail FD rate,
 
 ### Last Collection Run
 
-`11 Nov 2026 · source snapshot`
+`12 Nov 2026 · source snapshot`
 
 > ⚠️ FD rates change frequently. Always verify the rate, tenure, eligibility and conditions on the official bank website before investing.
 

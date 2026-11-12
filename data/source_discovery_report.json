@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:43:35Z",
+  "generated_at": "2026-11-12T10:05:12Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -224,7 +224,7 @@
           "github_actions_status": 200,
           "final_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
           "content_type": "text/html",
-          "effective_date": "2026-06-12",
+          "effective_date": "2026-11-12",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-11-05",
+          "effective_date": "2026-11-12",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
