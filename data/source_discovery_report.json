@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:05:12Z",
+  "generated_at": "2026-11-13T09:51:25Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -91,15 +91,15 @@
           "github_actions_status": 200,
           "final_url": "https://www.federal.bank.in/deposit-rate",
           "content_type": "text/html",
-          "effective_date": null,
-          "contains_explicit_rate_table": false,
+          "effective_date": "2022-10-21",
+          "contains_explicit_rate_table": true,
           "automation_accessible": true,
-          "usable": false,
-          "reason": "no eligible retail rate rows found"
+          "usable": true,
+          "reason": "Official source fetched and bank-specific parser validated retail rows."
         }
       ],
-      "selected_source": null,
-      "collection_status": "FAILED"
+      "selected_source": "https://www.federal.bank.in/deposit-rate",
+      "collection_status": "LIVE_VERIFIED"
     },
     {
       "bank": "Yes Bank",
@@ -500,14 +500,14 @@
           "url": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 503,
+          "github_actions_status": 403,
           "final_url": null,
           "content_type": null,
           "effective_date": null,
           "contains_explicit_rate_table": null,
           "automation_accessible": false,
           "usable": false,
-          "reason": "HTTP 503 (https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
+          "reason": "HTTP 403 (https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
         }
       ],
       "selected_source": null,
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-11-12",
+          "effective_date": "2026-11-13",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
@@ -580,14 +580,14 @@
           "url": "https://suryoday.bank.in/rate-of-interest/",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": null,
-          "final_url": null,
-          "content_type": null,
-          "effective_date": null,
-          "contains_explicit_rate_table": null,
-          "automation_accessible": false,
+          "github_actions_status": 200,
+          "final_url": "https://suryoday.bank.in/rate-of-interest/",
+          "content_type": "text/html",
+          "effective_date": "2026-08-01",
+          "contains_explicit_rate_table": true,
+          "automation_accessible": true,
           "usable": false,
-          "reason": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1081)>"
+          "reason": "no eligible retail rate rows found"
         }
       ],
       "selected_source": null,
