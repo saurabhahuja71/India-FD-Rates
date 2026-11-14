@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-11-13T09:52:33Z`
+Generated: `2026-11-14T09:16:54Z`
 
 ## Ranking policy
 
@@ -46,6 +46,7 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Utkarsh Small Finance Bank | 8.0% | 8.1% | — | 2 | adapter/source-column correction |
 | AU Small Finance Bank | 7.5% | 7.4% | 2 | 5 | adapter/source-column correction |
 | Jana Small Finance Bank | 8.55% | 8.0% | 1 | 3 | adapter/source-column correction |
+| Federal Bank | 6.95% | 6.9% | 5 | 5 | adapter/source-column correction |
 | Ujjivan Small Finance Bank | 7.8% | 8.1% | 4 | 1 | adapter/source-column correction |
 | RBL Bank | 7.2% | 7.0% | 2 | 3 | RBL adapter previously selected non-callable/Super Senior columns; corrected to callable General/Senior columns |
 | Indian Overseas Bank | 6.6% | 6.75% | 3 | 4 | adapter/source-column correction |
