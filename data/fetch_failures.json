@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:15:39Z",
+  "generated_at": "2026-11-15T09:45:26Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -146,7 +146,7 @@
         {
           "url": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
           "type": "html",
-          "error": "HTTP 403 (https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
+          "error": "HTTP 503 (https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
         }
       ],
       "failure_stage": "source_fetch",

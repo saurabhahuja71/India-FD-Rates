@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:15:39Z",
+  "generated_at": "2026-11-15T09:45:26Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -500,14 +500,14 @@
           "url": "https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/",
           "source_type": "html",
           "official_domain": true,
-          "github_actions_status": 403,
+          "github_actions_status": 503,
           "final_url": null,
           "content_type": null,
           "effective_date": null,
           "contains_explicit_rate_table": null,
           "automation_accessible": false,
           "usable": false,
-          "reason": "HTTP 403 (https://equitasbank.com/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
+          "reason": "HTTP 503 (https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/) content-type=text/plain"
         }
       ],
       "selected_source": null,
