@@ -1,6 +1,6 @@
 # FD Verification Report
 
-Generated: `2026-11-17T10:59:37Z`
+Generated: `2026-11-18T10:31:16Z`
 
 ## Ranking policy
 
@@ -36,8 +36,8 @@ The published ranking is **highest callable resident-domestic-retail FD rate**, 
 | Bank | Old rate | Corrected rate | Old rank | New rank | Root cause |
 |---|---:|---:|---:|---:|---|
 | IDFC FIRST Bank | 7.1% | 7.25% | 2 | 2 | adapter/source-column correction |
-| HDFC Bank | 6.5% | 6.6% | 7 | 7 | adapter/source-column correction |
-| Axis Bank | 6.5% | 6.75% | 6 | 6 | adapter/source-column correction |
+| HDFC Bank | 6.5% | 6.6% | 7 | 6 | adapter/source-column correction |
+| Axis Bank | 6.75% | 6.5% | 6 | 7 | adapter/source-column correction |
 | Yes Bank | 7.25% | 7.0% | — | 4 | adapter/source-column correction |
 | Bank of Baroda | 6.75% | 6.85% | 2 | 1 | adapter/source-column correction |
 | State Bank of India | 7.05% | 6.45% | — | 6 | adapter/source-column correction |
