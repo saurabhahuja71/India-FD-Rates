@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T10:05:18Z",
+  "generated_at": "2026-11-23T11:02:00Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-11-21",
+          "effective_date": "2026-11-23",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,
