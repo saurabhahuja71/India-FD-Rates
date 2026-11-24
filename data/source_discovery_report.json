@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:02:00Z",
+  "generated_at": "2026-11-24T12:48:49Z",
   "banks": [
     {
       "bank": "HDFC Bank",
@@ -282,17 +282,17 @@
           "source_type": "html",
           "official_domain": true,
           "github_actions_status": 200,
-          "final_url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
+          "final_url": "https://www.unionbankofindia.bank.in/error/internalservererror?aspxerrorpath=/en/details/rate-of-interest",
           "content_type": "text/html",
-          "effective_date": "2026-11-21",
-          "contains_explicit_rate_table": true,
+          "effective_date": null,
+          "contains_explicit_rate_table": false,
           "automation_accessible": true,
-          "usable": true,
-          "reason": "Official source fetched and bank-specific parser validated retail rows."
+          "usable": false,
+          "reason": "Union Bank domestic retail section not found"
         }
       ],
-      "selected_source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
-      "collection_status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "collection_status": "FAILED"
     },
     {
       "bank": "Indian Bank",
@@ -523,7 +523,7 @@
           "github_actions_status": 200,
           "final_url": "https://www.jana.bank.in/interest-rates/",
           "content_type": "text/html",
-          "effective_date": "2026-11-23",
+          "effective_date": "2026-11-24",
           "contains_explicit_rate_table": true,
           "automation_accessible": true,
           "usable": true,

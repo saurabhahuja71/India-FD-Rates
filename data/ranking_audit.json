@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-23T11:03:00Z",
+    "generated_at": "2026-11-24T12:49:52Z",
     "banks": [
       {
         "rank": 1,
@@ -68,7 +68,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-23T11:03:00Z",
+    "generated_at": "2026-11-24T12:49:52Z",
     "banks": [
       {
         "rank": 1,
@@ -86,27 +86,20 @@
       },
       {
         "rank": 3,
-        "bank": "Union Bank of India",
-        "rate": 6.8,
-        "status": "LIVE_VERIFIED",
-        "source": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest"
-      },
-      {
-        "rank": 4,
         "bank": "Canara Bank",
         "rate": 6.75,
         "status": "LIVE_VERIFIED",
         "source": "https://www.canarabank.bank.in/term-deposits-rate-of-interest-p.a."
       },
       {
-        "rank": 5,
+        "rank": 4,
         "bank": "Indian Overseas Bank",
         "rate": 6.75,
         "status": "LIVE_VERIFIED",
         "source": "https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "bank": "State Bank of India",
         "rate": 6.45,
         "status": "LIVE_VERIFIED",
@@ -116,6 +109,10 @@
     "excluded": [
       {
         "bank": "Indian Bank",
+        "reason": "FAILED_SOURCE_PARSING"
+      },
+      {
+        "bank": "Union Bank of India",
         "reason": "FAILED_SOURCE_PARSING"
       },
       {
@@ -143,7 +140,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-23T11:03:00Z",
+    "generated_at": "2026-11-24T12:49:52Z",
     "banks": [
       {
         "rank": 1,
