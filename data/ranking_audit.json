@@ -2,7 +2,7 @@
   {
     "category": "private_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-24T12:49:52Z",
+    "generated_at": "2026-11-25T11:36:16Z",
     "banks": [
       {
         "rank": 1,
@@ -68,7 +68,7 @@
   {
     "category": "public_sector",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-24T12:49:52Z",
+    "generated_at": "2026-11-25T11:36:16Z",
     "banks": [
       {
         "rank": 1,
@@ -140,7 +140,7 @@
   {
     "category": "small_finance",
     "ranking_type": "callable_retail_fd_including_special_tenure",
-    "generated_at": "2026-11-24T12:49:52Z",
+    "generated_at": "2026-11-25T11:36:16Z",
     "banks": [
       {
         "rank": 1,
