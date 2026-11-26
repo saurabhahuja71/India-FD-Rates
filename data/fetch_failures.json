@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:35:09Z",
+  "generated_at": "2026-11-26T11:18:35Z",
   "failures": [
     {
       "bank": "ICICI Bank",
@@ -34,26 +34,6 @@
           "format": "HTML",
           "table_count": 29,
           "error": "time data '30 Oct 2026' does not match format '%d %B %Y'"
-        }
-      ],
-      "failure_stage": "retail_section_detection",
-      "reason": "all official sources failed",
-      "last_http_status": 200,
-      "validation_rule": "official source, retail section, explicit tenure and regular/senior rate required"
-    },
-    {
-      "bank": "Union Bank of India",
-      "attempted_sources": [
-        {
-          "raw": null,
-          "content_type": "text/html",
-          "status": 200,
-          "final_url": "https://www.unionbankofindia.bank.in/error/internalservererror?aspxerrorpath=/en/details/rate-of-interest",
-          "url": "https://www.unionbankofindia.bank.in/en/details/rate-of-interest",
-          "type": "html",
-          "format": "HTML",
-          "table_count": 0,
-          "error": "Union Bank domestic retail section not found"
         }
       ],
       "failure_stage": "retail_section_detection",
